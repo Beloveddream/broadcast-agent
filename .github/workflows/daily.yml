@@ -1,0 +1,33 @@
+  name: daily-broadcast
+
+  on:
+    schedule:
+      - cron: "17 1 * * *"
+    workflow_dispatch: {}
+
+  permissions:
+    contents: write
+
+  jobs:
+    broadcast:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v4
+        - uses: actions/setup-python@v5
+          with:
+            python-version: "3.12"
+        - run: pip install -r requirements.txt
+        - name: run broadcast
+          env:
+            PARALLIGHT_API_KEY: ${{ secrets.PARALLIGHT_API_KEY }}
+            PARALLIGHT_BASE_URL: https://token.parallight.ai/api/llm
+            PARALLIGHT_MODEL: claude-sonnet-4-6
+            GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_BROADCAST_TOKEN }}
+            FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          run: python cron_entry.py
+        - name: persist digest
+          run: |
+            git config user.name "broadcast-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add digest.md 2>/dev/null || true
+            git commit -m "digest $(date -u +%F)" 2>/dev/null && git push || echo "no change to commit"
