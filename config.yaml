@@ -1,0 +1,15 @@
+interests:
+  keywords: ["LLM agent", "context engineering", "MCP", "RAG", "agent"]
+  arxiv_categories: ["cs.AI", "cs.CL", "cs.LG"]
+
+sources:
+  arxiv:           { enabled: true, max_results: 8 }
+  hackernews:      { enabled: true, top_n: 15, min_points: 50 }
+  github_trending: { enabled: true, language: "python", since: "daily", top_n: 10 }
+
+limits:
+  per_source_summary_tokens: 600
+
+delivery:
+  channel: feishu
+  title: "📡 今日播报 · Parallight Lab"
