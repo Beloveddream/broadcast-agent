@@ -42,7 +42,7 @@ def run_correct():
         sub_tokens += res["usage"].input_tokens
         summaries.append(f"### {res['source']}\n{res['summary']}")
     joined = "\n\n".join(summaries)
-    resp = complete([{"role": "user", "content": f"Merge these summaries into a concise daily digest (deduplicated, sorted by importance, each item with link):\n\n{joined}"}], max_tokens=1500)
+    resp = complete([{"role": "user", "content": f"把这些各源摘要合成一份精炼的今日播报（去重、按重要性排序、每条带链接）：\n\n{joined}"}], max_tokens=1500)
     body = text_of(resp)
     print(f"\n🔬 isolation+jit — main input_tokens={resp.usage.input_tokens}, sub_tokens={sub_tokens}")
     seen = digest.load_seen()
