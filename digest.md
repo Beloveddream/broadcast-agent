@@ -188,3 +188,63 @@ YC W24 项目，内置文档检索与 RAG 能力，适合需要自部署 RAG 应
 ---
 
 > 💡 **今日主线**：Agent 工程从「能用」走向「可靠、可调试、可审计」，Statewright、Rowboat、SkillSpector 三件套恰好覆盖了这条主线的三个层次。
+
+
+## 2026-06-14 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 聚焦 Agent 架构、推理增强、Infra 优化三条主线，共 11 条精选
+
+---
+
+## 🔥 重点关注
+
+**1. LMCache — LLM 推理最快 KV Cache 层**
+KV Cache 复用是降低 LLM 推理延迟的关键路径，直接影响 RAG 和 Agent 系统的实时性，值得 AI Infra 工程师优先评估。
+
+**2. 类比推理 RAG — 检索"解法相似"而非"表面相似"**
+用强化微调替代传统语义相似度检索，让模型找到推理路径相近的示例，在复杂推理任务上有显著提升，是 RAG 核心机制的重要改进方向。
+
+**3. Statewright — 用状态机让 Agent 行为可预测**
+将 LLM Agent 的执行流程建模为可视化状态机，直击 Agent 行为漂移、不可控的核心痛点，工程落地思路清晰。
+
+---
+
+## 🤖 Agent 架构与工具链
+
+**4. Rowboat — 多智能体系统开源 IDE**
+专为构建和调试 Multi-Agent 系统设计的开发环境，覆盖 Agent Orchestration 全流程，是目前同类工具中定位最明确的开源方案之一。
+
+**5. Agents-K1 — 面向科研 Agent 的知识编排框架**
+将论文中的实体、论断、证据结构化为知识图谱，替代粗粒度摘要，显著提升 Agent 在科研场景的上下文质量，与 Context Engineering 和 RAG 高度相关。
+
+**6. NVIDIA SkillSpector — Agent 技能安全扫描器**
+在 MCP 和 Agent 工具链快速扩张的背景下，自动检测 Agent 技能中的漏洞与恶意模式，安全审计能力正成为工具链标配。
+
+**7. SpatialClaw — 为 VLM Agent 重设空间推理工具接口**
+重新设计工具增强 Agent 的动作接口以支持空间推理，对 MCP 场景下的感知模块调用架构有参考意义。
+
+---
+
+## 🧠 评测与能力演化
+
+**8. EvoArena — 动态环境下 Agent 记忆演化评测框架**
+静态 Benchmark 无法覆盖真实部署场景，EvoArena 专注追踪 Agent 在动态环境中的长期记忆演化，对研究 Agent 鲁棒性有直接参考价值。
+
+**9. sia — 自改进 AI 框架**
+可自主提升任意模型或 Agent 在基准任务上的表现，Agent 能力自动演化方向的早期探索，值得关注后续进展。
+
+---
+
+## 🛠 开发者工具
+
+**10. code-review-graph — 本地代码知识图谱（MCP/CLI）**
+持久化代码库映射，大幅压缩 AI 编码工具的 Context 用量，是 Context Engineering 在代码场景的典型实践。
+
+**11. Onyx (YC W24) — 可自部署开源 AI 对话 UI**
+支持接入自定义知识库（RAG），是构建企业级 RAG 应用的轻量起点，自部署友好。
+
+---
+
+> 💡 **今日主线**：Agent 可靠性（状态机 + 评测）× 推理增强（类比 RAG + 知识图谱）× Infra 提效（KV Cache + Context 压缩）三条线同步推进，工程与研究双轮驱动。
