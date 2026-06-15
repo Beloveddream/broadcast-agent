@@ -248,3 +248,61 @@ KV Cache 复用是降低 LLM 推理延迟的关键路径，直接影响 RAG 和 
 ---
 
 > 💡 **今日主线**：Agent 可靠性（状态机 + 评测）× 推理增强（类比 RAG + 知识图谱）× Infra 提效（KV Cache + Context 压缩）三条线同步推进，工程与研究双轮驱动。
+
+
+## 2026-06-15 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+> 共收录 11 条，按重要性排序，覆盖工具链、infra、研究前沿三大方向
+
+---
+
+## 🔧 工具与平台
+
+**1. NVIDIA/SkillSpector — Agent 技能库安全扫描工具**
+NVIDIA 出品，可检测 LLM agent skill 中的漏洞、恶意模式和安全风险。随着 agent 工具调用能力普及，安全审计成为刚需，这是目前少有的专项工具。
+
+**2. Statewright — 用状态机约束 Agent 行为**
+开源工具，通过可视化状态机建模来限定 Agent 的行为流程，直接应对 Agent 不可预测性这一核心痛点，对生产环境落地有实用价值。
+
+**3. Rowboat — 多 Agent 系统开源 IDE**
+专为构建和调试多 Agent 系统设计，提供可视化编排能力。是目前少有的面向 multi-agent 开发流程的专用工具链。
+
+**4. openinterpreter — 面向开放模型的轻量 Coding Agent**
+支持 Deepseek、Kimi、Qwen 等开放模型，是 Codex 类代码执行 agent 的开源替代，适合需要本地/私有化部署的团队。
+[→ GitHub](https://github.com/openinterpreter/openinterpreter)
+
+---
+
+## ⚙️ AI Infra
+
+**5. LMCache — LLM 最快 KV Cache 层**
+直接优化 RAG 和长上下文 agent 场景下的推理延迟与成本，属于核心 AI infra 组件，适合高频调用场景的工程优化。
+
+**6. andrewyng/aisuite — 多 LLM 提供商统一接口（吴恩达出品）**
+统一封装各主流 LLM 提供商 API，简化 agent 跨模型切换和上下文管理的集成复杂度，适合需要模型灵活切换的工程团队。
+[→ GitHub](https://github.com/andrewyng/aisuite)
+
+**7. Onyx — 开源 Chat UI + RAG（YC W24）**
+自托管的对话界面，内置 RAG 能力，适合需要私有知识库检索的团队快速搭建 LLM 应用。
+
+---
+
+## 📄 研究前沿
+
+**8. AdaSR — 动态流式输入下的自适应推理框架**
+突破 LLM agent 依赖静态上下文的局限，支持音视频流等动态输入场景，对实时 agent 的 context engineering 有直接参考价值。
+[→ arXiv](http://arxiv.org/abs/2606.14694v1)
+
+**9. Learning Coordinated Preference — 多目标多 Agent 协作决策**
+研究 multi-agent 系统中多目标偏好协调问题，直面复杂 agent 协作框架的核心挑战，对 agent 群体决策设计有借鉴意义。
+[→ arXiv](http://arxiv.org/abs/2606.14693v1)
+
+**10. Persona-Pruner — 角色扮演场景的轻量化模型剪枝**
+专为角色扮演/NPC agent 场景设计的模型压缩方案，对边缘侧大规模 agent 部署的 infra 效率问题有实用参考价值。
+[→ arXiv](http://arxiv.org/abs/2606.14695v1)
+
+---
+
+*今日播报由 arxiv · HackerNews · GitHub Trending 三源汇总*
