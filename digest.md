@@ -706,3 +706,68 @@ YC W24，可自托管的 AI 对话界面，内置 RAG，适合需要私有化部
 
 **11. Anthropic-Cybersecurity-Skills — 754 条结构化网络安全技能库**
 适配 Claude Code、Cursor 等 20+ 平台，是为 LLM agent 提供领域专属技能的典型 infra 案例，可作为垂直领域技能库建设的参考模板。
+
+
+## 2026-06-23 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+> 📅 精选自 arxiv / HackerNews / GitHub Trending，按重要性排序
+
+---
+
+## 🔥 重点关注
+
+**1. deer-flow（字节跳动）— 开源长时 SuperAgent 框架**
+集成沙箱、记忆、工具、子 agent 与消息网关，可处理分钟至小时级复杂任务，代表当前 agent orchestration 最前沿实践，值得重点跟踪。
+
+**2. Statewright — 用可视化状态机约束 Agent 行为**
+以状态机定义 agent 流程，直击 LLM agent 不确定性与不可靠的核心痛点，是 agent 工程化落地的关键思路。
+
+**3. Rowboat — 面向 Multi-Agent 系统的开源 IDE**
+专为多智能体系统设计的开发环境，填补 agent 编排工具链空白，适合关注 agent infra 的工程师研究。
+
+---
+
+## 🧠 Agent 记忆 & 上下文
+
+**4. cognee — 基于知识图谱的开源 Agent 记忆平台**
+为 agent 提供跨会话持久长期记忆，是 RAG + agent memory 融合方向的重要基础设施参考。
+
+**5. Hindsight — Agent 记忆层，支持从历史交互中持续学习**
+自动从过往对话更新记忆，直接解决 LLM agent 上下文持久化与 context engineering 的核心问题。
+🔗 https://github.com/vectorize-io/hindsight
+
+**6. Randomized YaRN — 改善 LLM 长上下文长度泛化**
+训练方法让模型更稳定地泛化到超长序列，为 agent 长上下文工程提供基础支撑。
+🔗 http://arxiv.org/abs/2606.23687v1
+
+---
+
+## ⚙️ Agent 能力 & 工具调用
+
+**7. AIR — 多模态大模型自适应交错代码推理**
+推理过程中动态调用代码工具，与 agent 工具调用及代码执行 agent 范式高度吻合。
+🔗 http://arxiv.org/abs/2606.23678v1
+
+**8. NVIDIA/skills — 官方 AI Agent Skills 模块化集合**
+NVIDIA 定义 agent 能力标准化方式，值得关注其对 AI infra 层 agent 能力拆分的思路。
+🔗 https://github.com/NVIDIA/skills
+
+**9. Anthropic-Cybersecurity-Skills — 817 条结构化网安技能**
+兼容 Claude Code、Cursor 等 20+ 平台，展示 agent skills 跨平台标准化复用的实践路径。
+
+**10. Teaching LLMs 字符串匹配、回溯与错误恢复**
+研究 LLM 精确算法推理能力，对提升 agent 在复杂确定性任务中的可靠性有参考意义。
+🔗 http://arxiv.org/abs/2606.23672v1
+
+---
+
+## 🏢 企业应用
+
+**11. Onyx (YC W24) — 开源企业级 Chat UI + RAG**
+支持多数据源接入，内置检索增强，是搭建企业知识库问答系统的成熟参考实现。
+
+---
+
+*共 11 条，覆盖 agent 框架、记忆、工具调用、长上下文、企业落地五大方向。*
