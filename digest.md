@@ -771,3 +771,66 @@ NVIDIA 定义 agent 能力标准化方式，值得关注其对 AI infra 层 agen
 ---
 
 *共 11 条，覆盖 agent 框架、记忆、工具调用、长上下文、企业落地五大方向。*
+
+
+## 2026-06-24 · 📡 今日播报 · Parallight Lab
+
+这是一份为您精炼合成的**【今日 AI 与开源前沿播报】**。
+
+本次播报去除了同质化内容，按照**“底层架构与基础设施（高重要性） ➡️ 垂直场景与工具实践 ➡️ 前沿理论与学术探索”**的逻辑进行重新排序，助您3分钟掌握行业脉搏：
+
+---
+
+### 🏗️ 一、 Agent 基础设施与架构革新（开发与部署必读）
+
+*   **1. 字节跳动开源长周期 SuperAgent 框架「deer-flow」**
+    面向复杂编排的利器。该框架集成了沙箱、记忆系统、子智能体和工具调用能力，为研究长周期、复杂的 LLM Agent 任务流转提供了工业级参考。
+    🔗 [https://github.com/bytedance/deer-flow](https://github.com/bytedance/deer-flow)
+
+*   **2. 解决 Agent 不稳定痛点：「Statewright」将工作流转为状态机**
+    LLM Agent 常常面临运行不可靠的质疑。Statewright 通过严谨的结构化设计，将工作流可视化为状态机，极大提升了系统的稳定性，是关注 Agent 架构开发者的必看工具。
+    🔗 [https://github.com/statewright/statewright](https://github.com/statewright/statewright)
+
+*   **3. 打造多智能体系统的专属开源 IDE：「Rowboat」**
+    专为多智能体系统（Multi-agent）量身定制的集成开发环境，内置丰富的开发与调试工具，大幅降低复杂 Agent 基础设施的搭建门槛。
+    🔗 [https://github.com/rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat)
+
+*   **4. AWS 官方放送 MCP 协议落地基建：「agent-toolkit-for-aws」**
+    包含开箱即用的 MCP servers、skills 和 plugins。让 AI 智能体能够无缝接管和管理 AWS 云资源，标志着 MCP 协议在云原生领域的重要落地。
+    🔗 [https://github.com/aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws)
+
+*   **5. 开源企业级 AI 对话与 RAG 平台：「Onyx」**
+    提供功能强大的交互界面，支持 RAG 插件与企业级私有化部署。为企业内部快速落地知识库问答和 Agent 交互提供了开箱即用的前端基建。
+    🔗 [https://news.ycombinator.com/item?id=46045987](https://news.ycombinator.com/item?id=46045987)
+
+### 🛠️ 二、 垂直场景应用与极客工具（实战与灵感参考）
+
+*   **6. Context Engineering 安全实战：800+ 网络安全技能库**
+    专为 AI Agent 设计的结构化技能库，原生兼容 Codex CLI、Claude Code 等主流执行器，完美展示了上下文工程在垂直安全领域的暴强应用。
+    🔗 [https://github.com/mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
+
+*   **7. 金融决策最佳实践：LLM 驱动多市场股票分析系统**
+    结合多源数据与实时新闻，基于 RAG+Agent 架构打造。对于研究 AI 在高信息密度金融垂直领域落地的开发者具有极高的参考价值。
+    🔗 [https://github.com/ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis)
+
+*   **8. 极客专属桌面端 AI 编辑器：「AIConsole」**
+    主打高度自定义本地工作流，允许用户精细化控制 Agent 上下文，深度整合系统操作，适合追求极致效率掌控的进阶玩家。
+    🔗 [https://aiconsole.ai](https://aiconsole.ai)
+
+### 🧠 三、 前沿理论与学术探索（洞察未来方向）
+
+*   **9. 通用大模型训练范式突破：系统性 Agent 数据策展方案「OpenThoughts-Agent」**
+    填补了目前开源 Agent 大多只针对单一基准（刷榜）训练的空白。提出了一套系统性的数据策展方案，对构建真正的通用型 Agent 意义重大。
+    🔗 [http://arxiv.org/abs/2606.24855v1](http://arxiv.org/abs/2606.24855v1)
+
+*   **10. 颠覆认知：通用 Agent 在现实环境必然走向“碎片化”**
+    论文形式化探讨了通用 Agent 在庞大复杂的现实环境中，能力必然呈现“局部专业化”。研究引入了结构性认证，能精准区分关键瓶颈与无关失败，为评估 Agent 能力提供了全新视角。
+    🔗 [http://arxiv.org/abs/2606.24842v1](http://arxiv.org/abs/2606.24842v1)
+
+*   **11. 具身智能新突破：VLA 模型底层动作“可引导”框架「InSight」**
+    让视觉-语言-动作（VLA）模型在底层动作层面实现可控，使 Agent 能够自主突破预训练数据的限制，获取全新的操作技能。
+    🔗 [http://arxiv.org/abs/2606.24884v1](http://arxiv.org/abs/2606.24884v1)
+
+*   **12. Hermes 推出“个性化成长” Agent 架构**
+    NousResearch 官方推出的开源 Agent 项目。主打“随用户共同成长”的个性化演进，适合深入关注开源智能体自我迭代架构的开发者。
+    🔗 [https://github.com/NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
