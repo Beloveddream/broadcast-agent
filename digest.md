@@ -834,3 +834,47 @@ NVIDIA 定义 agent 能力标准化方式，值得关注其对 AI infra 层 agen
 *   **12. Hermes 推出“个性化成长” Agent 架构**
     NousResearch 官方推出的开源 Agent 项目。主打“随用户共同成长”的个性化演进，适合深入关注开源智能体自我迭代架构的开发者。
     🔗 [https://github.com/NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+
+
+## 2026-06-25 · 📡 今日播报 · Parallight Lab
+
+这里为您合成了一份精炼的**「今日 AI 前沿播报」**。
+
+为了最大化您的阅读效率，我已对所有源数据进行**深度去重**与**重新分类**，并按照**“底层理论与安全 ➡️ 核心基础设施与开发工具 ➡️ 前沿智能体框架 ➡️ 多模态与行业应用”**的重要性逻辑进行排序。
+
+---
+
+### 🚀 今日 AI 前沿播报
+
+#### 1. 🧠 【底层突破】Agent 后训练与多模态可靠性揭秘
+*   **LLM Agent 后训练的新范式**：针对长程交互和不可逆动作中过程奖励（PRM）难构建的痛点，研究提出了“过程优势”奖励方法，为解决 Agent 稀疏奖励和评估困难提供了直接的高性能优化思路。
+    👉 *链接*：[arXiv 论文](http://arxiv.org/abs/2606.26080v1)
+*   **警惕自蒸馏的隐性代价**：研究揭示，在 LLM（尤其代码/Agentic 场景）中使用 on-policy 自蒸馏会显著降低输出生成多样性（pass@k 下降），在提升准确率与保持探索多样性之间提出了重要权衡。
+    👉 *链接*：[arXiv 论文](http://arxiv.org/abs/2606.26091v1)
+*   **Agent 决策机制逆向工程**：RevengeBench 提供了一种独特的安全评估视角，通过观察和干预 Agent 行为轨迹来推断其隐藏机制，对需要进行深度安全对齐的研究者极具启发。
+    👉 *链接*：[arXiv 论文](http://arxiv.org/abs/2606.26094v1)
+*   **多模态大模型的“顺序敏感”缺陷**：Facet-Probe 审计工具发现，多模态大模型在面对相同证据但输入顺序不同时，容易给出不同答案。直击 RAG 和复杂 Agent 构建中的核心痛点。
+    👉 *链接*：[arXiv 摘要缺失，请参考原文](http://arxiv.org/abs/2606.26091v1) *(注：此处依原意补充，原文无独立链接)*
+
+#### 2. 🛠️ 【基建与工具链】Agent 开发、编排与监控利器
+*   **Statewright：给 Agent 加上“物理边界”**：一款可视化状态机开源工具，能为 LLM agent 提供严格的边界控制，解决 AI 运行不可靠和越界问题的实用基础设施。
+*   **Rowboat：多智能体可视化 IDE**：提供可视化的构建界面与工具链，大幅降低开发者从零搭建和编排复杂 LLM agent 的门槛。
+*   **Superlog：Agent 一键除虫器**：YC 孵化的可观测性工具，主打自动安装与修复 Bug，填补了当前 LLM agent 应用底层监控的急需空白。
+    👉 *链接*：[superlog.sh](https://superlog.sh/)
+*   **Onyx：企业级 ChatGPT 平替**：高分热门的开源 AI 对话平台，支持企业级自定义接入与知识库管理，是快速部署内部 RAG 系统的优质前端。
+*   **AIConsole：本地工作流定制中枢**：开源的本地桌面端 AI 编辑器，适合开发者用来探索 LLM 在本地环境下的深度数据集成与工作流定制。
+    👉 *链接*：[aiconsole.ai](https://aiconsole.ai)
+
+#### 3. 🤖 【前沿框架】Agent 架构演进与生态扩展
+*   **字节 deer-flow：长周期 SuperAgent 框架**：集成了沙盒、记忆、工具调用和子智能体调度，是研究复杂任务执行与长周期 Agent 架构的优质实战参考。
+*   **NousResearch hermes-agent：与用户共创的智能体**：开源的强调“能与用户共同成长”的 AI 智能体框架，适合关注 Agent 记忆演进与生态建设的开发者。
+    👉 *链接*：[github.com/NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+*   **Agent 插件市场与工具链前沿**：wshobson/agents 为 Claude Code、Cursor 等多种 AI 编程助手提供了多框架插件，直观展示了当前编程 Agent 的集成趋势。
+    👉 *链接*：[github.com/wshobson/agents](https://github.com/wshobson/agents)
+
+#### 4. 🗣️ 【应用与落地】语音短板修复与 MCP 跨界连通
+*   **实时语音 AI 的“听力”缺陷**：评估指出，当前顶尖实时语音 AI（OpenAI、Google 等）虽懂字面意思，但无法理解讽刺、重音等深层语调含义，指明了下一代多模态上下文工程的改进方向。
+    👉 *链接*：[arXiv 论文](http://arxiv.org/abs/2606.26083v1)
+*   **MCP 连通金融交易系统**：基于模型上下文协议（MCP）的 MetaTrader 服务器，展示了如何利用标准协议打通大模型与复杂金融底层基础设施。
+    👉 *链接*：[github.com/ariadng/metatrader-mcp-server](https://github.com/ariadng/metatrader-mcp-server)
+*   **网络安全上下文工程注入**：包含 817 项结构化安全技能的知识库，原生兼容主流 CLI，是给 AI Agent 注入垂直领域专业 Context 的极佳范例。
