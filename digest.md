@@ -961,3 +961,63 @@ Agent 开始在高度垂直的专业领域展现强大生产力：
     允许用户按需接入各类模型与 agent，自定义本地工作流，适合探索纯本地化的 AI 基础设施。
 *   **[企业基座] Onyx：开源企业级 AI 对话界面**
     支持对接多种企业数据和内部工具，非常适合作为构建企业内部 RAG 查询和 Agent 交互的统一前端入口。
+
+
+## 2026-06-28 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent & LLM 播报
+
+*精选 10 条，按重要性排序*
+
+---
+
+## 🔬 研究前沿
+
+**1. 无需标准答案也能训练 LLM —— RiVER 框架**
+提出基于排名奖励信号的强化学习框架，突破 RLVR 依赖 ground-truth 的限制，大幅扩展自主 agent 训练流程的适用范围。对 agent 训练基础设施设计有直接参考价值。
+
+**2. 序列概率与 LLM 输出正确性的关系**
+系统研究"高概率输出 ≠ 正确答案"这一核心问题，直接影响 RAG 系统解码策略与 agent 答案选择机制的设计取舍。
+
+---
+
+## 🛠️ 工程基础设施
+
+**3. cognee —— 开源 AI 长期记忆平台**
+基于自托管知识图谱，为 agent 提供跨会话持久记忆，是构建有状态 RAG/agent 系统的关键底层组件。
+
+**4. Rowboat —— 多 Agent 系统开源 IDE**
+专为多 agent 系统的构建与调试设计，对 agent orchestration 和 AI infra 开发者有直接价值。
+
+**5. Statewright —— 用状态机约束 Agent 行为**
+通过可视化状态机对 agent 行为流程建模，解决 LLM agent 不可预测、难以调试的可靠性痛点，适合生产级 agent 工程。
+
+**6. Onyx —— 内置 RAG 的开源聊天 UI（YC W24）**
+提供企业级知识库问答系统的完整基础设施，可直接作为内部知识管理平台的起点。
+
+---
+
+## ⚡ 应用与实践
+
+**7. ai-berkshire —— 多 Agent 并行价值投资研究框架**
+基于 Claude Code/Codex，展示 LLM agent 在复杂专业知识领域（投资研究）的实际工程落地路径。
+[→ GitHub](https://github.com/xbtlin/ai-berkshire)
+
+**8. claude-howto —— 可视化 Claude Code 开发指南**
+示例驱动，涵盖从基础到高级 agent 构建模板，适合快速掌握 context engineering 与 agent 开发实践。
+[→ GitHub](https://github.com/luongnv89/claude-howto)
+
+**9. video-use —— Coding Agent 驱动的视频编辑工具**
+将 LLM agent 引入创意工作流，是 agent 能力边界向非结构化媒体扩展的典型案例。
+[→ GitHub](https://github.com/browser-use/video-use)
+
+---
+
+## 🏥 垂直落地
+
+**10. LLM Agent 用于老年认知健康监测**
+将对话 agent 与数字孪生结合，实现个性化认知状态跟踪，是 LLM agent 在医疗健康垂直域落地的典型参考。
+
+---
+
+> 📌 **今日主线**：从训练机制（RiVER）→ 推理可靠性（序列概率）→ 工程基础设施（记忆/IDE/状态机）→ 垂直应用落地，完整覆盖 agent 开发的全链路关键节点。
