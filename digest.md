@@ -1021,3 +1021,35 @@ Agent 开始在高度垂直的专业领域展现强大生产力：
 ---
 
 > 📌 **今日主线**：从训练机制（RiVER）→ 推理可靠性（序列概率）→ 工程基础设施（记忆/IDE/状态机）→ 垂直应用落地，完整覆盖 agent 开发的全链路关键节点。
+
+
+## 2026-06-29 · 📡 今日播报 · Parallight Lab
+
+### 🎙️ 今日 AI 前沿播报
+
+**1. 开源 Agent 基建大爆发：多智能体 IDE 与状态机控制成焦点**
+- **Rowboat**：开源的多智能体系统 IDE，为构建和编排多个 LLM agent 提供开箱即用的开发基础设施。
+- **Statewright**：可视化状态机工具，通过确定性流程控制解决 LLM agent 在复杂任务中不可靠、易跑偏的问题。
+- **Onyx**：开源的 AI 对话前端 UI，支持接入多种大模型并定制 RAG 知识库，是快速搭建企业级知识问答应用的理想基座。
+
+**2. 多 Agent 架构在金融实战与复杂编排中展现落地潜力**
+- **ai-berkshire**：基于 Claude Code/Codex 构建的价值投资多 Agent 研究框架，展示了多智能体对抗分析在复杂金融研究场景的落地。
+- **Vibe-Trading**：开源的个人交易 Agent 项目，提供了 Agent 在真实金融交易场景中应用的端到端参考实现。
+  🔗 https://github.com/HKUDS/Vibe-Trading
+- **DexCompose (arxiv)**：解决多技能策略组合冲突问题，将已有操作策略复用于单手多任务场景，其策略组合思路对 Agent 多任务编排有借鉴意义。
+  🔗 http://arxiv.org/abs/2606.28323v1
+
+**3. AI 基础设施升级：从数据预处理到可观测性与推理优化**
+- **MinerU**：将复杂的 PDF 和 Office 文档精准转换为 Markdown/JSON，是构建 Agentic 工作流和 RAG 系统的高质量数据预处理基建。
+- **Superlog**：主打自动安装的可观测性工具，能直接定位并辅助修复 Bug，为 AI 应用的生产部署提供关键的基础设施支持。
+- **VGB (arxiv)**：引入推理时 scaling 范式，让生成模型在满足奖励约束和样本编辑方面更高效，对 AI infra 中的推理优化有重要参考价值。
+  🔗 http://arxiv.org/abs/2606.28301v1
+
+**4. 开发者工具与多媒体自动化：拓宽 Agent 应用边界**
+- **claude-howto**：Claude Code 的可视化实战指南，包含大量从基础到高级 Agent 的可直接复制模板，适合学习上下文工程。
+- **video-use**：通过编程 Agent 来编辑视频的工具，展示了 LLM Agent 在多媒体自动化操控领域的应用潜力。
+- **AIConsole**：开源的桌面端 AI 编辑器，允许深度定制工作流，适合探索将 LLM agent 灵活融入本地开发与日常任务。
+
+**5. 前沿研究：从人类偏好中反推 LLM 对齐原则**
+- **Democratic ICAI (arxiv)**：提出"民主辩论式 ICAI"方法，从人类偏好中反推可解释的对齐原则，为 LLM agent 的偏好对齐与价值导向提供了新范式。
+  🔗 http://arxiv.org/abs/2606.28294v1
