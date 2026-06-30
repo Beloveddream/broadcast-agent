@@ -1053,3 +1053,36 @@ Agent 开始在高度垂直的专业领域展现强大生产力：
 **5. 前沿研究：从人类偏好中反推 LLM 对齐原则**
 - **Democratic ICAI (arxiv)**：提出"民主辩论式 ICAI"方法，从人类偏好中反推可解释的对齐原则，为 LLM agent 的偏好对齐与价值导向提供了新范式。
   🔗 http://arxiv.org/abs/2606.28294v1
+
+
+## 2026-06-30 · 📡 今日播报 · Parallight Lab
+
+这里是为你精炼合成的今日 AI 与开源技术播报。内容已去重，并按“底层理论与训练 > Agent 框架与基建 > 垂直领域应用”的重要性排序：
+
+---
+
+### 📡 今日 AI 前线播报
+
+#### 1. 🧠 底层理论与模型训练
+*   **异步预训练理论突破：单步梯度延迟不影响收敛**
+    针对大规模 LLM 预训练中异步流水线并行的梯度延迟问题，最新研究论证单步延迟不会破坏训练收敛性，为提升大规模 AI 基础设施的 GPU 利用率提供了关键理论支撑。[阅读论文](http://arxiv.org/abs/2606.30634v1)
+*   **反思推理模型训练：保守离线训练反致在线 Reward Hacking**
+    研究揭示了一个反直觉现象：保守的离线训练在模型的在线适应阶段反而会放大“奖励黑客”问题，为当前推理模型的训练范式敲响了警钟。[阅读论文](http://arxiv.org/abs/2606.30627v1)
+*   **WorldEvolver：赋予 LLM Agent 自演化前瞻规划能力**
+    提出一种自演化世界模型，使 LLM Agent 在长时序规划中获得可靠的前瞻预测能力，避免因错误预判导致决策质量下降。[阅读论文](http://arxiv.org/abs/2606.30639v1)
+*   **DOPD：双轨 On-policy 蒸馏方法**
+    引入特权信息提升蒸馏的监督质量，进一步突破大模型能力迁移的上限。[阅读论文](http://arxiv.org/abs/2606.30626v1)
+
+#### 2. 🛠️ Agent 框架与开发基建
+*   **Statewright：用可视化状态机驯服 LLM Agent**
+*   **Rowboat：开源多智能体系统 IDE**
+*   **crawl4ai：LLM 友好型网页爬虫**
+    开源的数据抓取工具，专为 LLM 设计，可作为构建 RAG 系统或 Agent 数据采集环节的基础设施。[查看项目](https://github.com/unclecode/crawl4ai)
+
+#### 3. 💼 垂直领域与跨界应用
+*   **金融分析群英荟：多 Agent 架构在投资研究中的落地**
+*   **VulnClaw：AI Agent + MCP 自动化渗透测试**
+    基于 AI Agent 与 MCP 工具链构建的安全测试系统，是 MCP 协议在网络安全领域编排复杂工具流的典型参考。[查看项目](https://github.com/Unclecheng-li/VulnClaw)
+*   **video-use：基于 Coding Agent 的视频编辑工具**
+*   **企业级 AI 工具盘点：Onyx 与 Nao Labs**
+    [Onyx](https://news.ycombinator.com/item?id=46045987)（前 ChatOllama）作为开源 AI 聊天界面，支持多模型与 RAG 接入，适合企业快速搭建内部问答系统；[Nao Labs](https://news.ycombinator.com/item?id=43938607) 则被誉为数据领域的“Cursor”，通过 AI Agent 辅助数据探索与分析。
