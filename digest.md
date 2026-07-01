@@ -1086,3 +1086,27 @@ Agent 开始在高度垂直的专业领域展现强大生产力：
 *   **video-use：基于 Coding Agent 的视频编辑工具**
 *   **企业级 AI 工具盘点：Onyx 与 Nao Labs**
     [Onyx](https://news.ycombinator.com/item?id=46045987)（前 ChatOllama）作为开源 AI 聊天界面，支持多模型与 RAG 接入，适合企业快速搭建内部问答系统；[Nao Labs](https://news.ycombinator.com/item?id=43938607) 则被誉为数据领域的“Cursor”，通过 AI Agent 辅助数据探索与分析。
+
+
+## 2026-07-01 · 📡 今日播报 · Parallight Lab
+
+这份今日播报已为您去重并按重要性（底层理论突破 > 重大工程基建 > 垂直领域应用）重新排序，整理如下：
+
+### 🚀 今日 AI 前沿播报
+
+**1. 理论突破：让大模型在长时序任务中“诚实且可靠”**
+*   **长周期 Agent 密集监督**：**QVal** 提出了一种低成本评估方法，为包含数百步操作的长周期 LLM agent 提供密集的中间步骤监督信号，有效解决了复杂任务中奖励稀疏的痛点。[阅读论文](http://arxiv.org/abs/2606.32034v1)
+*   **元认知反馈缓解幻觉**：研究人员通过强化学习的元认知反馈机制，让 LLM 学会忠实表达自身不确定性，有助于解决 Agent 在自主决策时的过度自信和幻觉问题。[阅读论文](http://arxiv.org/abs/2606.32032v1)
+
+**2. 核心基建：官方出手与高可靠性框架涌现**
+*   **Google 官方 Agent 部署工具**：Google 推出 **agents-cli**，能将任意编程助手转化为在 Google Cloud 上创建、评估和部署 AI Agent 的专家，直接补齐了 Agent 工程化与部署的基础设施。[查看项目](https://github.com/google/agents-cli)
+
+**3. 能力扩展：模块化组合与结构化数据处理**
+*   **LLM Agent 技能组合框架**：**Generative Skill Composition** 提出让 LLM agent 将模块化的程序性知识（如运行测试、重构代码）组合起来解决复杂任务，大幅提升了 agent 的能力扩展性。[阅读论文](http://arxiv.org/abs/2606.32025v1)
+*   **攻克表格数据引用错误**：针对 LLM 处理表格时容易引用错误或遗漏数据的痛点，最新研究进行了量化分析并提出缓解方案，对提升 RAG 系统中结构化数据检索的可靠性极具参考价值。[阅读论文](http://arxiv.org/abs/2606.32029v1)
+
+**4. 垂直应用：Agent 在复杂场景的落地实践**
+*   **网络安全**：开源 AI 渗透测试工具 **strix** 通过自动化 Agent 流程发现并修复应用漏洞，展示了 LLM Agent 在安全领域的垂直应用架构。[查看项目](https://github.com/usestrix/strix)
+*   **人力资源**：**hiring-agent** 实现了自动评估和给简历打分的 AI Agent，为构建特定业务逻辑的评测 Agent 提供了直接参考。[查看项目](https://github.com/interviewstreet/hiring-agent)
+
+**5. 开发者工具：桌面端与企业级应用方案**
