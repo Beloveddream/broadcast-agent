@@ -1178,3 +1178,27 @@ Agent 开始深入处理多模态数据与垂直领域复杂决策：
     研究揭示了跨会话持久化代码库面临的新型分布式攻击面，并提出利用外部模型信号触发告警的在线实时安全监控方案。
     🔗 攻击面研究：http://arxiv.org/abs/2607.02514v1
     🔗 在线监控方案：http://arxiv.org/abs/2607.02510v1
+
+
+## 2026-07-04 · 📡 今日播报 · Parallight Lab
+
+**今日 AI 前沿播报：Agent 安全治理成焦点，开发工具链迎开源爆发**
+
+以下是今日 AI 与开源圈的重点精炼摘要（已去重并按重要性排序）：
+
+**1. Agent 安全与治理：应对自治系统的新型攻击面**
+随着 AI Agent 深入软件工程与生产环境，安全问题成为底层基础设施的重中之重。微软与学术界均在此领域发出警示并提供方案。
+*   **微软开源 Agent 治理工具包**：提供策略执行、沙箱隔离和零信任身份，全面覆盖 OWASP Agentic Top 10，是构建生产级 Agent 安全基础设施的核心参考。 [查看详情](https://github.com/microsoft/agent-governance-toolkit)
+
+**2. Agent 工程化与开发工具链：可视化与标准化爆发**
+开发者工具链正快速向多智能体可视化、状态机控制以及能力标准化方向演进，大幅降低复杂工作流的构建门槛。
+*   **Anthropic Claude Code**：终端内的 Agentic 编码工具，能理解代码库并自动执行日常开发任务，是 LLM Agent 在软件工程落地的标杆参考。 [查看项目](https://github.com/anthropics/claude-code)
+
+**3. 基础设施工具与企业级落地：RAG 与数据场景深化**
+底层框架与企业级 AI 应用基座持续迭代，垂直场景的 AI 赋能工具逐渐成熟。
+*   **Nao Labs**：定位为“数据领域的 Cursor”，通过内置 Agent 帮助数据团队用自然语言查询、分析和建模，是 AI Infra 在垂直数据场景的落地实践。 [查看讨论](https://news.ycombinator.com/item?id=43938607)
+*   **Harvard CS249r Book**：哈佛开源《Machine Learning Systems》教材，系统讲解 ML 系统全栈设计，对理解 AI 底层原理极具参考价值。 [查看项目](https://github.com/harvard-edge/cs249r_book)
+
+**4. 前沿研究：长程推理、模糊编程与多智能体动力学**
+学术界在 Context Engineering 与 Agent 行为学方面持续探索。
+*   **多智能体隐式表达研究**：研究多 Agent 辩论中社会结构如何隐式改变其公开表达，对理解 Agent 行为涌现与社会动力学有重要参考。 [查看论文](http://arxiv.org/abs/2607.02507v1)
