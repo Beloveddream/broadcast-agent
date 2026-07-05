@@ -1202,3 +1202,48 @@ Agent 开始深入处理多模态数据与垂直领域复杂决策：
 **4. 前沿研究：长程推理、模糊编程与多智能体动力学**
 学术界在 Context Engineering 与 Agent 行为学方面持续探索。
 *   **多智能体隐式表达研究**：研究多 Agent 辩论中社会结构如何隐式改变其公开表达，对理解 Agent 行为涌现与社会动力学有重要参考。 [查看论文](http://arxiv.org/abs/2607.02507v1)
+
+
+## 2026-07-05 · 📡 今日播报 · Parallight Lab
+
+**今日 AI Agent 与前沿infra播报**
+
+本期播报对今日各源信息进行了去重与整合，按“架构与安全 > 开发工具与生态 > 底层能力探索”的重要性排序，为您提炼以下核心动态：
+
+### 一、 核心架构规范与安全威胁（优先关注）
+
+*   **警惕 AI 编程 Agent 的新型攻击面**
+    最新研究揭示了在持久化代码库中，攻击者可通过跨 PR（Pull Request）分发攻击载荷的新型安全威胁。这对于理解和防范自主编码 Agent 的安全风险至关重要。
+
+*   **Agent Harness 工程模式盘点**
+    仓库 `awesome-harness-engineering` 汇总了当前 AI Agent 架构的核心工程模式，深度涵盖 MCP（模型上下文协议）、记忆管理、可观测性与编排，是研究 AI Infra 的权威清单。
+    🔗 [查看项目](https://github.com/ai-boost/awesome-harness-engineering)
+
+*   **Google 开源 Agent 开发工具包 (ADK)**
+    Google 开源了代码优先的 Python 工具包 `adk-python`，为开发者构建、评估和部署复杂 AI Agent 提供了底层基础设施支持。
+    🔗 [查看项目](https://github.com/google/adk-python)
+
+### 二、 开发工具与生态扩展（开发者实操）
+
+*   **Statewright：用确定性状态机驯服 Agent**
+    针对当下 LLM Agent 易偏离、不可靠的痛点，Statewright 提供了可视化状态机工具，通过确定性流程控制保障 Agent 架构的严格可控，适合对稳定性要求极高的业务场景。
+
+*   **Agent 技能生态迎来爆发**
+    社区今日涌现多个 Agent 技能相关资源：`agentskills` 制定了 Agent 技能封装与调用的规范文档；`claude-skills` 则直接提供了 330+ 种技能插件，支持 Codex 等主流编程 Agent；此外，`awesome-claude-code` 精选了 Claude Code 的周边工具与开发资源，为 Agent 工程化落地提供直接参考。
+
+*   **多 Agent 系统 IDE 与可观测性工具**
+    开源多 Agent 编排 IDE `Rowboat` 提供了可视化的复杂 Agent 调试环境，大幅降低构建门槛；而可观测性平台 `Superlog` 则主打自动定位与修复 Bug，有效降低 Agent 运维成本。
+
+*   **开源 AI 助手与桌面端编辑器**
+    开源聊天界面 `Onyx`（前 Open WebUI）支持接入多 LLM 与 RAG 知识库，适合团队搭建内部 AI 问答助手；桌面端 `AIConsole` 则允许用户高度自定义工作流，探索非托管模式的轻量级本地 Agent。
+
+### 三、 底层能力与机制探索（学术前沿）
+
+*   **Program-as-Weights：模糊任务编程新范式**
+    该研究提出将日志告警、JSON 修复等模糊编程任务以“权重”形式编码，为 LLM Agent 调用提供了一种可复现、低成本的替代方案。
+
+*   **ReContext：增强长上下文推理**
+    通过递归证据回放机制增强 LLM 的长上下文推理能力，这是 Context Engineering 领域极具实用价值的探索。
+
+*   **多 Agent 辩论中的“潜在目标涌现”**
+    研究发现，在多 Agent 社会化辩论中，角色与受众会隐式塑造 Agent 的公开表达，揭示了多 Agent 系统在无人干预时可能涌现的潜在目标偏移现象。
