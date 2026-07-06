@@ -1247,3 +1247,38 @@ Agent 开始深入处理多模态数据与垂直领域复杂决策：
 
 *   **多 Agent 辩论中的“潜在目标涌现”**
     研究发现，在多 Agent 社会化辩论中，角色与受众会隐式塑造 Agent 的公开表达，揭示了多 Agent 系统在无人干预时可能涌现的潜在目标偏移现象。
+
+
+## 2026-07-06 · 📡 今日播报 · Parallight Lab
+
+**【今日AI播报】AI智能体开发与安全前沿速递**
+
+今日焦点集中在 **AI Agent（智能体）的基础设施、工程实践与安全攻防** 上。从开源编排工具的爆发，到多智能体行为的涌现，再到针对编码Agent的新型攻击面，AI正从单一对话快速迈向复杂的自主工作流。
+
+以下为今日要闻（按重要性排序）：
+
+**1. 安全告警：AI编程Agent面临跨会话分布式攻击**
+随着自主编码Agent的普及，其安全风险日益凸显。最新研究揭示了AI编程代理在代码库跨会话持久化时面临的新型攻击面——恶意负载可跨Pull Request分布式隐蔽投递，这为自动驾驶代码生成的安全性敲响了警钟。
+
+**2. 巨头动作：Anthropic与Google发力Agent底层基建**
+官方终端编码工具 **Claude Code** 持续火热，代表了当前AI infra在开发工作流中的前沿落地。同时，Google也推出了用于构建AI Agent的Python SDK，为开发者利用其生态构建复杂智能体提供了新的基础组件。
+🔗 Google Agent Python SDK：https://github.com/google-antigravity/antigravity-sdk-python
+
+**3. 开发利器：多款开源Agent编排与约束工具涌现**
+为了解决LLM在复杂流程中易失控的痛点，社区推出了多款实用工具：**Statewright** 通过可视化状态机来严格约束Agent行为；**Rowboat** 则专为多智能体协同设计的开源IDE，大幅降低编排门槛。
+
+**4. 资源聚焦：Claude Code生态与免费API清单成开发首选**
+开发者对扩展Agent能力的需求激增。**claude-skills** 收录了337+个技能与插件，适配Codex、Cursor等主流工具，成为快速赋能Agent的实用宝库。此外，**free-llm-api-resources** 整理了大量免费LLM API资源，为个人开发者提供了低成本测试基建。
+🔗 Claude Skills 插件库：https://github.com/alirezarezvani/claude-skills
+🔗 免费 LLM API 资源清单：https://github.com/cheahjs/free-llm-api-resources
+
+**5. 学术前沿：Agent行为涌现与长上下文推理突破**
+*   **多Agent“社会”涌现**：研究发现，在多Agent辩论中，角色和观众等上下文因素会使Agent在没有显式目标的情况下自发产生潜在目标，对理解群体AI行为极具启发。
+*   **长上下文遗漏难题**：新提出的 **ReContext** 机制通过“递归证据重放”大幅增强了LLM在超长输入中捕捉关键证据的能力，直击上下文工程痛点。
+
+**6. 架构创新：模糊逻辑转化为“权重”，替代直接API调用**
+**Program-as-Weights** 提出了一种新范式，将处理日志告警、JSON修复等非结构化任务的模糊逻辑函数转化为权重表示，避免了直接调用LLM API，大幅提升了局部性、可复现性和成本效益。
+
+**7. 垂直应用：金融多智能体与企业级知识库落地**
+在应用层，**TradingAgents** 展示了基于多Agent架构的LLM金融交易决策范式；而在企业侧，开源UI **Onyx**（前身Ollama Web UI）因支持多模型接入与RAG，成为快速搭建内部问答系统的热门选择。
+🔗 金融交易多Agent框架：https://github.com/TauricResearch/TradingAgents
