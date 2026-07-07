@@ -1282,3 +1282,76 @@ Agent 开始深入处理多模态数据与垂直领域复杂决策：
 **7. 垂直应用：金融多智能体与企业级知识库落地**
 在应用层，**TradingAgents** 展示了基于多Agent架构的LLM金融交易决策范式；而在企业侧，开源UI **Onyx**（前身Ollama Web UI）因支持多模型接入与RAG，成为快速搭建内部问答系统的热门选择。
 🔗 金融交易多Agent框架：https://github.com/TauricResearch/TradingAgents
+
+
+## 2026-07-07 · 📡 今日播报 · Parallight Lab
+
+📝 **今日 AI 前沿播报：Agent 基础设施与大模型工程化实践**
+
+本期播报聚焦 AI Agent 的底层框架、开发工具链以及大模型后训练与推理的前沿探索。内容已去重并按重要性排序：
+
+### 一、 理论研究与底层架构突破
+
+**1. [底层算法] 直接在线策略蒸馏大幅降低后训练算力成本**
+提出 Direct On-Policy Distillation 方法，有效缓解了强化学习对强模型 rollout 生成的巨大算力依赖，是 AI Infra 层面降低大模型后训练成本的重要突破。
+🔗 http://arxiv.org/abs/2607.05394v1
+
+**2. [Agent 架构] LLM 作为通用验证器（LLM-as-a-Verifier）**
+将 LLM 作为通用验证器引入系统，作为一种新的扩展维度（scaling axis），为 Agent 系统的输出正确性校验和 self-refine 流程提供了框架级解决方案。
+🔗 http://arxiv.org/abs/2607.05391v1
+
+**3. [Agent 架构] 基于强化学习的长程上下文压缩（CompactionRL）**
+提出基于 RL 的上下文压缩方法，解决长程 Agent 任务中交互轨迹超出上下文窗口的限制，是 Context Engineering 交叉方向的重要探索。
+🔗 http://arxiv.org/abs/2607.05378v1
+
+**4. [多模态生成] Agent 范式突破视觉生成模型知识边界**
+针对视觉生成模型的知识固化瓶颈，提出在 Agentic 框架下通过主动搜索突破训练数据限制，展示了 Agent 范式在多模态生成中的前沿应用。
+🔗 http://arxiv.org/abs/2607.05382v1
+
+---
+
+### 二、 Agent 开发工具链与编排框架
+
+**5. [多 Agent IDE] Rowboat：开源可视化多 Agent 协作 IDE**
+提供可视化方式构建和管理复杂 AI Agent 协作流程，是研究 LLM Agent 基础设施与编排设计的实用参考工具。
+
+**6. [Agent 可靠性] Statewright：用可视化状态机管控 Agent 执行**
+通过状态机严格管控 AI Agent 的执行路径，有效解决大模型在实际应用中的流程不可控问题，适合关注 Agent 可靠性设计的开发者。
+
+**7. [多 Agent 落地] TradingAgents：开源多 Agent LLM 金融交易框架**
+展示了如何将多个 LLM Agent 组合起来完成复杂的投研与交易决策，是研究多 Agent 架构在垂直领域（金融）落地的极佳案例。
+
+**8. [企业级 RAG] Onyx：支持多模型接入的开源 AI 聊天界面**
+（原 Onyx GPT）支持接入多种大模型与内部知识库做 RAG，是搭建企业级 AI 问答 Infra 的优质开源选项。
+
+---
+
+### 三、 AI 编程技能库与上下文工程实践
+
+**9. [上下文工程] claude-skills：345+ Claude Code 技能与插件库**
+收录 30+ Agent 和 70+ 自定义命令，兼容 Codex、Cursor 等十余种主流编程 Agent，是做 Agent 工具链与上下文工程实践的极佳参考库。
+
+**10. [资源精选] awesome-claude-code：AI 编程 Agent 一站式资源**
+精选 Claude Code 各类资源，涵盖顶级 Skills、Agent 配置和开发者工具，是构建与优化 AI 编程 Agent 的百科全书。
+🔗 https://github.com/hesreallyhim/awesome-claude-code
+
+**11. [多模态上下文] claude-video：为 LLM 注入视频上下文**
+通过下载视频、提取帧和转录文本将其全量喂给 Claude，直观展示了如何为 LLM Agent 处理和注入复杂多模态上下文。
+🔗 https://github.com/bradautomates/claude-video
+
+**12. [信息综合 Agent] last30days-skill：跨平台搜索与 RAG 总结插件**
+一个实用的 Agent 技能插件，自动跨 Reddit、X、YouTube 等平台搜索并进行 RAG 式总结，是研究 Agent 工具调用与信息综合能力的好案例。
+🔗 https://github.com/mvanhorn/last30days-skill
+
+---
+
+### 四、 自动化运维与开发基础设施
+
+**13. [AI 运维] Superlog：主打自动定位并修复 Bug 的可观测性工具**
+其自动解决代码问题的能力反映了当前 AI Infra 在开发运维（DevOps）自动化上的新趋势。
+
+**14. [本地自动化] AIConsole：深度定制的开源桌面端 AI 编辑器**
+允许用户高度自定义工作流和 Agent 行为，适合希望深度定制本地 LLM 自动化流程的用户体验。
+
+**15. [免费算力] free-llm-api-resources：免费 LLM API 资源汇总**
+汇总了可通过 API 免费调用的 LLM 推理资源列表，为开发者测试 LLM Agent 提供了极具价值的低成本基础设施清单。
