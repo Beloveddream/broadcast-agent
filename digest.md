@@ -1355,3 +1355,31 @@ Agent 开始深入处理多模态数据与垂直领域复杂决策：
 
 **15. [免费算力] free-llm-api-resources：免费 LLM API 资源汇总**
 汇总了可通过 API 免费调用的 LLM 推理资源列表，为开发者测试 LLM Agent 提供了极具价值的低成本基础设施清单。
+
+
+## 2026-07-08 · 📡 今日播报 · Parallight Lab
+
+一份精炼的今日 AI 前沿播报。本次播报已对多源信息进行去重与重组，按**“AI Agent 基础设施与工程实践”**到**“垂直应用与底层架构”**的重要性排序：
+
+### 📰 今日 AI 前沿播报
+
+**1. Agent 工程化与编排工具迎来爆发，解决可靠性痛点**
+随着 LLM Agent 落地深入，如何解决流程不可控、长任务上下文丢失成为核心痛点。今日多款基础设施更新指明了方向：
+*   **planning-with-files**：为 AI coding agent（支持 Claude Code 等）提供基于持久化文件的规划方案，解决长任务中上下文丢失问题，是 Context Engineering 的优秀实践。[https://github.com/OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)
+*   **LangBot**：生产级多平台智能 IM bot 开发平台，内置 agent 编排、知识库与插件系统，并原生集成 Dify、Coze 等 AI 基础设施。[https://github.com/langbot-app/LangBot](https://github.com/langbot-app/LangBot)
+
+**2. Coding Agent 生态成熟：从标准化扩展到多端适配**
+Anthropic 官方与社区共同推动 Coding Agent 的标准化与能力扩展：
+*   **claude-plugins-official**：Anthropic 官方维护的 Claude Code 插件目录，提供了扩展 LLM agent 能力的标准化基础设施。[https://github.com/anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
+*   **awesome-claude-code**：精选 Claude Code agent 资源合集，涵盖技能、多 agent 协作和状态栏配置，是构建 LLM coding agent 的实用参考。[https://github.com/hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
+
+**3. Agent 在企业级应用与垂直数据领域的落地实践**
+Agent 正从通用对话走向深度业务集成与数据自动化：
+*   **Nao Labs**：定位为“数据领域的 Cursor”，通过 AI agent 自动化处理数据清洗和分析工作流，代表了 agent 在垂直数据基建的落地。[https://news.ycombinator.com/item?id=43938607](https://news.ycombinator.com/item?id=43938607)
+*   **last30days-skill**：一个 Agent 技能插件，能跨 Reddit、X、YouTube 等平台调研并生成综合摘要，展示了 Agent 自主检索与信息合成的工程模式。[https://github.com/mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
+
+**4. 前沿架构探索：从医疗决策编排到多模态与求解器优化**
+学术界在框架解耦、模态分离与底层优化上提供了新思路：
+*   **LCA (Large Cancer Assistant)**：模型无关的肿瘤学临床决策支持编排框架，将数据摄取、临床路由和 AI 推理解耦，为构建可扩展 AI Agent 系统提供架构参考。[http://arxiv.org/abs/2607.06531v1](http://arxiv.org/abs/2607.06531v1)
+*   **Hierarchical Acoustic-Semantic Modeling**：提出模态分离与语义一致性方案，解决全双工语音语言模型的模态干扰问题，为多模态 AI 基础设施架构设计提供借鉴。[http://arxiv.org/abs/2607.06540v1](http://arxiv.org/abs/2607.06540v1)
+*   **GraphBU**：面向混合整数线性规划（MILP）实例生成的图原生块单元方法，属于 AI infra 中优化求解器与学习策略结合的基础工作。[http://arxiv.org/abs/2607.06532v1](http://arxiv.org/abs/2607.06532v1)
