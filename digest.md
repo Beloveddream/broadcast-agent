@@ -1383,3 +1383,31 @@ Agent 正从通用对话走向深度业务集成与数据自动化：
 *   **LCA (Large Cancer Assistant)**：模型无关的肿瘤学临床决策支持编排框架，将数据摄取、临床路由和 AI 推理解耦，为构建可扩展 AI Agent 系统提供架构参考。[http://arxiv.org/abs/2607.06531v1](http://arxiv.org/abs/2607.06531v1)
 *   **Hierarchical Acoustic-Semantic Modeling**：提出模态分离与语义一致性方案，解决全双工语音语言模型的模态干扰问题，为多模态 AI 基础设施架构设计提供借鉴。[http://arxiv.org/abs/2607.06540v1](http://arxiv.org/abs/2607.06540v1)
 *   **GraphBU**：面向混合整数线性规划（MILP）实例生成的图原生块单元方法，属于 AI infra 中优化求解器与学习策略结合的基础工作。[http://arxiv.org/abs/2607.06532v1](http://arxiv.org/abs/2607.06532v1)
+
+
+## 2026-07-09 · 📡 今日播报 · Parallight Lab
+
+这里为您合成的今日 AI 前沿播报。内容已剔除冗余信息，并根据“技术范式突破 > 基础设施与生态 > 工程实践库”的逻辑进行重要性排序：
+
+---
+
+### 📰 今日 AI 前沿播报
+
+**1. 范式突破：LLM 架构演进与 Agent 自我纠错机制**
+*   **持续查询的有限记忆语言模型**：提出全新范式，将事实知识外部化至知识库并按需检索，打破了传统 RAG 与 LLM 架构的融合瓶颈。[查看论文](http://arxiv.org/abs/2607.07707v1)
+*   **从噪声轨迹到根因分析**：针对长程 LLM agent，提出反思式优化机制，能从充满噪声的执行轨迹中提取因果结构，自动诊断失败并改进策略。[查看论文](http://arxiv.org/abs/2607.07702v1)
+
+**2. 微软探索 Agent 技能复用新范式：SkillOpt**
+微软开源文本空间优化器 SkillOpt，通过轨迹驱动编辑与验证门控，为冻结的 LLM agent 训练可复用的自然语言技能，大幅提升 agent 的效率与技能复用性。[查看项目](https://github.com/microsoft/SkillOpt)
+
+**3. AI Infra 与数据层创新：图谱化与解锁数据库**
+*   **Graphify**：将任意文件夹的代码、数据库模式或文档转化为可查询的知识图谱，为复杂代码库的上下文工程和 RAG 提供了图谱化新思路。[查看项目](https://github.com/Graphify-Labs/graphify)
+*   **打破数据库锁定**：利用 Agentic 方法自动生成高性能存储读取器，绕过传统数据库驱动瓶颈，属数据访问层的创新实践。[查看论文](http://arxiv.org/abs/2607.07696v1)
+
+**4. 多智能体安全：系统性红队评估方法**
+提出针对多智能体部署规则的系统性红队评估方法，可验证单条规则对 AI 集体行为安全的因果影响，为 multi-agent 落地提供安全保障。[查看论文](http://arxiv.org/abs/2607.07695v1)
+
+**5. 生态扩展：MCP 协议与多源信息检索技能**
+*   **Google Analytics MCP 服务器**：谷歌官方展示如何利用 MCP 协议，将标准化的数据分析能力无缝接入 AI agent 生态。[查看项目](https://github.com/googleanalytics/google-analytics-mcp)
+
+**6. 工程组件库：Agent 编码工具与技能插件集**
