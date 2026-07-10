@@ -1411,3 +1411,40 @@ Agent 正从通用对话走向深度业务集成与数据自动化：
 *   **Google Analytics MCP 服务器**：谷歌官方展示如何利用 MCP 协议，将标准化的数据分析能力无缝接入 AI agent 生态。[查看项目](https://github.com/googleanalytics/google-analytics-mcp)
 
 **6. 工程组件库：Agent 编码工具与技能插件集**
+
+
+## 2026-07-10 · 📡 今日播报 · Parallight Lab
+
+# 今日AI Agent与Infra播报
+
+## 🎯 评测与基准
+**UniClawBench**——聚焦真实工具操作场景下LLM/多模态智能体的"主动性"评测，填补agent能力评估方法论空白，值得关注。
+🔗 http://arxiv.org/abs/2607.08768v1
+
+## 🔧 Agent可靠性与工程化
+**SkillOpt (微软)**——面向冻结参数LLM agent的文本空间技能优化器，通过轨迹驱动编辑+验证门控，训练可复用自然语言技能，是"技能沉淀"与context engineering结合的新思路。
+
+**Statewright**——用可视化状态机取代脆弱的prompt链，让agent执行流程可控可调试，是解决agent可靠性问题的工程化方案。
+
+**Rowboat (YC S24)**——开源多智能体编排/调试IDE，支持可视化管理多个LLM agent协作，是agent基础设施的典型工具。
+
+## 📚 Context Engineering / 知识图谱
+**LMCache**——为LLM推理提供高速KV Cache层，加速上下文复用，是RAG/agent系统背后的关键infra优化项目。
+
+**Graphify**——支持Claude Code、Codex、Cursor等多种AI编程工具，将代码库/文档/数据库schema转为可查询知识图谱。
+
+**code-review-graph**——面向MCP/CLI的本地代码智能图谱工具，为AI编程工具构建持久化索引，减少上下文占用，直击context engineering中的"精准喂料"痛点。
+
+**crawl4ai**——LLM友好的开源网页抓取工具，专为RAG/agent场景准备干净数据，是检索增强系统的常用基建。
+
+## 🛠️ 可观测性与运维
+**Superlog (YC P26)**——自安装且能自动定位/修复bug的可观测性工具，代表AI infra向"自愈式"运维演进。
+
+## 🚀 垂直应用与落地案例
+**Onyx (YC W24)**——开源聊天UI，常用作企业内部RAG/知识库问答系统前端层。
+
+**Nao Labs (YC X25)**——面向数据分析的"Cursor"，将agent式代码生成/执行引入数据工作流，是垂直领域agent产品化案例。
+🔗 https://news.ycombinator.com (链接不完整，待补全)
+
+---
+*本期共9条，涵盖评测基准1条、agent工程化3条、context engineering/知识图谱4条、可观测性1条、垂直应用2条（含重复主题已合并）*
