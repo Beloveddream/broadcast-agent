@@ -1448,3 +1448,37 @@ Agent 正从通用对话走向深度业务集成与数据自动化：
 
 ---
 *本期共9条，涵盖评测基准1条、agent工程化3条、context engineering/知识图谱4条、可观测性1条、垂直应用2条（含重复主题已合并）*
+
+
+## 2026-07-11 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+**1. Microsoft 发布 Agent 治理工具包**
+微软推出 `agent-governance-toolkit`，覆盖策略执行、零信任身份、执行沙箱等能力，对应 OWASP Agentic Top 10 全部风险类别，是当前 agent 安全与治理领域最具分量的开源参考。
+
+**2. NVIDIA 开源 AI Agent Skills 合集**
+NVIDIA 官方发布一批标准化 agent skills，释放大厂在 agent 能力模块化/标准化方向的布局信号。
+
+**3. UniClawBench：主动型 Agent 通用评测基准**
+针对能操作日常工具、在真实环境中主动协助用户的 LLM agent，提出统一评测基准，填补现有 benchmark 对"主动性"能力评估的空白，是 agent 评测方法论的新进展。
+
+**4. last30days-skill：跨平台检索摘要 Agent Skill**
+单日暴涨 277 星，可跨 Reddit、X、YouTube、HN、Polymarket 等多源检索并生成有依据的综合摘要，是 agent + RAG 结合的实用范例。
+
+**5. Statewright：可视化状态机约束 Agent 执行**
+用状态机可视化调试 LLM agent 执行流程，直击 agent 行为不可控、难复现的工程痛点。
+
+**6. Rowboat：多智能体系统开发 IDE**
+开源 IDE，支持可视化编排与调试多个协作的 LLM agent，是多智能体工程化落地的代表工具。
+
+**7. claude-code-templates：Claude Code 配置监控 CLI**
+用于配置和监控 Claude Code 的命令行工具，服务于 agent 工程化配置与可观测性需求。
+https://github.com/davila7/claude-code-templates
+
+**8. AgentScope：新一代多 Agent 框架**
+强调透明可控的多 agent 框架（信息有限，细节待补充）。
+https://github.com/agentscope-ai/agentscope
+
+---
+*以下为辅助参考，重要性较低：*
