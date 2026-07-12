@@ -1482,3 +1482,35 @@ https://github.com/agentscope-ai/agentscope
 
 ---
 *以下为辅助参考，重要性较低：*
+
+
+## 2026-07-12 · 📡 今日播报 · Parallight Lab
+
+**今日 AI 播报：Agent 生态全面爆发，从评测、治理到工程化落地**
+
+本期摘要去重合并了 arxiv、HackerNews 和 GitHub Trending 的最新动态。今日技术风向高度聚焦于 **LLM Agent 生态**，涵盖了从底层治理、开发工具、多智能体编排到教育落地的全链路进展。以下为按重要性排序的今日播报：
+
+### 1. 微软推出 AI Agent 治理工具包，保障可控部署
+随着 Agent 能力增强，安全可控成为首要议题。微软开源了 agent-governance-toolkit，提供策略执行、零信任身份和沙箱隔离，是当前 Agent 安全与可控部署的重要参考实现。
+
+### 2. 开源通用 Agent 框架与多智能体 IDE 降低开发门槛
+Agent 工程化基建迎来爆发：**OpenManus** 复现了 Manus 的核心能力，为研究 LLM 自主任务执行与工具调用提供了开源框架（🔗 https://github.com/FoundationAgents/OpenManus）；同时，开源多智能体系统 IDE **Rowboat** 提供了可视化拖拽界面与代码生成，大幅降低了多 Agent 编排难度（🔗 https://github.com/rowboatlabs/rowboat）。
+
+### 3. 复杂流程不再不可靠：Statewright 用状态机定义 Agent 工作流
+针对大模型在复杂业务流程中行为不可控的痛点，Statewright 通过可视化状态机来严格定义 LLM agent 的工作流，非常适合需要严格控制 Agent 行为的开发场景。
+
+### 4. UniClawBench：填补真实世界 Agent 能力评测空白
+现有评测难以有效衡量 Agent 操作日常工具的能力。UniClawBench 应运而生，作为面向真实世界任务的主动式 LLM agent 通用基准，为评估 Agent 实用性提供了关键参考。
+
+### 5. 7万学生客观日志揭示：AI Agent 在高等教育的真实落地现状
+一项基于超7万名学生客观日志的大规模描述性分析展现了 AI agent 在高等教育中的真实使用模式与用户行为，对理解 AI Agent 实际落地价值和用户习惯极具参考意义。
+🔗 http://arxiv.org/abs/2607.08748v1
+
+### 6. 企业级 AI 知识库基建与观测工具双管齐下
+在应用层与运维层：**Onyx** 提供了企业级开源 Chat UI，深度支持 RAG 和多 Agent 工作流，适合搭建内部 AI 问答系统（🔗 https://news.ycombinator.com/item?id=46045987）；而 **Superlog** 则作为主打自动安装的 AI 可观测性平台，能自动追踪 LLM 运行轨迹并直接修复 Bug，是调试复杂 AI 链路的利器（🔗 https://superlog.sh/）。
+
+### 7. 模型瘦身与算力调度：AI Infra 降本新思路
+训练与推理成本仍是焦点。**SLORR** 提出一种简单的训练期低秩正则化方法，无需依赖大矩阵 SVD 即可提升神经网络可压缩性，为高维模型降本（🔗 http://arxiv.org/abs/2607.08754v1）；此外，**codex-lb** 提供了带用量追踪的 Codex/ChatGPT 多账号负载均衡代理（🔗 https://github.com/Soju06/codex-lb），以及 **claude-code-templates** 帮助开发者快速调优 Claude Code 的上下文设置（🔗 https://github.com/davila7/claude-code-templates）。
+
+### 8. 极客向：开源桌面端 AI 编辑器 AIConsole
+对于偏好本地化的开发者，开源桌面端 AI 编辑器 AIConsole 允许用户深度定制工作流、接入本地代码与资源，适合在本地构建轻量级个人 Agent。
