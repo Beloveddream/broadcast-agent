@@ -1703,3 +1703,44 @@ http://arxiv.org/abs/2607.15263v1
 **11. Nao Labs（YC X25）— Cursor for Data**：面向数据工程的 AI agent 编辑器。
 
 **12. ai-engineering-from-scratch**：从零构建 AI 工程能力的学习项目，系统覆盖 LLM/agent 工程实践，适合入门。
+
+
+## 2026-07-20 · 📡 今日播报 · Parallight Lab
+
+**今日 AI 前沿播报：Agent 工程化基建爆发，大模型推理与评估齐头并进**
+
+综合 arxiv、Hacker News 和 GitHub Trending 的最新动态，今日 AI 领域的重点集中在 **Agent 可控性工具链的完善**、**底层推理显存优化** 以及 **复杂任务评估体系** 的探索。以下是经过去重与排序的精炼播报：
+
+### 1. 行业基建：Agent 可视化编排与可靠性约束
+随着 LLM Agent 落地深入，解决其“易跑偏”和“黑盒”痛点的工程基建成为今日热点，出现了从底层状态机控制到上层可视化 IDE 的完整工具链。
+*   **Statewright**：开源可视化状态机工具，用于硬性约束和管理 AI agent 的行为流程，直击 agent 执行不可控的可靠性痛点。
+*   **Rowboat (YC 支持)**：开源多智能体系统 IDE，为构建和编排复杂 LLM agent 提供了可视化的开发基础设施。
+*   **《深入理解 AI Agent》开源书**：系统讲解 LLM Agent 设计原理与工程实践，配有全书代码，是打牢理论与实战基础的优质资料。
+    👉 https://github.com/bojieli/ai-agent-book
+*   **AstrBot**：集成多 IM 平台与多 LLM 的 AI Agent 开发框架，插件生态丰富，适合快速搭建和部署 agent 助手。
+    👉 https://github.com/AstrBotDevs/AstrBot
+
+### 2. 底层优化：大模型推理与 Agent 训练
+针对大模型部署成本高和 Agent 训练难的底层 Infra 有了新的突破方向。
+*   **PagedWeight**：针对 MoE 大模型服务中权重显存与 KV 缓存争用问题，提出动态质量感知权重量化方案，是 LLM 推理 Infra 的高效优化思路。
+    👉 http://arxiv.org/abs/2607.16184v1
+*   **Muon 在 Agent RL 中的应用**：探讨 Muon 优化器在稀疏奖励 Agent RL 训练中的表现，并与 AdamW 进行对比，为 LLM Agent 的强化学习后训练提供参考。
+    👉 http://arxiv.org/abs/2607.16169v1
+
+### 3. 可观测性与上下文管理：让 Agent 执行透明化
+排查 Agent 执行轨迹、优化大仓库代码上下文成为基础设施发力的重点。
+*   **code-review-graph**：面向 MCP 和 CLI 的本地代码知识图谱工具，持久化映射代码库，让 AI 编程工具只读关键上下文，显著减少 token 消耗。
+
+### 4. 终端与数据交互：CLI Agent 与结构化数据接入
+大厂与开源社区持续探索 Agent 在命令行和数据查询场景的落地交互。
+*   **Kimi CLI**：Kimi 推出的终端内 AI 编程助手，值得关注大厂如何设计命令行 agent 交互与上下文管理。
+*   **WrenAI**：面向 AI agent 的开源 GenBI，通过 open context layer 将自然语言转为可信 SQL 与图表，是 agent 连接结构化数据源的典型方案。
+    👉 https://github.com/Canner/WrenAI
+
+### 5. 前沿评估与企业应用：多模态、安全与企业知识库
+*   **主动观察能力测试**：设计测试检验多模态大模型是否具备闭环的主动观察能力，为评估 LLM Agent 在复杂视觉交互任务中的表现提供新视角。
+    👉 http://arxiv.org/abs/2607.16165v1
+*   **自动驾驶威胁信息生成**：评估开源大模型为自动驾驶漏洞生成结构化威胁信息的能力，展示了 LLM 在安全信息提取与结构化输出场景的应用。
+    👉 http://arxiv.org/abs/2607.16175v1
+*   **Onyx (YC W24)**：开源的 AI 聊天界面与后台系统，支持接入多种 LLM 与 RAG 知识库，适合作为企业内部检索增强生成的基建。
+*   **AIConsole**：开源桌面端 AI 编辑器，允许高度自定义基于 LLM 的工作流，适合探索本地化任务编排。
