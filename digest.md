@@ -1744,3 +1744,44 @@ http://arxiv.org/abs/2607.15263v1
     👉 http://arxiv.org/abs/2607.16175v1
 *   **Onyx (YC W24)**：开源的 AI 聊天界面与后台系统，支持接入多种 LLM 与 RAG 知识库，适合作为企业内部检索增强生成的基建。
 *   **AIConsole**：开源桌面端 AI 编辑器，允许高度自定义基于 LLM 的工作流，适合探索本地化任务编排。
+
+
+## 2026-07-21 · 📡 今日播报 · Parallight Lab
+
+**今日 AI 前沿播报：Agent 基础设施与工程化实践爆发**
+
+本期核心趋势：AI Agent 开发正全面走向“工程化”与“基建化”。从状态机控制、长期记忆、代码图谱到异构推理加速，业界正致力于解决 LLM 落地中的不可控性、高成本和上下文遗忘等核心痛点。
+
+**1. [Infra/推理] ktransformers：面向异构 LLM 推理与微调的硬核加速框架**
+大模型底层部署优化是 AI 基础设施的关键。该项目针对大模型异构推理与微调提供深度优化方案，大幅降低部署成本并提升运行效率，是值得关注的底层硬核基建。
+🔗 https://github.com/kvcache-ai/ktransformers
+
+**2. [Agent 编排] Statewright：用可视化状态机让 Agent 调用确定、可调试**
+针对 LLM 调用流程不可控的痛点，Statewright 提出用可视化状态机编排 AI agent，使原本随机的流程变得确定且易于调试，极度适合需要高可靠性的企业级 Agent 架构。
+
+**3. [Agent 编排] Rowboat：开源多 Agent 系统 IDE，主打拖拽式编排**
+直接对标复杂 LLM Agent 工作流开发痛点，提供可视化的拖拽式编排与调试界面，大幅降低多 Agent 协作系统的开发门槛。
+
+**4. [Agent 记忆] cognee：解决上下文遗忘的自托管 Agent 长期记忆平台**
+LLM Agent 缺乏跨会话记忆是核心痛点之一。cognee 通过自托管知识图谱引擎，赋予 Agent 持久化的长期记忆能力，完善了 Agent 架构的核心拼图。
+
+**5. [上下文工程] code-review-graph：构建代码知识图谱，大幅削减 Token 消耗**
+Context Engineering 结合 MCP 的实用范例。它为代码库构建本地持久化映射，通过精准裁剪上下文，大幅减少 AI 编码工具的 Token 消耗并提升准确度。
+
+**6. [MCP 生态] fastmcp：Pythonic 且高效的 MCP Server/Client 构建框架**
+随着模型上下文协议（MCP）生态爆发，该框架提供了极简的 Python 构建方案，大幅降低开发者接入 MCP 的门槛，是 AI Infra 层的高效工具。
+🔗 https://github.com/PrefectHQ/fastmcp
+
+**7. [Agent 落地] AstrBot：开箱即用的多 IM 平台 AI Agent 基座**
+集成多主流 IM 平台、多 LLM 后端与插件系统，既可直接作为个人助手开箱即用，也可作为二次开发的多功能 Agent 框架参考。
+
+**8. [终端 Agent] kimi-cli：月之暗面推出命令行 CLI Agent**
+代表了大厂在终端侧 LLM Agent 落地的新进展，展示了终端场景下自然语言与系统交互的 Agent 实现路径。
+
+**9. [可观测性] Superlog：主打“自动安装并修 Bug”的可观测平台**
+为 AI 基础设施提供从日志追踪到自动修复的闭环能力，迈出了 Agent 参与系统自愈（Self-healing）的关键一步。
+
+**10. [学术洞察] RAG 赋能因果推断决策与自动化 Agent 设计原则**
+- **RAG 新范式**：arxiv 论文提出在因果推断框架下用向量检索辅助动作选择，为 RAG 在决策智能体中的应用提供了新思路。 http://arxiv.org/abs/2607.18225v1
+- **自动化发现设计**：研究指出自动化发现系统没有“放之四海而皆准”的套件，为构建通用 Agent 框架的设计原则提供了实证见解。 http://arxiv.org/abs/2607.18235v1
+- **语言表述影响模型行为**：研究揭示用户表达信念的语言形式会显著改变 LLM 响应，强调了上下文工程中细节的重要性。 http://arxiv.org/abs/2607.18232v1
