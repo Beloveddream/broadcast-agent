@@ -1840,3 +1840,45 @@ GitHub 趋势榜上出现多份高质量工程实践指南：**《深入理解 A
 
 **7. [应用生态] 自动除错、企业级 RAG 前端与数据侧 Agent**
 应用层持续迭代：**Superlog** 提供一键安装的日志监控与自动定位修复 Bug 工具；**Onyx**（YC 支持）可作为企业级 RAG 与对话式 Agent 的前端基础设施；**Nao Labs** 定位“数据领域的 Cursor”，直接在数据流中自动化操作；**AIConsole** 则开源了高度可定制的本地桌面 AI 编辑器。
+
+
+## 2026-07-24 · 📡 今日播报 · Parallight Lab
+
+**今日 AI 前沿播报：Agent 工程化与基建全面爆发**
+
+本期播报聚焦 AI Agent 的开发工具、流程控制、技能优化及底层基础设施，为您精选并合并了今日最值得关注的动态（已按重要性排序）：
+
+### 1. 🛠️ 多 Agent 编排与可视化控制
+*   **Rowboat：开源多 Agent 系统 IDE** 
+    提供可视化的多智能体编排与调试环境，直击 LLM Agent 开发中的协同与调试痛点。
+*   **Statewright：可视化状态机约束 Agent 行为**
+    通过开源框架以状态机控制 AI Agent 流程，解决 LLM 常见的流程不可控与不可靠问题，是 Agent 工程化的实用探索。
+*   **AIConsole：桌面端 AI 工作流编辑器**
+    允许用户深度自定义 LLM 工作流与工具调用，适合关注本地 Agent 编排的开发者。
+
+### 2. 🧠 Agent 技能优化与代码工具实践
+*   **微软 SkillOpt：LLM Agent 文本空间优化器**
+    针对冻结的 LLM Agent，通过轨迹驱动编辑和验证门控更新训练可复用的自然语言技能，是前沿的 Agent 技能优化尝试。
+    🔗 [https://github.com/microsoft/SkillOpt](https://github.com/microsoft/SkillOpt)
+*   **Serena：面向编码的 MCP 语义工具包**
+    提供强大的语义检索和编辑能力，相当于为 Agent 量身定制的 IDE，是 MCP 协议在代码领域的重要实践。
+    🔗 [https://github.com/oraios/serena](https://github.com/oraios/serena)
+
+### 3. ⚙️ 企业级基建与本地 AI 引擎
+*   **Onyx：开源企业级 Chat UI 与 RAG 基础设施**
+    支持接入多种大模型并自带 RAG 管理能力，是搭建企业内部 AI 知识库的参考级方案。
+*   **Rapid-MLX：Apple Silicon 极速本地 AI 引擎**
+    支持 100% 工具调用与多种解析器，可作为本地 Agent 运行的 OpenAI 平替方案。
+    🔗 [https://github.com/raullenchai/Rapid-MLX](https://github.com/raullenchai/Rapid-MLX)
+
+### 4. 🚀 垂直领域 Agent 应用与教育
+*   **Nao Labs：“数据领域的 Cursor”**
+    通过 AI Agent 自动化处理数据管道与分析任务，展现 Agent 在垂直数据基建中的应用价值。
+*   **MedGame：LLM 赋能的医学教育叙事系统**
+    将临床案例转化为以决策为中心的学习轨迹，是 LLM 在垂直领域教育 Agent 设计的创新应用。
+    🔗 [http://arxiv.org/abs/2607.21570v1](http://arxiv.org/abs/2607.21570v1)
+
+### 5. 📚 优质资源与教程索引
+*   **AI 工程从零到一教程**：涵盖学习到部署全流程，适合需要系统补齐 AI Infra 基础的工程师。🔗 [https://github.com/rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
+*   **Awesome Claude Skills**：Claude 技能、资源与工具精选列表，上下文工程高价值索引。🔗 [https://github.com/ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
+*   **Awesome AI Agents**：收录 300+ Agentic AI 资源，快速了解当前 Agent 生态全貌。🔗 [https://github.com/slavakurilyak/awesome-ai-agents](https://github.com/slavakurilyak/awesome-ai-agents)
