@@ -1882,3 +1882,25 @@ GitHub 趋势榜上出现多份高质量工程实践指南：**《深入理解 A
 *   **AI 工程从零到一教程**：涵盖学习到部署全流程，适合需要系统补齐 AI Infra 基础的工程师。🔗 [https://github.com/rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
 *   **Awesome Claude Skills**：Claude 技能、资源与工具精选列表，上下文工程高价值索引。🔗 [https://github.com/ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
 *   **Awesome AI Agents**：收录 300+ Agentic AI 资源，快速了解当前 Agent 生态全貌。🔗 [https://github.com/slavakurilyak/awesome-ai-agents](https://github.com/slavakurilyak/awesome-ai-agents)
+
+
+## 2026-07-25 · 📡 今日播报 · Parallight Lab
+
+**今日 AI 前沿播报：Agent 工具链爆发，多智能体与底层算子并进**
+
+今日的技术社区焦点高度集中在 **AI Agent 的开发与编排基础设施**上，从可视化构建、状态控制到多智能体协作，工具链正在快速成熟；同时，大模型底层推理算子与企业级应用框架也迎来了优质的落地开源项目。以下是今日核心内容精炼播报：
+
+**1. 多 Agent 编排与控制工具涌现，解决 LLM 流程跑偏痛点**
+随着 Agent 架构变复杂，开发者对可控性和编排能力的需求激增。今日多款工具针对此痛点发力：开源工具 **Statewright** 引入可视化状态机，让 Agent 行为更可靠可控（[GitHub](https://github.com/statewright/statewright)）；**Rowboat** 提供多 Agent 系统 IDE，通过可视化界面降低复杂架构开发门槛（[GitHub](https://github.com/rowboatlabs/rowboat)）；**AIConsole** 则提供深度可定制的本地化桌面端 Agent 编辑器，作为轻量级任务编排基础设施（[官网](https://aiconsole.ai)）。
+
+**2. Web Agent 与实时上下文获取基础设施更新**
+让 Agent 真正落地执行任务，需要强大的交互与信息获取能力。**browser-use** 持续受到关注，这是一个让 AI Agent 直接操作网页自动化执行任务的具身 Web 基础设施（[GitHub](https://github.com/browser-use/browser-use)）；**Agent-Reach** 则是一个 CLI 工具，为 Agent 提供全网多平台读取与搜索能力，补足了实时上下文获取的短板（[GitHub](https://github.com/Panniantong/Agent-Reach)）。
+
+**3. 复杂多 Agent 协作实战：视频制作与医疗教育**
+在应用层面，多 Agent 协作的复杂生产流水线展现出了强大潜力。**OpenMontage** 是一个开源的智能体视频制作系统，内置上百种工具和技能文件，是研究复杂多 Agent 协作的绝佳案例（[GitHub](https://github.com/calesthio/OpenMontage)）；此外，**MedGame** 展示了基于 LLM 构建医疗教育叙事游戏化系统，将临床案例转化为多轮交互式决策路径，验证了 LLM Agent 在垂直教育领域的落地（[arXiv](http://arxiv.org/abs/2607.21570v1)）。
+
+**4. 底层算子与企业级前端基础设施**
+在 AI Infra 底座方面，**flashinfer** 作为专为 LLM 服务打造的底层算子库，能显著提升大模型推理性能，是核心的性能优化组件（[GitHub](https://github.com/flashinfer-ai/flashinfer)）；而在应用前端，YC 支持的开源平台 **Onyx** 支持接入 RAG 与多种大模型，可直接作为企业级 AI 助手的前端基础设施（[Hacker News](https://news.ycombinator.com/item?id=46045987)）。
+
+**5. 学习资源与 Agent 扩展能力库**
+对于开发者而言，系统学习与能力扩展同样重要。**awesome-claude-skills** 精选了大量 Claude 技能与工具，为构建 Agent 工作流提供丰富的扩展参考（[GitHub](https://github.com/ComposioHQ/awesome-claude-skills)）；**ai-engineering-from-scratch** 则是一份从零开始的 AI 工程教程，适合系统掌握 Agent、RAG 等核心基础架构原理（[GitHub](https://github.com/rohitg00/ai-engineering-from-scratch)）。
