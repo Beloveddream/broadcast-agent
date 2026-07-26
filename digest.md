@@ -1904,3 +1904,60 @@ GitHub 趋势榜上出现多份高质量工程实践指南：**《深入理解 A
 
 **5. 学习资源与 Agent 扩展能力库**
 对于开发者而言，系统学习与能力扩展同样重要。**awesome-claude-skills** 精选了大量 Claude 技能与工具，为构建 Agent 工作流提供丰富的扩展参考（[GitHub](https://github.com/ComposioHQ/awesome-claude-skills)）；**ai-engineering-from-scratch** 则是一份从零开始的 AI 工程教程，适合系统掌握 Agent、RAG 等核心基础架构原理（[GitHub](https://github.com/rohitg00/ai-engineering-from-scratch)）。
+
+
+## 2026-07-26 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+---
+
+## 🔧 Agent 工具与基础设施
+
+**1. Statewright — 用可视化状态机约束 AI Agent 行为**
+通过状态机建模提升 agent 可靠性与可预测性，是当前 agent 工程化落地的关键思路，适合所有在做 agent 系统的工程师参考。
+
+**2. Rowboat — 多 Agent 系统开源 IDE**
+专为构建和调试多 agent 系统设计的集成开发环境，填补了 agent infra 工具链中 IDE 层的空白。
+
+---
+
+## 📚 RAG 与知识管理
+
+**3. VectifyAI/PageIndex — 无向量数据库的推理型 RAG**
+抛弃传统向量检索，采用基于推理的文档索引方案，代表 RAG 架构演进的新方向，值得重点关注。
+→ [github.com/VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)
+
+**4. MODSetter/SurfSense — 开源 NotebookLM 替代，MCP + RAG 工程实践**
+通过 MCP server 整合 Reddit/YouTube/Google 等多源实时数据，是 MCP 与 RAG 结合的典型落地案例。
+→ [github.com/MODSetter/SurfSense](https://github.com/MODSetter/SurfSense)
+
+**5. Onyx — 企业级开源聊天 UI（内置 RAG）**
+YC W24 项目，支持自托管，内置 RAG 能力，适合企业 LLM 应用快速部署。
+
+---
+
+## 🛠️ AI 开发工具
+
+**6. Alishahryar1/free-claude-code — 免费使用 Claude Code / Codex**
+支持从终端、IDE、手机访问 Claude Code 与 Codex，AI coding agent 方向的实用补充工具。
+→ [github.com/Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code)
+
+**7. ComposioHQ/awesome-claude-skills — Claude 工作流与 Agent 构建资源精选**
+覆盖 LLM agent 编排与 context engineering，可作为构建 Claude 工作流的参考索引。
+→ [github.com/ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
+
+**8. OpenDCAI/DataFlow — 基于 LLM 的数据准备流水线**
+内置 LLM-based Operators，覆盖训练与推理数据处理，是 AI infra 数据侧的基础设施项目。
+→ [github.com/OpenDCAI/DataFlow](https://github.com/OpenDCAI/DataFlow)
+
+---
+
+## 🎓 垂直应用
+
+**9. MedGame — LLM 驱动的医学教育叙事游戏**
+将临床案例组织为决策导向学习轨迹，展示了 LLM agent 在专业教育领域的完整编排设计，具有方法论参考价值。
+→ [arxiv.org/abs/2607.21570v1](http://arxiv.org/abs/2607.21570v1)
+
+---
+*今日共 9 条，覆盖 Agent 工程化、RAG 新架构、AI coding 工具及垂直应用四大方向。*
