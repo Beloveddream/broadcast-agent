@@ -1961,3 +1961,54 @@ YC W24 项目，支持自托管，内置 RAG 能力，适合企业 LLM 应用快
 
 ---
 *今日共 9 条，覆盖 Agent 工程化、RAG 新架构、AI coding 工具及垂直应用四大方向。*
+
+
+## 2026-07-27 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+---
+
+## 🔬 研究前沿
+
+**1. Agent 技能设计的"回归税"问题**
+向 LLM Agent 添加程序化技能时存在隐性代价——技能提升部分任务的同时会拖累另一些任务。基于近 6000 次运行的实证研究，揭示了被平均指标掩盖的真实权衡，对 Agent 能力工程具有重要参考价值。
+[→ 论文链接](http://arxiv.org/abs/2607.22520v1)
+
+**2. 技能协同自博弈：LLM 自我进化新路径**
+提出通过技能协同演化的自博弈机制驱动 LLM 能力边界扩展，解决任务多样性与验证可靠性的两难困境，与上篇形成互补，共同指向 Agent 技能设计的系统性思考。
+[→ 论文链接](http://arxiv.org/abs/2607.22529v1)
+
+**3. LLM 部署配置影响知识可靠性**
+测试四大 LLM 家族在不同部署配置下对争议性科学主张的立场一致性，揭示 LLM 作为知识参考时的不稳定性与不透明性——对 RAG/Agent 场景中的知识可信度具有警示意义。
+[→ 论文链接](http://arxiv.org/abs/2607.22513v1)
+
+---
+
+## 🛠️ 工具与基础设施
+
+**4. 微软开源 Agent 治理工具包**
+覆盖策略执行、零信任身份、执行沙箱和可靠性工程，完整对齐 OWASP Agentic Top 10，是目前最系统的开源 Agent 安全基础设施参考。
+
+**5. Rowboat — 多 Agent 系统开源 IDE**
+专为构建和调试多 Agent 系统设计的集成开发环境，对 Agent orchestration 和 infra 团队有直接参考价值。
+
+**6. Statewright — 用状态机管理 Agent 行为**
+通过可视化状态机建模约束 LLM Agent 的行为流程，从工程角度解决 Agent 不确定性问题，思路值得关注。
+
+**7. aisuite — 吴恩达出品的多模型统一接入库**
+统一封装多家生成式 AI 提供商接口，简化 LLM Agent 的模型接入层，实用性强。
+
+---
+
+## 📦 资源与生态
+
+**8. awesome-claude-skills 精选列表**
+ComposioHQ 整理的 Claude Skills、工具与工作流资源集合，对 Agent 工具链和 context engineering 实践有较高参考价值。
+
+**9. Onyx — 企业级开源聊天 UI（YC W24）**
+支持 RAG 集成的开源前端框架，是构建企业级 AI 对话产品的 infra 参考选项。
+
+**10. unifi-mcp — MCP 协议基础设施落地案例**
+面向 UniFi 网络套件的 MCP 服务器实现，是 MCP 协议在实际 IT 基础设施场景中应用的典型参考。
+[→ GitHub](https://github.com/sirkirby/unifi-mcp)
