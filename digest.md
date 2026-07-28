@@ -2012,3 +2012,55 @@ ComposioHQ 整理的 Claude Skills、工具与工作流资源集合，对 Agent 
 **10. unifi-mcp — MCP 协议基础设施落地案例**
 面向 UniFi 网络套件的 MCP 服务器实现，是 MCP 协议在实际 IT 基础设施场景中应用的典型参考。
 [→ GitHub](https://github.com/sirkirby/unifi-mcp)
+
+
+## 2026-07-28 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报 · 精选
+
+---
+
+## 🔬 研究前沿
+
+**1. 多轮长程规划的物理学：agent 能力如何习得**
+深入研究基础模型 agent 的多轮长程规划能力，探讨通过单/多教师在线策略蒸馏（agentic distillation）训练 LLM agent 的机制，是理解当前 agent 能力边界的重要理论工作。
+→ [arxiv 论文](http://arxiv.org/abs/2607.24720v1)
+
+**2. DataOrchestra：预训练数据的逐样本自适应编排**
+针对每个训练样本动态选择最优数据处理策略，直接优化 LLM 预训练数据管线，对 AI infra 数据工程有实际落地价值。
+→ [arxiv 论文](http://arxiv.org/abs/2607.24717v1)
+
+---
+
+## 🛠️ 工程工具
+
+**3. Rowboat — 多智能体系统开源 IDE**
+专为构建和调试 multi-agent 系统设计的开发环境，补齐 agent 工程工具链的关键缺口。
+
+**4. Statewright — 用有限状态机驯服 AI Agent**
+通过可视化状态机管理 agent 行为流转，正面解决 LLM agent 不确定性与失控问题，对 agent 可靠性工程有直接参考价值。
+
+**5. aisuite — 吴恩达出品的统一多模型调用接口**
+一行代码切换不同 AI 提供商，降低 LLM agent 接入多模型的基础设施成本，属 AI infra 层必备工具。
+
+**6. DocsGPT — 私有化 RAG + Agent 一体平台**
+内置 Agent Builder、深度研究、文档分析与企业搜索，覆盖 RAG + agent infra 核心场景，支持多模型自托管部署。
+→ [GitHub](https://github.com/arc53/DocsGPT)
+
+**7. Onyx — 企业级开源 RAG 问答 UI（YC W24）**
+可自托管的企业级 RAG 界面，适合关注 RAG 落地与私有化部署的团队。
+
+---
+
+## 🧩 生态补充
+
+**8. last30days-skill — 跨平台话题研究 Agent Skill**
+可跨 Reddit、X、YouTube、HN、Polymarket 聚合研究任意话题并合成摘要，是 agent 工具调用与信息聚合的典型实践参考。
+
+**9. hermes-webui — Hermes Agent 浏览器/移动端入口**
+为 Hermes Agent 提供 Web UI，降低 agent 使用门槛，是 agent 产品化交互层的参考实现。
+→ [GitHub](https://github.com/nesquena/hermes-webui)
+
+---
+
+> 📌 **今日主线**：agent 训练机制（研究）→ agent 工程工具链（IDE + 状态机）→ RAG/infra 部署落地，三层递进，覆盖从理论到生产的完整路径。
