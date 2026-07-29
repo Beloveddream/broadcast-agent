@@ -2064,3 +2064,61 @@ ComposioHQ 整理的 Claude Skills、工具与工作流资源集合，对 Agent 
 ---
 
 > 📌 **今日主线**：agent 训练机制（研究）→ agent 工程工具链（IDE + 状态机）→ RAG/infra 部署落地，三层递进，覆盖从理论到生产的完整路径。
+
+
+## 2026-07-29 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报 · 精选 8 条
+
+---
+
+## 🔧 Agent 基础设施 & 架构
+
+**1. 微软开源 Agent 治理工具包**
+完整覆盖 OWASP Agentic Top 10，涵盖策略执行、零信任身份、执行沙箱与可靠性工程，是目前最系统的安全 Agent 基础设施参考。
+
+**2. Statewright — 用可视化状态机约束 Agent 行为**
+将 LLM agent 的不确定行为收敛到有限状态机流程中，从架构层解决可靠性问题，工程落地思路清晰。
+
+**3. Rowboat — 多 Agent 系统开源 IDE**
+专为构建与调试多 Agent 系统设计的开发环境，补全了 agent 编排工具链中"可视化调试"这块空白。
+
+---
+
+## 🗄️ Memory & RAG & Context Engineering
+
+**4. 火山引擎开源 OpenViking — 自进化上下文数据库**
+统一管理 Agent Memory、Knowledge RAG 和 Skills，定位为 agent 的"持久化大脑"，直击 context engineering 核心痛点。
+[→ volcengine/OpenViking](https://github.com/volcengine/OpenViking)
+
+**5. HKUDS OpenSpace — Agent 技能管理层**
+提供结构化的技能存储与检索能力，与 OpenViking 形成互补，是 agent 能力扩展的基础设施组件。
+[→ HKUDS/OpenSpace](https://github.com/HKUDS/OpenSpace)
+
+---
+
+## 📊 Benchmark & 评估
+
+**6. Desktop-Delta Bench — 计算机使用 Agent GUI 转换理解基准**
+专门评测 computer-use agent 能否理解桌面 GUI 状态转换与因果推理，填补长任务 agent 评估体系的重要缺口。
+[→ arxiv](http://arxiv.org/abs/2607.26041v1)
+
+---
+
+## 🏋️ 训练 & 蒸馏
+
+**7. Pass the Baton — 轨迹中继在线蒸馏**
+提出"接力自身轨迹"缓解 on-policy distillation 中的前缀失败问题，对依赖推理链的 agent 训练有直接参考价值。
+[→ arxiv](http://arxiv.org/abs/2607.26057v1)
+
+---
+
+## 🎤 语音 & 垂直落地
+
+**8. HuggingFace speech-to-speech — 本地语音 Agent 完整方案**
+基于开源模型本地构建语音 Agent，低延迟 + 隐私优先，适合企业自托管 voice agent 场景参考。
+[→ huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech)
+
+---
+
+> *已合并去重：Onyx（功能与 OpenViking 场景高度重叠，优先级次之）、VetClaw（垂直领域参考价值有限）未列入主榜。*
