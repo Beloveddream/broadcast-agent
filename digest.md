@@ -2122,3 +2122,56 @@ ComposioHQ 整理的 Claude Skills、工具与工作流资源集合，对 Agent 
 ---
 
 > *已合并去重：Onyx（功能与 OpenViking 场景高度重叠，优先级次之）、VetClaw（垂直领域参考价值有限）未列入主榜。*
+
+
+## 2026-07-30 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 今日主线：**Agent 能力边界 × 工程化落地 × 基础设施**，研究与工具并进。
+
+---
+
+## 🔬 研究前沿
+
+**1. AI Agent 能否自主开展开放式研究？**
+通过两个实证案例探索 LLM agent 的真实能力边界，是目前评估 agent 自主性的最新实证参考。
+→ [arxiv 论文](http://arxiv.org/abs/2607.27191v1)
+
+**2. 心智世界模型（Mental World Modeling）**
+提出对智能体信念、意图、情感等隐藏心理状态建模的框架，超越物理世界模型，对增强 LLM 推理能力有直接启发。
+→ [arxiv 论文](http://arxiv.org/abs/2607.27201v1)
+
+---
+
+## 🛠️ 工具与平台
+
+**3. 微软开源 Agent 治理工具包 `agent-governance-toolkit`** ⭐ 重点
+覆盖策略执行、零信任身份、执行沙箱与可靠性工程，完整对应 OWASP Agentic Top 10，是目前最系统的生产级 agent 安全治理方案。
+
+**4. Rowboat — 多 Agent 系统开源 IDE**
+专为多 agent 协作设计，提供可视化编排与调试，agent 工程化方向的典型基础设施。
+
+**5. Statewright — 用状态机约束 Agent 行为**
+通过可视化状态机建模管理 agent 流程，直接应对 LLM 不确定性问题，适合需要构建稳定 agent 系统的工程师。
+
+**6. DocsGPT — 私有化 RAG + Agent 平台**
+内置 Agent Builder、深度研究与多模型支持，典型的 RAG + agent 一体化落地方案。
+
+**7. Onyx — 企业级开源 Chat UI（YC W24）**
+支持 RAG 与多数据源接入，适合快速搭建内部知识问答系统的实用基础设施。
+
+---
+
+## ⚙️ 基础设施
+
+**8. HuggingFace `speech-to-speech` — 本地语音 Agent 框架**
+基于全开源模型构建端到端语音交互 agent，今日新增 827 ⭐，AI infra 方向值得关注。
+
+**9. SGLang — 高性能 LLM 推理服务框架**
+支持多模态模型，是 LLM agent 大规模部署的核心推理引擎，持续活跃。
+→ [GitHub](https://github.com/sgl-project/sglang)
+
+---
+
+*今日共 9 条，涵盖研究 2 篇 · 工具平台 5 个 · 基础设施 2 个*
