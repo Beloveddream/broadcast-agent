@@ -2175,3 +2175,68 @@ ComposioHQ 整理的 Claude Skills、工具与工作流资源集合，对 Agent 
 ---
 
 *今日共 9 条，涵盖研究 2 篇 · 工具平台 5 个 · 基础设施 2 个*
+
+
+## 2026-07-31 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+*按重要性排序，去重合并同类项*
+
+---
+
+## 🔧 Agent 工具链与开发基础设施
+
+**1. Rowboat – 多 Agent 系统开源 IDE**
+专为构建多 agent 系统设计的可视化编排 IDE，是当前 agent 开发工具链的重要参考，适合团队级 AI infra 建设。
+
+**2. Statewright – 可视化状态机让 Agent 更可靠**
+通过明确定义状态转换解决 agent 行为不稳定问题，直击 agent 可靠性的核心痛点，是 agent 工程化的实用方案。
+
+**3. OSReward – 跨平台计算机使用 Agent 奖励模型评估框架**
+标准化 CUA 轨迹的奖励模型评估，为 LLM agent 在真实环境中的 RLHF 训练提供基础设施支撑，学术与工程价值兼具。
+→ [arxiv.org/abs/2607.28609v1](http://arxiv.org/abs/2607.28609v1)
+
+---
+
+## 📚 RAG 与上下文工程
+
+**4. ReToken – 单 Token 提升 VLM 视觉检索性能**
+用单个可学习 token 作为显式检索嵌入，缓解长视觉上下文下 VLM 性能退化，对多模态 RAG 系统设计有直接启发。
+→ [arxiv.org/abs/2607.28627v1](http://arxiv.org/abs/2607.28627v1)
+
+**5. AskChem – 以"声明"为单元的化学文献 RAG 基础设施**
+将检索粒度从文档细化到具体"声明"，帮助 agent 精准定位跨论文发现，对垂直领域 RAG 架构设计有参考价值。
+→ [arxiv.org/abs/2607.28618v1](http://arxiv.org/abs/2607.28618v1)
+
+**6. book-to-skill – 将技术书 PDF 转为 Claude Code Skill**
+RAG + context engineering 的落地案例，适合构建领域知识增强的 coding agent，可作为知识库接入的工程模板。
+→ [github.com/virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill)
+
+---
+
+## 🌐 Agent 信息获取与多源检索
+
+**7. Agent-Reach – 免 API 费的多平台网络信息读取工具**
+为 agent 提供 Twitter/Reddit/YouTube/GitHub 等平台的信息读取能力，无需 API 费用，是扩展 agent 上下文获取的实用工具。
+
+**8. last30days-skill – 跨 Reddit/X/YouTube/HN 多源摘要 Agent Skill**
+RAG + agent 工具调用的典型落地案例，可直接复用于信息聚合类 agent 场景。
+
+---
+
+## 🗣️ 本地 AI 基础设施
+
+**9. HuggingFace speech-to-speech – 本地语音 Agent 完整示例**
+用开源模型在本地构建端到端语音 agent，架构完整，是 LLM agent + 本地推理部署实践的优质参考。
+
+**10. Onyx – 开源企业级对话 UI（YC W24）**
+支持多 LLM 接入与文档知识库（含 RAG），可作为自托管 AI 助手的前端基础设施，社区热度高（254 pts）。
+
+---
+
+## 🔒 安全与合规
+
+**11. AISPA – LLM 应用系统提示审计框架**
+针对 system prompt 的透明度审计，涉及 agent 部署的合规与可信度，对企业级 LLM 应用落地有实际意义。
+→ [arxiv.org/abs/2607.28617v1](http://arxiv.org/abs/2607.28617v1)
