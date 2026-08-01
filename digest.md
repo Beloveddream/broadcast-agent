@@ -2240,3 +2240,64 @@ RAG + agent 工具调用的典型落地案例，可直接复用于信息聚合�
 **11. AISPA – LLM 应用系统提示审计框架**
 针对 system prompt 的透明度审计，涉及 agent 部署的合规与可信度，对企业级 LLM 应用落地有实际意义。
 → [arxiv.org/abs/2607.28617v1](http://arxiv.org/abs/2607.28617v1)
+
+
+## 2026-08-01 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报 · 精炼版
+
+> 按重要性排序，去重合并，聚焦 Agent / RAG / Infra 三大主线
+
+---
+
+## 🏗️ Agent 基础设施 & 工具链
+
+**1. Rowboat — 多 Agent 系统开源 IDE**
+专为构建与调试多 agent 协作系统设计的开发环境，是目前 agent 编排工具链中少有的完整 IDE 形态产品。
+
+**2. Statewright — 用可视化状态机让 Agent 更可靠**
+以有限状态机约束 LLM agent 行为流程，直击 agent 不可预测、难调试的核心痛点，工程落地思路清晰。
+
+**3. OSReward — 跨平台计算机操作 Agent 标准化评测框架**（arxiv）
+为 CUA（Computer-Use Agent）轨迹验证建立统一评测标准，直接服务于 agent 评估、数据策划与强化学习 pipeline。
+
+---
+
+## 📚 RAG & Context Engineering
+
+**4. mvanhorn/last30days-skill — 多源 RAG + Agent 工作流范例**
+跨 Reddit、X、YouTube、HN、Polymarket 多源研究任意话题并合成摘要，信息聚合与综述设计值得参考。
+
+**5. virgiliojr94/book-to-skill — 技术书籍 → Agent Skill**
+将 PDF 书籍转化为 Claude Code skill，实现 agent 工作时随时检索引用，RAG + context engineering 的实用范例。
+
+**6. AskChem — 面向科学文献的 Claim 级 RAG 基础设施**（arxiv）
+将化学论文中的具体发现结构化为可溯源 claim，是 RAG + agent 在科研领域落地的标杆案例，方法可迁移至其他领域。
+
+**7. ReToken — 单 Token 改善 VLM 长上下文检索**（arxiv）
+用一个可学习 embedding 解决长视觉上下文下 VLM 性能退化，轻量方案对多模态 RAG 效率优化有直接参考价值。
+
+**8. Onyx — 内置 RAG 的开源对话 UI**
+支持接入企业知识库，内置完整 RAG 管道，适合快速搭建文档检索型 LLM 应用。
+
+---
+
+## 🔒 安全 & 合规
+
+**9. AISPA — LLM 应用系统提示审计框架**（arxiv）
+填补商业 AI 产品中 system prompt 不透明的信任漏洞，对 LLM agent 的安全合规 infra 有直接参考价值。
+
+**10. trailofbits/skills — 安全审计 Agent Skills**
+Trail of Bits 为 Claude Code 打造的漏洞检测 agent skills，展示 LLM agent 在专业安全领域的封装范式。
+→ [github.com/trailofbits/skills](https://github.com/trailofbits/skills)
+
+---
+
+## 🎙️ 多模态 & 端侧部署
+
+**11. HuggingFace/speech-to-speech — 本地语音 Agent Pipeline**
+全开源本地语音 agent，涵盖多模态 agent pipeline 设计与端侧部署，适合关注本地化 AI infra 的开发者。
+
+---
+
+> 💡 **今日趋势一句话**：Agent skill 化（将知识/能力封装为可调用模块）与 RAG 工程化正在成为 AI infra 的双主轴，工具链配套（IDE、评测、审计）正在快速补全。
