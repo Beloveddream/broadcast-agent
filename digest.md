@@ -2301,3 +2301,50 @@ Trail of Bits 为 Claude Code 打造的漏洞检测 agent skills，展示 LLM ag
 ---
 
 > 💡 **今日趋势一句话**：Agent skill 化（将知识/能力封装为可调用模块）与 RAG 工程化正在成为 AI infra 的双主轴，工具链配套（IDE、评测、审计）正在快速补全。
+
+
+## 2026-08-02 · 📡 今日播报 · Parallight Lab
+
+一份精炼的今日 AI 前沿播报，已按“重要性及行业影响力”去重排序，分为四大核心板块：
+
+### 🎙️ 今日 AI 前沿播报
+
+**一、 智能体架构与基建（重磅开源）**
+1. **字节跳动 deer-flow：长周期 SuperAgent 框架**
+   - **摘要**：集成沙箱、记忆、工具调用及子 agent 能力，为复杂多智能体编排与底层 AI Infra 设计提供了优秀的工业级参考。
+2. **Karpathy autoresearch：单 GPU 自动化科研实践**
+   - **摘要**：Karpathy 新项目，利用 LLM Agent 在单 GPU 上自动运行 nanochat 训练研究，真实展示了 AI Agent 在自动化科研流程中的落地前景。
+   - **链接**：[https://github.com/karpathy/autoresearch](https://github.com/karpathy/autoresearch)
+3. **NousResearch hermes-agent：个性化 Agent 起点**
+   - **摘要**：定位为“与你共同成长的 agent”，开源了个人 AI Agent 的基础架构，适合开发者作为研究与定制的起点。
+
+**二、 Agent 工程化与开发工具链**
+4. **Rowboat：多智能体可视化编排 IDE**
+   - **摘要**：提供拖拽式可视化编排能力，大幅降低构建复杂 LLM Agent 架构的门槛。
+5. **Statewright：解决 Agent “跑飞”的确定性框架**
+   - **摘要**：引入可视化状态机，通过确定性状态流转解决 LLM Agent 常见的执行偏离问题，是构建可靠 Agent 的工程利器。
+6. **Superlog：Agent 执行链路可观测性工具**
+   - **摘要**：主打自动化安装，能精准定位并修复 Bug，是调试复杂 LLM Agent 执行链路不可或缺的基础设施。
+7. **AIConsole：本地化 Agent 桌面编辑器**
+   - **摘要**：开源桌面端 AI 编辑器，支持深度自定义工作流，适合开发者在本地编排和运行定制化任务。
+
+**三、 Agent 评估、安全与上下文优化**
+8. **OSReward：跨平台计算机使用代理（CUA）评估体系**
+   - **摘要**：系统性定义了如何验证 Agent 在真实操作系统中的任务完成轨迹，填补了 Agent 评估基础设施的空白。
+   - **链接**：[http://arxiv.org/abs/2607.28609v1](http://arxiv.org/abs/2607.28609v1)
+9. **AISPA：大模型系统提示词自动化审计框架**
+   - **摘要**：针对商业 AI 产品中系统提示词不透明的问题，提供自动化审计方案，填补了 AI Infra 与 LLM 安全方向的信任与问责空白。
+   - **链接**：[http://arxiv.org/abs/2607.28617v1](http://arxiv.org/abs/2607.28617v1)
+10. **ReToken：视觉语言模型长上下文检索优化**
+    - **摘要**：提出用单个可学习嵌入作为显式检索令牌，以极低开销解决视觉 token 过多导致的 GPU 内存瓶颈和性能退化（属于 Context Engineering 范畴）。
+    - **链接**：[http://arxiv.org/abs/2607.28627v1](http://arxiv.org/abs/2607.28627v1)
+
+**四、 垂直场景与企业级应用**
+11. **AskChem：面向科研场景的 RAG/Agent 架构**
+    - **摘要**：提出以“科学论断”为中心的化学文献综合检索基础设施，解决了传统检索只返回文档列表、Agent 需自行定位验证信息来源的痛点。
+    - **链接**：[http://arxiv.org/abs/2607.28618v1](http://arxiv.org/abs/2607.28618v1)
+12. **HuggingFace speech-to-speech：本地语音 Agent 方案**
+    - **摘要**：基于开源模型端到端实现语音对话，是 Multimodal Agent 方向的重要参考实现。
+    - **链接**：[https://github.com/huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech)
+13. **Onyx：企业自建 AI 助理基础设施**
+    - **摘要**：开源的 AI 聊天界面与平台，支持接入多种大模型与 RAG 知识库，开箱即用。
