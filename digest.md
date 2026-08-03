@@ -2348,3 +2348,45 @@ Trail of Bits 为 Claude Code 打造的漏洞检测 agent skills，展示 LLM ag
     - **链接**：[https://github.com/huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech)
 13. **Onyx：企业自建 AI 助理基础设施**
     - **摘要**：开源的 AI 聊天界面与平台，支持接入多种大模型与 RAG 知识库，开箱即用。
+
+
+## 2026-08-03 · 📡 今日播报 · Parallight Lab
+
+一份精炼的今日 AI 与开源前沿播报，已按“基础设施 > 开发工具 > 基准评测 > 周边组件”的重要性排序，并完成去重整合：
+
+### 📝 今日 AI 前沿播报
+
+**1. 字节开源长周期 SuperAgent 框架「deer-flow」**
+集成了沙箱、记忆、工具、子代理等完整的 Agent 基础设施，为构建和处理复杂长周期任务提供了优质的 AI 底层架构参考。
+
+**2. NousResearch 官方推出「hermes-agent」项目**
+主打“随你一起成长”的开源智能体框架，直接命中 Hermes agent 关键词，适合持续关注开源智能体底层能力的演进。
+
+**3. 开源多 Agent 系统 IDE「Rowboat」**
+为构建和编排多个 LLM agent 提供开箱即用的 AI 基础设施与开发环境，大幅降低多智能体系统的开发门槛。
+
+**4. 可视化状态机约束 LLM 执行「Statewright」**
+针对 AI agent 在复杂任务中行为不可预测、易出错的痛点，通过可视化状态机严格控制 LLM agent 的执行流程，大幅提升可靠性。
+
+**5. 针对编码 Agent 的 token 缓存方案「TokTier」**
+解决编码 Agent 每次工具调用后重复提交长文本导致的重复分词开销问题，提出有状态的精确 tokenization 缓存，直接降低 LLM 推理成本。
+🔗 [http://arxiv.org/abs/2607.29678v1](http://arxiv.org/abs/2607.29678v1)
+
+**6. 企业级结构化信息抽取基准「ExtractBench」**
+面向企业文档的 schema 引导抽取基准，评估 Agent 按用户定义提取结构化信息并附带来源证据的能力，是衡量 LLM 落地企业数据处理的实用 Benchmark。
+🔗 [http://arxiv.org/abs/2607.29677v1](http://arxiv.org/abs/2607.29677v1)
+
+**7. 开源全平台内容读取 CLI「Agent-Reach」**
+仅需一行命令即可让 AI agent 读取和搜索 Twitter、Reddit、YouTube、B站等全平台内容，零 API 费用，赋予 Agent 互联网级上下文获取能力。
+
+**8. “数据领域的 Cursor”「Nao Labs」**
+将 LLM agent 深度集成到数据处理与数据库交互工作流中，是 AI Infra 在数据工程领域落地的重要探索实践。
+
+**9. 开源企业级 AI 知识库问答系统「Onyx」**
+高人气的开源 AI 对话 UI 系统，支持接入多种 LLM 并自带 RAG 功能，是搭建企业内部 AI 问答基础设施的优质选择。
+
+**10. 桌面端轻量级 AI 任务编排器「AIConsole」**
+开源的桌面端 AI 编辑器，允许用户深度自定义由 LLM 驱动的工作流与 Agent 节点，适合个人或团队编排本地 AI 任务。
+
+**11. 多源调研轻量级 RAG 技能「last30days-skill」**
+可插拔的 Agent Skill，能跨 Reddit、X、YouTube、HN 等多源进行调研并合成带有来源的总结，实质上提供了一种轻量级的 RAG 实现方案。
