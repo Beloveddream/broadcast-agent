@@ -2390,3 +2390,27 @@ Trail of Bits 为 Claude Code 打造的漏洞检测 agent skills，展示 LLM ag
 
 **11. 多源调研轻量级 RAG 技能「last30days-skill」**
 可插拔的 Agent Skill，能跨 Reddit、X、YouTube、HN 等多源进行调研并合成带有来源的总结，实质上提供了一种轻量级的 RAG 实现方案。
+
+
+## 2026-08-04 · 📡 今日播报 · Parallight Lab
+
+**今日 AI 与开源前沿播报**
+
+本期播报对 arXiv、HackerNews 和 GitHub Trending 的最新资讯进行了去重与整合，按重要性和技术影响力排序如下：
+
+**1. Agent 工程化与复杂任务编排（核心基建）**
+
+**2. RAG 检索增强与代码库理解**
+*   **code-graph-rag 代码库图谱检索**：基于知识图谱的 RAG 工具，支持对多语言 monorepo 进行精准查询、理解与编辑，为 Agent 在大型代码库中的上下文检索提供了新方案。https://github.com/vitali87/code-graph-rag
+*   **UEmbed 统一多模态嵌入方法**：提出统一稀疏与稠密嵌入的方法，旨在同步提升语义检索与 RAG 系统的检索质量，对构建高精度 RAG 管线具直接参考价值。http://arxiv.org/abs/2608.02583v1
+
+**3. 模型推理增强与前沿探索**
+*   **GradCuit 测试时潜在推理**：提出基于信用分配的梯度流方法，在参数冻结条件下优化连续状态以改进 LLM 输出，为上下文工程与推理增强提供了新思路。http://arxiv.org/abs/2608.02585v1
+*   **CoWAM 协调契约干预层**：为世界动作模型（WAM）设计的选择性干预机制，使机器人策略能在动作执行时进行动态干预，属 Agent 决策控制底层前沿探索。http://arxiv.org/abs/2608.02578v1
+*   **onepot-Bench 0 实验室科学基准**：专门评估 LLM 在实验规划、执行与分析等 Agent 级任务上的能力，适合关注科学领域 Agent 落地的读者。http://arxiv.org/abs/2608.02595v1
+
+**4. AI 基础设施与开发辅助工具**
+*   **opik LLM 全链路追踪与评估**：提供针对 LLM 应用、RAG 系统和 Agentic Workflow 的自动评估、追踪及监控看板，是 Agent 开发调试与生产可观测性的利器。https://github.com/comet-ml/opik
+*   **livekit/agents 实时语音 Agent 框架**：专为低延迟多模态交互设计的开源框架，是语音方向 AI 基建的核心组件。https://github.com/livekit/agents
+
+**5. 垂直场景应用与低成本体验**
