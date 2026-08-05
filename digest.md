@@ -2414,3 +2414,69 @@ Trail of Bits 为 Claude Code 打造的漏洞检测 agent skills，展示 LLM ag
 *   **livekit/agents 实时语音 Agent 框架**：专为低延迟多模态交互设计的开源框架，是语音方向 AI 基建的核心组件。https://github.com/livekit/agents
 
 **5. 垂直场景应用与低成本体验**
+
+
+## 2026-08-05 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+> 主题聚焦：**Agent 工程化**持续升温，涵盖推理链路优化、多 Agent 编排、安全治理、基准评测四大方向。
+
+---
+
+## 🏗️ 基础设施 & 工具层
+
+**1. Rowboat — 多 Agent 系统开源 IDE**
+专为多 Agent 编排设计的可视化开发环境，支持构建与调试复杂 Agent 工作流，是 AI infra 工具层的典型实践。
+
+**2. Statewright — 用状态机约束 Agent 行为**
+通过可视化状态机建模 LLM Agent 的行为流程，系统性解决 Agent 不可预测性问题，对构建可靠 Agent 系统有直接参考价值。
+
+**3. livekit/agents — 实时语音/视频 Agent 框架**
+构建实时多模态 AI Agent 的主流框架选型，今日新增 432 星，热度持续攀升。
+
+**4. loopx — 长时运行 Agent 团队的状态内核**
+轻量级循环工程状态内核，支持跨 Codex、Claude Code 等编码 Agent 的持久化目标、配额感知唤醒与可验证交接，直击长上下文工程痛点。
+[→ GitHub](https://github.com/huangruiteng/loopx)
+
+**5. Agent-Reach — 赋予 Agent 全网信息获取能力**
+让 Agent 可读取和搜索 Twitter、Reddit、YouTube、GitHub 等平台内容，零 API 费用，是 Agent 工具链与上下文获取的实用扩展。
+
+---
+
+## 🔒 安全 & 可观测性
+
+**6. uber/ADR — 企业级 Agent 安全框架**
+Uber 内部落地实践，涵盖可观测性、安全基准测试与威胁检测，是 AI Agent 安全治理方向的实战参考。
+[→ GitHub](https://github.com/uber/ADR)
+
+---
+
+## 🧠 推理 & 训练优化
+
+**7. TurnSight — 逐轮自蒸馏改善工具调用信用分配**
+针对 LLM Agent 长链工具调用中的信用分配难题，提出逐轮 Hindsight 自蒸馏方法，对构建精细 Agent 推理链路有方法论参考价值。
+[→ arXiv](http://arxiv.org/abs/2608.04007v1)
+
+---
+
+## 📦 RAG & 知识库
+
+**8. Onyx — 开源企业 RAG 问答系统（YC）**
+YC 孵化项目，内置完整 RAG 能力，可连接多种数据源，是企业知识库问答落地的完整参考实现。
+
+---
+
+## 📊 基准评测
+
+**9. PAST-Bench — 个人 Agent 递归自我改进基准**
+涵盖跨会话记忆、工具例程与技能积累的评测体系，直接切中 Agent 长期上下文工程核心问题。
+[→ arXiv](http://arxiv.org/abs/2608.04003v1)
+
+**10. SocietyBench — Agent 社会事件预测能力评测**
+评估 LLM Agent 对真实社会事件演化的预测理解能力，为复杂现实世界场景下的 Agent 推理提供新评测视角。
+[→ arXiv](http://arxiv.org/abs/2608.04009v1)
+
+---
+
+*共 10 条，覆盖 arXiv / HackerNews / GitHub Trending 三源，去重合并同类项。*
