@@ -2480,3 +2480,51 @@ YC 孵化项目，内置完整 RAG 能力，可连接多种数据源，是企业
 ---
 
 *共 10 条，覆盖 arXiv / HackerNews / GitHub Trending 三源，去重合并同类项。*
+
+
+## 2026-08-06 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报 · 精选 8 条
+
+---
+
+## 🏗️ Agent 基础设施 & 运行时
+
+**1. Argus：面向长周期推理的通用 Agentic 运行时**
+Manager / Planner / Engineer 多角色协作的持久化 agent 框架，可在检测到失败或目标偏差时自动调整策略，直击 LLM agent 稳定性痛点。
+→ [arxiv.org/abs/2608.05144](http://arxiv.org/abs/2608.05144v1)
+
+**2. Uber / ADR：企业级 AI Agent 安全框架**
+Uber 内部已落地，覆盖可观测性、安全基准测试与威胁检测，是目前罕见的生产级 agent 安全实践参考。
+
+**3. Statewright：用可视化状态机让 Agent 更可靠**
+通过状态机建模管理 agent 行为，直接解决 LLM agent 不稳定、难调试的核心问题，开源可用。
+
+---
+
+## 🔧 Agent 开发工具 & IDE
+
+**4. Rowboat：多 Agent 系统的开源 IDE**
+专为构建与调试多 agent 系统设计，填补 agent 编排领域缺乏专用开发环境的空白。
+
+**5. NousResearch / hermes-agent：Hermes Agent 官方实现**
+定位「随你成长的 agent」，是 Hermes 系列的第一手架构参考，值得关注其能力边界设计。
+
+**6. loopx：面向 Coding Agent 团队的轻量状态内核**
+兼容 Codex、Claude Code 等多种 coding agent，提供持久化目标、可执行 todo 与可验证交接，是 context engineering 的典型实践。
+
+---
+
+## 🧠 模型训练 & 能力增强
+
+**7. OctoLong：跨代码仓库中间训练提升长上下文建模**
+通过跨 repo 的 mid-training 显著增强模型长上下文能力，直接服务于 agentic workflow 对超长上下文的需求。
+→ [arxiv.org/abs/2608.05141](http://arxiv.org/abs/2608.05141v1)
+
+**8. Reasoning Core：50 种程序化生成器用于推理训练**
+覆盖数学、规划、状态追踪等场景，为 LLM agent 推理训练生成可验证的大规模数据，对推理数据工程有直接参考价值。
+→ [arxiv.org/abs/2608.05148](http://arxiv.org/abs/2608.05148v1)
+
+---
+
+*以下内容因重要性相对较低略去：Greek RAG 适配（领域较窄）、Onyx 聊天 UI（偏应用层）、AI Agents From Zero 学习路径（偏教程）*
