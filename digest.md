@@ -2528,3 +2528,63 @@ Uber 内部已落地，覆盖可观测性、安全基准测试与威胁检测，
 ---
 
 *以下内容因重要性相对较低略去：Greek RAG 适配（领域较窄）、Onyx 聊天 UI（偏应用层）、AI Agents From Zero 学习路径（偏教程）*
+
+
+## 2026-08-07 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 主题聚焦：Agent 工程化 · RAG 可靠性 · AI Infra 安全
+
+---
+
+## 🔬 研究前沿
+
+**1. RAG 场景下 LLM 的选择性上下文信任**
+训练模型在上下文有用时采纳、有误导时主动抵抗，直接解决 context engineering 中的核心可靠性痛点。
+→ [Learning When to Trust via Selective Context Preference Optimization](http://arxiv.org/abs/2608.06377v1)
+
+**2. Agent 评估成本降低 74 倍的统计方法**
+提出可认证的随时终止评估框架，大幅降低 agent 基准测试的推理开销，对评测体系建设有重要参考价值。
+→ [AV-AIVAT: 74x Cheaper Agent Evaluation](http://arxiv.org/abs/2608.06362v1)
+
+**3. 用代码而非 JSON 调用工具的范式评估**
+系统对比 code-based vs JSON-based 工具调用，涉及并行化与 agent 工具链设计，对 coding agent 和 AI infra 架构有直接参考价值。
+→ [The Bitter Lesson of Tool Calling](http://arxiv.org/abs/2608.06370v1)
+
+**4. AI Agent 治理的机制设计模型**
+用算力预算实现权限自执行，为 agent 的权限控制与安全边界提供形式化理论框架。
+→ [Resourced Authority: Participatory Governance of Deployed AI Agents](http://arxiv.org/abs/2608.06353v1)
+
+---
+
+## 🛠️ 工程工具
+
+**5. Uber 企业级 AI Agent 安全框架（开源）**
+Uber 内部已部署的 agent 安全基础设施，覆盖可观测性、安全基准测试与威胁检测，工程实战价值高。
+
+**6. Statewright — 用状态机让 Agent 行为可预测**
+将显式状态机引入 agent 设计，解决行为不可预测问题，是构建可靠 agent 的轻量级开源方案。
+
+**7. loopx — Agent 团队的持久化状态内核**
+支持 Codex、Claude Code 等 coding agent，提供持久化目标、可执行 todo 和可验证交接，填补长期运行 agent 的状态管理空白。
+
+**8. Rowboat — 多 Agent 系统开源 IDE**
+面向多 agent 编排的集成开发环境，提供可视化调试能力，是 agent 工程化的典型基础工具。
+
+---
+
+## 📦 数据与 RAG 基础设施
+
+**9. code-review-graph — 本地代码知识图谱（MCP/CLI）**
+构建代码库持久化映射以压缩 AI 工具的上下文用量，是 context engineering + RAG 在代码场景的典型落地实践。
+
+**10. crawl4ai — LLM 友好型网页爬虫**
+专为 RAG pipeline 和 LLM agent 数据采集优化的开源爬虫，是构建 RAG 数据层的常用基础组件。
+
+**11. Onyx — 自托管企业聊天 UI（内置 RAG）**
+YC W24 项目，开源企业级聊天界面，内置 RAG 支持，适合需要私有化部署 LLM + RAG 方案的团队。
+
+---
+
+**今日关键词**：`Agent 可靠性` · `RAG 信任机制` · `Agent 安全` · `持久化状态管理` · `评估效率`
