@@ -2613,3 +2613,55 @@ Agent 对战评估成本过高？新提出的统计方法（AV-AIVAT）可在保
 
 **6. AI 可观测性与企业级前端组件**
 基础设施层面，Superlog 提供了极低接入门槛的“自动修 Bug”日志追踪方案；Onyx 则为企业对接内部知识库与 RAG 架构提供了优质的开源对话前端。
+
+
+## 2026-08-09 · 📡 今日播报 · Parallight Lab
+
+今日 AI 与开源领域重点聚焦于 **AI Agent 基建与编排**、**底层工程优化** 以及 **RAG 可靠性**。以下是去重并按重要性排序的精炼播报：
+
+### 🌟 核心项目与工具发布
+
+**1. 谷歌官方发布 Agent Skills 集合**
+Google 官方出品，专为旗下产品和技术打造的 Agent Skills 集合。为开发者探索 Agent 技能的定义、标准化与集成范式提供了优质的一手参考。
+🔗 https://github.com/google/skills
+
+**2. Statewright：用可视化状态机构建可控 AI Agent**
+解决 LLM 自主执行任务时流程不可控的痛点，允许开发者通过可视化状态机来构建和约束 AI Agent，是提升 Agent 可靠性与工程化落地的利器。
+
+**3. Rowboat：开源多智能体系统可视化 IDE**
+提供强大的多 Agent（multi-agent）可视化编排与构建能力，是研发复杂 LLM Agent 协作架构的实用基建工具。
+
+### 🧠 Agent 架构演进与评估
+
+**4. The Bitter Lesson of Tool Calling：代码 vs JSON**
+系统评估以代码（而非 JSON）方式调用工具的 LLM Agent，揭示了 Programmatic Tool Calling 的优势与局限，对 Codex 类代码模型及 Agent 工具调用落地有直接指导意义。
+
+**5. AV-AIVAT：将 Agent 评估成本降低 74 倍**
+提出一种基于统计学的“认证随时有效停止”方法，大幅降低 Agent 对战评估的成本与时间，对需要频繁对比迭代 Agent 版本的 AI Infra 团队极具实用价值。
+
+**6. AutoGPT 持续演进与 LLM 推理集群基建**
+老牌明星自主 Agent 项目 AutoGPT 持续更新其底层工具链；同时，`superlinked/sie` 开源了专为满足 Agent 各类模型部署设计的生产级推理服务器与集群，共同夯实 Agent 基础设施。
+🔗 AutoGPT: https://github.com/Significant-Gravitas/AutoGPT
+🔗 推理集群: https://github.com/superlinked/sie
+
+### ⚙️ RAG 优化与上下文工程
+
+**7. 通过偏好优化训练 LLM 选择性信任外部上下文**
+arXiv 最新研究探讨在 RAG 场景中，如何通过偏好优化训练模型正确判断“何时采纳、何时拒绝”外部上下文信号，对提升 Context Engineering 和 RAG 系统可靠性有直接参考价值。
+
+**8. book-to-skill：技术 PDF 转化为 Claude Code 技能**
+能将任意技术书籍 PDF 轻量转化为 Claude Code 技能，为 Agent 的知识注入、上下文工程实现提供了极具实操性的新思路。
+
+**9. Onyx：开源企业级 AI 聊天界面（内置 RAG 与权限管理）**
+YC 支持的开源项目，开箱即用且内置 RAG 与企业级权限管理功能，适合技术团队快速落地检索增强生成应用。
+
+### 📊 行业应用与治理
+
+**10. TradingAgents：多智能体金融交易框架**
+基于 Multi-Agents LLM 构建，展示了多个专业 Agent 协作在复杂金融分析与交易决策场景中的落地实践。
+
+**11. Resourced Authority：已部署 AI Agent 的机制设计治理**
+用机制设计理论对已部署 AI Agent 的治理建模，提出通过算力预算实现授权自执行，对 Agent 部署与 AI Infra 的权限管控设计有前瞻理论参考意义。
+
+**12. Superlog：AI Agent 自动可观测性工具**
+主打自动安装，能自动捕获运行轨迹并协助修复 Bug，为诊断和优化复杂 AI Agent 运行链路提供了新的可观测性基建思路。
