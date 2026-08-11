@@ -2699,3 +2699,60 @@ Agent 在垂直领域的应用正从“能用”向“专业与标准化”过�
 
 **7. 补充速览**
 *   **CreativeInstruct**：提出可扩展的后训练方法，在提升质量的同时兼顾输出创造力，对故事生成、RL 环境等 Agent 任务有直接价值。 http://arxiv.org/abs/2608.07460v1
+
+
+## 2026-08-11 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 今日主线：**RAG 进化、Agent 工程化、知识图谱基础设施**三条主线交汇，工具链日趋成熟。
+
+---
+
+## 🔥 重点关注
+
+**1. Google 官方发布 Agent Skills 集合**
+覆盖 Google 产品与技术的标准化 agent 技能库，是构建 LLM agent 技能层的权威参考，值得优先跟进。
+
+**2. Stanford DSPy — 用编程替代 Prompt 工程**
+将"写 prompt"升级为"写程序"，是 context engineering 和 agent 构建的底层框架，生态持续壮大。
+→ [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy)
+
+---
+
+## 🤖 Agent 工程化
+
+**3. Statewright — 用状态机约束 Agent 行为**
+以可视化状态机对 agent 行为建模，直击 LLM agent 不可预测的核心痛点，agent 可靠性方向必看。
+
+**4. Rowboat — 多 Agent 系统开源 IDE**
+专为构建和调试多 agent 工作流设计的开发环境，agent 编排工具链新选手。
+
+**5. TradingAgents — 多 Agent 金融交易框架**
+LLM 多 agent 协作架构在金融垂直场景的完整落地实践，可作为垂直域 multi-agent 的参考蓝本。
+
+---
+
+## 🗂️ RAG × 知识图谱
+
+**6. semantica — 图原生 AI 上下文基础设施**
+用图结构管理 agent 上下文，兼顾可追责性，是 context engineering + AI infra 的底层探索。
+→ [semantica-agi/semantica](https://github.com/semantica-agi/semantica)
+
+**7. code-graph-rag — Monorepo 知识图谱 RAG**
+针对多语言大型代码库的图谱 RAG 方案，RAG + 代码理解场景的实用工具。
+
+**8. KGCaRe — 自动构建知识图谱增强 RAG**
+面向领域特定复杂条件问答，融合非结构化与结构化上下文检索，RAG 上下文工程的研究范例。
+→ [arxiv 2608.09779](http://arxiv.org/abs/2608.09779v1)
+
+---
+
+## 🛠️ 部署工具
+
+**9. Onyx (YC W24) — 开源自托管 Chat UI + RAG**
+内置 RAG 能力的对话界面，支持私有化部署，适合企业知识问答快速落地。
+
+---
+
+> **一句话总结**：Agent 从"能跑"迈向"可控"，RAG 从"检索文本"迈向"图谱推理"，今日动态清晰指向这两个演进方向。
