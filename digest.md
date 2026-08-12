@@ -2756,3 +2756,55 @@ LLM 多 agent 协作架构在金融垂直场景的完整落地实践，可作为
 ---
 
 > **一句话总结**：Agent 从"能跑"迈向"可控"，RAG 从"检索文本"迈向"图谱推理"，今日动态清晰指向这两个演进方向。
+
+
+## 2026-08-12 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+## 🔧 Agent 工程化与基础设施
+
+**1. Anthropic 官方 Agent Skills 仓库上线**
+Claude agent 能力扩展方式的第一手资料，直接定义了 LLM agent 技能体系与 MCP 工具集成规范，是理解 agent 能力边界的权威参考。
+
+**2. Rowboat — 多 agent 系统开源 IDE**
+专为构建和调试多 agent 系统设计的集成开发环境，填补 agent 工程化工具链空白，是 AI infra 方向的实用利器。
+
+**3. Statewright — 用状态机管理 AI agent 行为**
+通过可视化状态机建模控制 agent 行为流，天然解决 agent 控制流不确定性问题，架构思路值得借鉴。
+
+---
+
+## 🧠 上下文工程与知识图谱
+
+**4. semantica — 图原生 Context & 可追责 AI 基础设施**
+专为 LLM agent 设计的上下文管理与知识图谱框架，在 context engineering 与 AI infra 交叉方向提出新架构范式。
+
+**5. code-graph-rag — 大型 Monorepo 代码知识图谱 RAG**
+支持多语言代码库的查询、理解与编辑，是 RAG × 代码智能的典型实践，对代码 agent 场景高度相关。
+
+**6. Onyx — 开源企业级 RAG 聊天 UI（YC W24）**
+可自托管的 RAG + 对话界面，适合私有部署 LLM 应用场景，已有生产验证。
+
+---
+
+## 🤖 Agent 自适应与复杂任务
+
+**7. Test-Time Self-Evolving GUI Visual Grounding**
+提出反思引导的 on-policy 自蒸馏方法，让 GUI agent 在测试时持续自我进化以适应新界面，是 agent 自适应能力的前沿探索。
+→ [arxiv 2608.11191](http://arxiv.org/abs/2608.11191v1)
+
+**8. OpenMontage — 开源 Agentic 视频生产系统**
+内含 100+ 工具与 700+ agent skill 文件，是大规模多工具 agent 编排与上下文管理的罕见工程级案例。
+
+**9. AI Agent 用于 Grothendieck 常数长周期数学研究**
+详细案例研究，展示 AI agent 在复杂数学推理任务中的协作方法论，对 LLM agent 落地有直接参考价值。
+→ [arxiv 2608.11195](http://arxiv.org/abs/2608.11195v1)
+
+---
+
+## 📦 RAG 应用扩展
+
+**10. ConVAWG — 检索增强受控合成对话生成框架**
+面向敏感领域数据稀缺场景，展示 RAG 在受控生成中的实际应用，补充了 RAG 的非检索问答用途。
+→ [arxiv 2608.11200](http://arxiv.org/abs/2608.11200v1)
