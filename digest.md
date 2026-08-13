@@ -2808,3 +2808,65 @@ Claude agent 能力扩展方式的第一手资料，直接定义了 LLM agent �
 **10. ConVAWG — 检索增强受控合成对话生成框架**
 面向敏感领域数据稀缺场景，展示 RAG 在受控生成中的实际应用，补充了 RAG 的非检索问答用途。
 → [arxiv 2608.11200](http://arxiv.org/abs/2608.11200v1)
+
+
+## 2026-08-13 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 聚焦 Agent 工程化、推理优化与轻量部署三条主线，去重排序如下：
+
+---
+
+## 🔧 Agent 工程化与工具链
+
+**1. Anthropic 官方 Agent Skills 仓库上线**
+Anthropic 公开 agent 能力模块的设计与实现，是目前研究 agent 工程化最具权威性的一手资料。
+
+**2. Rowboat — 面向多 Agent 系统的开源 IDE**
+专为 multi-agent 工作流的构建与调试设计，填补了 agent 编排开发环境的空白，适合生产级 agent 系统开发者。
+
+**3. Statewright — 用可视化状态机约束 Agent 行为**
+以状态机显式定义 agent 执行流程，解决 LLM agent 不可预测、难以调试的核心痛点，对构建可靠 agent 有实际参考价值。
+
+---
+
+## 🧠 推理增强与知识工程
+
+**4. AI4AI：推理阶段大模型能力向小模型迁移**
+无需更新参数，仅在推理时通过"harness"将大模型能力注入小模型，为轻量化部署与推理时增强提供新思路。
+[→ arxiv 2608.12307](http://arxiv.org/abs/2608.12307v1)
+
+**5. Semantica — 图原生上下文基础设施**
+为可追责 AI 系统提供结构化上下文管理，与 RAG、context engineering 高度契合，代表知识组织的新范式。
+
+**6. RAG LLM 自动构建动态主逻辑知识图谱**
+用 RAG 替代专家手工构建复杂系统诊断知识图谱，是 RAG 在工业知识工程场景落地的典型案例。
+[→ arxiv 2608.12304](http://arxiv.org/abs/2608.12304v1)
+
+**7. Onyx — 开源 RAG 聊天 UI（YC W24）**
+支持对接多种数据源，可作为企业内部知识库问答系统的前端基础，开箱即用。
+
+---
+
+## 🎬 视频生成与多模态 Agent
+
+**8. Agentic 优化框架提升 I2V 可控性**
+以 agent 决策替代黑盒 I2V 模型的反复试错，显著提升图像/文本到视频的一致性，展示 agent 在创作工作流中的落地路径。
+[→ arxiv 2608.12290](http://arxiv.org/abs/2608.12290v1)
+
+**9. AVA-Encoder：面向 Agent 原生的视频表征学习**
+让创意 agent 从影视素材中学习视频表征，支持电影级视频生成，将 agent 推理能力延伸至视频理解与生成。
+[→ arxiv 2608.12313](http://arxiv.org/abs/2608.12313v1)
+
+---
+
+## 📱 端侧轻量部署
+
+**10. Needle — 14MB 端侧基础模型**
+面向手机、穿戴设备与机器人，在极端资源约束下实现 agent 本地部署，代表 AI infra 轻量化的前沿方向。
+[→ cactus-compute/needle](https://github.com/cactus-compute/needle)
+
+---
+
+**今日主线总结：** Agent 工程化工具链持续完善（Anthropic Skills + Rowboat + Statewright）；推理时能力迁移与图原生上下文管理成为新热点；端侧 14MB 模型刷新轻量化边界。
