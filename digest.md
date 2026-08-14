@@ -2870,3 +2870,61 @@ Anthropic 公开 agent 能力模块的设计与实现，是目前研究 agent �
 ---
 
 **今日主线总结：** Agent 工程化工具链持续完善（Anthropic Skills + Rowboat + Statewright）；推理时能力迁移与图原生上下文管理成为新热点；端侧 14MB 模型刷新轻量化边界。
+
+
+## 2026-08-14 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 聚焦 Agent 工程、基础设施与科研自动化，共 8 条精选
+
+---
+
+## 🔥 重要程度排序
+
+---
+
+### 1｜Anthropic 官方 Agent Skills 仓库公开
+Anthropic 正式开源 Claude Agent 的能力模块库，涵盖工具调用与 MCP 集成的一手实现，是理解 Claude agent 架构的核心参考资料。
+
+---
+
+### 2｜OmniScientist：全模态全学科 AI 科学家系统
+覆盖全模态、全学科的 AI 科学家框架，自动化完成假设生成 → 代码执行 → 论文撰写的完整研究工作流，是复杂多步骤 agentic 系统的典型工程实现。
+🔗 [arxiv 论文](http://arxiv.org/abs/2608.13558v1)
+
+---
+
+### 3｜AutoDesign：长视野 Agentic 设计的 Meta-Harness 优化
+将多模态内容生成建模为长视野 agentic 流程，研究如何优化 model-harness 系统以对齐人类设计先验并积累可复用经验，对 LLM agent 框架设计有直接指导意义。
+🔗 [arxiv 论文](http://arxiv.org/abs/2608.13560v1)
+
+---
+
+### 4｜Rowboat：多 Agent 系统的开源 IDE
+专为构建和调试多 agent 系统设计的开发环境，填补 agent 工程工具链空白，是 AI infra 领域的实用开发工具。
+
+---
+
+### 5｜Statewright：用可视化状态机让 AI Agent 更可靠
+开源工具，通过状态机建模管理 agent 行为流程，直接解决 agent 不可预测、难以调试的核心工程痛点。
+
+---
+
+### 6｜semantica：图原生的 LLM Agent 上下文基础设施
+图原生架构，专为 LLM agent 上下文工程和知识图谱 RAG 场景设计，在 agent 记忆与知识管理方向有值得关注的架构思路。
+
+---
+
+### 7｜QuoteBench：揭示 LLM Coding Agent 执行链路的隐性失败
+专项基准，聚焦 agent 执行 Bash 命令时的序列化/重解析失败问题，揭示现有评分指标无法区分模型错误与执行链路错误，对 agent 可靠性评估与 infra 调试具有重要参考价值。
+🔗 [arxiv 论文](http://arxiv.org/abs/2608.13547v1)
+
+---
+
+### 8｜Onyx：支持 RAG 的开源聊天 UI（YC W24）
+提供企业级 RAG 对话界面的开源方案，适合内部知识库问答场景，社区关注度持续走高。
+
+---
+
+**今日主题词**：`Agent 可靠性` · `工具链工程` · `科研自动化` · `RAG 基础设施`
