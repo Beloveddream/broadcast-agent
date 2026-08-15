@@ -2928,3 +2928,54 @@ Anthropic 正式开源 Claude Agent 的能力模块库，涵盖工具调用与 M
 ---
 
 **今日主题词**：`Agent 可靠性` · `工具链工程` · `科研自动化` · `RAG 基础设施`
+
+
+## 2026-08-15 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent & Infra 播报
+
+> 去重合并后按重要性排序，共 9 条
+
+---
+
+## 🔬 研究前沿
+
+**1. OmniScientist — 全模态 AI 科学家 Agent**
+覆盖完整科研工作流的多模态 agent 系统，展示 LLM 在复杂多步骤任务中的能力边界与工程实现，是 agent 系统落地的标杆参考案例。
+
+**2. AutoDesign — 元级 Harness 优化框架**
+将多模态长链路 agentic 设计任务形式化为 model-harness 系统优化问题，对 context engineering 和 agent 框架设计有直接方法论价值。
+
+**3. QuoteBench — LLM Coding Agent 评估基准**
+专测 Bash 命令生成与执行链路的失败边界，揭示"匹配分数"掩盖命令路径错误的盲区，对 agent 评估基础设施有直接参考价值。
+
+---
+
+## 🛠️ 工具与框架
+
+**4. Rowboat — 多 Agent 系统开源 IDE**
+专为构建和调试多 agent 系统设计的开发环境，覆盖 orchestration 全流程，是 agent infra 工程实践的直接生产力工具。
+
+**5. Statewright — 状态机约束的可靠 Agent 框架**
+用可视化状态机约束 agent 行为流程，从架构层解决 LLM 不确定性问题，是 agent 可靠性工程的实用方案。
+
+**6. semantica-agi/semantica — 图原生 AI 上下文基础设施**
+用知识图谱管理 agent 上下文，面向可问责 AI 系统，与 context engineering 和 AI infra 高度相关。
+
+**7. K-Dense-AI/scientific-agent-skills — 161 个即用科学技能库**
+兼容 Codex、Claude Code 等主流 agent 平台，是构建专业领域 LLM agent 的现成工具集，可直接降低冷启动成本。
+
+---
+
+## 📦 生态与配置
+
+**8. github/spec-kit — GitHub 官方规范驱动开发工具包**
+与 Copilot/Codex 工作流深度结合，可用于规范化 agent 开发流程，是 GitHub 官方对 agent 开发标准化的重要信号。
+→ [GitHub](https://github.com/github/spec-kit)
+
+**9. Onyx — 开源 AI 对话 UI（YC W24）**
+支持多数据源接入与 RAG 能力，适合作为企业内部知识问答的 AI infra 底座，社区活跃度较高。
+
+---
+
+> `github/awesome-copilot` 与 spec-kit 同属 GitHub 官方 Copilot 生态，内容有重叠，已合并归入第 8 条背景。
