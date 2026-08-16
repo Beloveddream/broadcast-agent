@@ -2979,3 +2979,51 @@ Anthropic 正式开源 Claude Agent 的能力模块库，涵盖工具调用与 M
 ---
 
 > `github/awesome-copilot` 与 spec-kit 同属 GitHub 官方 Copilot 生态，内容有重叠，已合并归入第 8 条背景。
+
+
+## 2026-08-16 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent & Infra 播报
+
+> 精选 8 条，按重要性排序 · 去重合并
+
+---
+
+## 🔥 重点关注
+
+**1. OmniScientist — 全流程 AI 科研 Agent**
+覆盖假设生成→代码执行→论文撰写的端到端 agent，是多模态 RAG、工具调用与复杂 workflow 综合落地的重要案例，代表当前 agent 能力边界的标杆实践。
+
+**2. Statewright — 用状态机让 Agent 行为可预测**
+用可视化状态机对 LLM agent 建模，直击不可预测、难调试的核心痛点，是目前 agent 可靠性方向少见的系统性方案。
+
+**3. Rowboat — 多 Agent 系统开源 IDE**
+专为构建与调试多 agent 系统设计的集成开发环境，填补了 agent 编排领域工具链的空白，值得 AI infra 开发者优先试用。
+
+---
+
+## 🛠 工具与框架
+
+**4. CLI-Anything — 让任意 CLI 工具接入 Agent 调用链**
+将所有命令行软件变为 agent-native，与 MCP / 工具集成方向高度对齐，极大扩展 agent 可调用的工具边界。
+[GitHub](https://github.com/HKUDS/CLI-Anything)
+
+**5. semantica — 图原生 Agent 上下文基础设施**
+用图结构管理 agent 上下文，提供可追责的 context engineering 底座，适合需要长时程记忆与关系推理的 agent 场景。
+
+**6. AutoDesign — 长时程 Agentic 流程的元级优化框架**
+让 model-harness 系统自动对齐人类设计先验并积累可复用经验，直接指向 agent 基础设施与 context engineering 的优化方向。
+
+---
+
+## 📐 评估与规范
+
+**7. QuoteBench — LLM Coding Agent 的真实可靠性评估**
+专门测量 Bash 命令生成与执行链路中的失败边界，揭示"匹配分数"掩盖命令路径错误的问题，对评估 Codex 类 agent 的真实可靠性极具参考价值。
+
+**8. GitHub spec-kit — Spec-Driven Development 官方工具包**
+GitHub 官方出品，与 Codex / AI 辅助编程工作流结合紧密，有助于为 agent 生成代码建立规范化开发流程。
+
+---
+
+*💡 今日主线：agent 可靠性（Statewright · QuoteBench）× 工具链扩展（CLI-Anything · Rowboat）× 上下文基础设施（semantica · AutoDesign）三条脉络同步推进。*
