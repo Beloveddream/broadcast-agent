@@ -3027,3 +3027,48 @@ GitHub 官方出品，与 Codex / AI 辅助编程工作流结合紧密，有助�
 ---
 
 *💡 今日主线：agent 可靠性（Statewright · QuoteBench）× 工具链扩展（CLI-Anything · Rowboat）× 上下文基础设施（semantica · AutoDesign）三条脉络同步推进。*
+
+
+## 2026-08-17 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+---
+
+## 🔧 工具与基础设施
+
+**1. CLI-Anything — 让任意软件成为 Agent 原生接口**
+通过 CLI 统一调度任意软件，是构建 LLM agent 工具调用层的核心基础设施思路，值得重点关注。
+
+**2. Statewright — 用可视化状态机管控 Agent 行为**
+以状态机建模 agent 的状态转换流程，直击 LLM agent 行为不可预测的痛点，适合需要稳定可审计 agent 工作流的工程团队。
+
+**3. Rowboat — 多 Agent 系统的开源 IDE**
+专为构建和调试多 agent 系统设计的开发环境，填补 AI infra 工具链中的调试空白。
+
+---
+
+## 🏗️ 本地部署 & 模型训练
+
+**4. Unsloth — 本地 LLM 训练与运行 UI**
+支持 Qwen3、DeepSeek 等主流模型的本地化运行与微调，适用于私有 RAG、本地 agent 后端等场景。
+[GitHub](https://github.com/unslothai/unsloth)
+
+**5. Soup — 单 YAML 文件在 4GB GPU 上微调 8B 模型**
+极度简化微调流程，大幅降低构建专用 agent 模型的门槛，适合快速原型迭代。
+[GitHub](https://github.com/MakazhanAlpamys/Soup)
+
+**6. Onyx (YC W24) — 企业级开源 RAG 对话 UI**
+支持知识库接入与 RAG 流程，是搭建内部 AI 助手的常见底座选型之一。
+
+---
+
+## 📄 研究前沿
+
+**7. 跨会话上下文状态交接（Arxiv）**
+研究 context 达到上限或 agent 切换时的状态保持方法，直接关联 context engineering 与 multi-agent 协作的核心挑战。
+[论文](http://arxiv.org/abs/2608.14528v1)
+
+**8. 证据解读与决策聚合分离架构（Arxiv）**
+提出将多源信息的"解读"与"聚合决策"解耦，对 RAG 系统设计和 agent prompt 架构有直接参考价值。
+[论文](http://arxiv.org/abs/2608.14509v1)
