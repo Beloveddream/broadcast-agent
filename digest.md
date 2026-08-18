@@ -3072,3 +3072,60 @@ GitHub 官方出品，与 Codex / AI 辅助编程工作流结合紧密，有助�
 **8. 证据解读与决策聚合分离架构（Arxiv）**
 提出将多源信息的"解读"与"聚合决策"解耦，对 RAG 系统设计和 agent prompt 架构有直接参考价值。
 [论文](http://arxiv.org/abs/2608.14509v1)
+
+
+## 2026-08-18 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+## 🔧 Agent 工程化工具
+
+**1. Statewright — 用状态机约束 Agent 行为**
+用可视化状态机解决 LLM agent 不确定性问题，是当前 agent 可靠性工程化落地最直接的实用工具。
+
+**2. Rowboat — 多 Agent 系统开源 IDE**
+专为构建与调试多 agent 系统设计的开发环境，对 agent 编排工具感兴趣的开发者值得优先关注。
+
+**3. OpenViking — Agent 自进化上下文数据库**（字节跳动火山引擎）
+统一 Agent Memory、Knowledge RAG 与 Skills 的融合架构，是目前 RAG + agent memory 一体化方案中设计较完整的开源实践。
+
+---
+
+## 🔗 Agent 工具调用 & 技能扩展
+
+**4. CLI-Anything — 将命令行软件转为 Agent-Native 接口**
+通过 CLI 层让 LLM agent 操控任意软件，对 agent 工具集成与 AI infra 搭建有直接参考价值。
+
+**5. HexStrike-AI — MCP 协议驱动的安全工具 Agent**
+基于 MCP 构建，支持 Claude/GPT 等 agent 自主调用 150+ 安全工具，是 MCP 赋能 agent 工具调用的具体落地案例。
+[→ GitHub](https://github.com/0x4m4/hexstrike-ai)
+
+**6. Anthropic-Cybersecurity-Skills — 817 个结构化安全技能库**
+兼容 Claude Code、Codex CLI、Cursor 等 20+ 平台，是面向 agent skill 标准化的工程实践参考。
+
+---
+
+## 📡 RAG & 知识系统
+
+**7. Onyx — 开源 RAG 对话 UI**（YC W24）
+支持连接企业知识库，是搭建内部 AI 问答系统的轻量选项。
+
+---
+
+## 📄 学术研究
+
+**8. Computational Provenance — LLM 生成文本携带可验证计算状态证据**
+探索 LLM 输出能否内嵌内部状态证据，对 RAG 与 agent 系统的可信溯源与审计有直接参考价值。
+[→ arXiv](http://arxiv.org/abs/2608.16868v1)
+
+**9. BATON — 带记忆的 Agentic 子任务探索框架**
+解决多阶段 agent 链中错误累积与上下文传递断裂问题，对长程任务规划与 context engineering 有借鉴意义。
+[→ arXiv](http://arxiv.org/abs/2608.16889v1)
+
+**10. AutoSR — 全自动科学探索 Agent**
+以持久化研究状态搜索替代孤立求解，是 agent 循环与知识积累结合的典型 AI infra 实践案例。
+[→ arXiv](http://arxiv.org/abs/2608.16876v1)
+
+---
+
+> 💡 **今日主线**：Agent 可靠性（状态机约束）+ 工具调用标准化（MCP/CLI）+ RAG×Memory 融合架构，三条脉络同步推进，工程落地信号明显强于纯研究。
