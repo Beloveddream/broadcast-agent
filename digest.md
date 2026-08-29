@@ -3129,3 +3129,63 @@ GitHub 官方出品，与 Codex / AI 辅助编程工作流结合紧密，有助�
 ---
 
 > 💡 **今日主线**：Agent 可靠性（状态机约束）+ 工具调用标准化（MCP/CLI）+ RAG×Memory 融合架构，三条脉络同步推进，工程落地信号明显强于纯研究。
+
+
+## 2026-08-29 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+> 聚焦 Agent 工程化、技能演化与基础设施，共 11 条精选
+
+---
+
+## 🔬 前沿研究
+
+**1. WikiSkill：将 Agent 交互经验编译为持久化可复用技能**
+自动把 agent 运行轨迹提炼为结构化技能知识库，推动 agent 能力持续进化，是 agent 记忆与上下文工程的重要方向。
+[→ arxiv](http://arxiv.org/abs/2608.27454v1)
+
+**2. RedEvoAgent：经验驱动技能演化的自动红队 Agent**
+构建具备自我演化能力的红队 agent，系统评估 LLM 在产品环境中的安全边界，对 agent infra 安全建设有直接参考价值。
+[→ arxiv](http://arxiv.org/abs/2608.27439v1)
+
+**3. SWE-Prime：更少轨迹、更好的代码修复 Agent 性能**
+针对代码 agent 训练数据质量问题，论证高质量小规模轨迹做 SFT 优于大量低质量数据，对 Codex 类 agent 训练优化有指导意义。
+[→ arxiv](http://arxiv.org/abs/2608.27449v1)
+
+**4. MCR-Bench：面向真实代码审查的动态多轮评测基准**
+提出迭代式代码审查基准，弥补现有静态评测对 LLM agent 多轮交互能力考察的不足。
+[→ arxiv](http://arxiv.org/abs/2608.27442v1)
+
+---
+
+## 🛠️ 工具与框架
+
+**5. Statewright：用可视化状态机让 Agent 行为可控可调试**
+以状态机建模 agent 执行流程，直击 LLM agent 不稳定、难调试的核心痛点，对构建生产级 agent 有实用参考价值。
+
+**6. LiveKit Agents：实时语音/视频 AI Agent 运行时框架**
+提供完整的 agent 运行时基础设施，专为低延迟语音/视频交互场景设计，是 AI infra 层 agent 框架的代表项目。
+
+**7. Rowboat：多 Agent 系统的开源编排 IDE**
+专为多 agent 协作设计的开发环境，覆盖编排、调试、部署全流程，对 agent infra 工程师有工具链参考意义。
+
+**8. Graphify：将代码库/文档/PDF 转为可查询知识图谱**
+本地确定性 AST 解析、无需向量数据库，作为 Claude Code/Cursor/Codex 的 skill 直接调用，是 RAG 替代方案的典型实践。
+
+---
+
+## 📦 资源与生态
+
+**9. scientific-agent-skills：163 个即用型科学领域 Agent 技能**
+覆盖生物、化学、医学等 100+ 数据库，兼容 Codex、Claude Code 等主流 AI 编程助手，是构建科研 agent 的现成工具集。
+
+**10. OpenMontage：首个开源 Agentic 视频生产系统**
+内含 700+ agent skill 文件与 12 条生产 pipeline，展示了大规模 agent skill 工程化组织方式，值得关注其 skill/context 管理设计。
+
+**11. AI Engineering from Scratch：AI 工程系统学习课程库**
+从零覆盖 LLM agent 构建与 AI 应用部署全流程，适合了解 agent 工程化落地路径的从业者参考。
+
+---
+
+*今日主线：**Agent 技能工程化**（技能编译、持久化、大规模组织）正成为贯穿研究与工程的核心议题，从 WikiSkill 的理论探索到 OpenMontage 的工程实践，值得重点关注。*
