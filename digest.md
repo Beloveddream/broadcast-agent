@@ -3189,3 +3189,48 @@ GitHub 官方出品，与 Codex / AI 辅助编程工作流结合紧密，有助�
 ---
 
 *今日主线：**Agent 技能工程化**（技能编译、持久化、大规模组织）正成为贯穿研究与工程的核心议题，从 WikiSkill 的理论探索到 OpenMontage 的工程实践，值得重点关注。*
+
+
+## 2026-08-30 · 📡 今日播报 · Parallight Lab
+
+# 今日AI Agent播报
+
+## 🔬 研究前沿
+
+**1. Agent技能与经验的可持续演化**
+- **WikiSkill**：提出将agent交互经验编译为可持续演化的技能知识库，解决"如何指导技能开发"的核心问题，为长期学习型LLM agent系统提供新思路。
+
+**2. 训练数据质量 > 数量**
+- **SWE-Prime**：揭示"成功轨迹≠高质量监督信号"，用更少但更优质的训练轨迹显著提升SWE-agent性能，对agent训练策略优化有直接指导意义。
+
+**3. Agent安全新威胁**
+- **RedEvoAgent**：自动化红队测试框架，通过经验驱动的技能演化，发现能导致工具滥用与持久状态破坏的越狱攻击，是agent安全评估的重要补充。
+
+**4. 真实场景评测基准**
+- **MCR-Bench**：构建动态迭代式代码评审基准，评估LLM在多轮开发者-评审者交互中的真实表现，衡量agent软件工程落地能力。
+
+**5. 推理效率优化**
+- **CritICL**：推理时弱到强泛化框架，用小模型失败模式提升大模型推理能力，无需重复生成或外部验证，降低推理时计算开销。
+  http://arxiv.org/abs/2608.27455v1
+
+---
+
+## 🛠️ Agent Infra 与工具生态
+
+**多Agent编排与知识共享**
+- **OzBrain**：多agent共享知识库/记忆层，实现跨agent上下文复用。https://ozbrain.com
+- **Osmantic/ODS**：本地一体化AI服务器，集成LLM推理、agent、workflow与RAG。https://github.com/Osmantic/ODS
+
+**可观测性与运维**
+- **Superlog (YC P26)**：自动安装并自我修复bug的可观测性工具，AI深度嵌入运维环节的代表。（详见HN原文）
+
+---
+
+## 📦 Agent Skills 生态（多方布局）
+
+垂直领域与大厂标准化并进，值得持续关注：
+- **anthropics/claude-plugins-official**：Anthropic官方Claude Code插件目录，生态标准化风向标。https://github.com/anthropics/claude-plugins-official
+
+---
+
+**今日看点**：Agent训练数据质量、安全红队测试、以及Skills生态的多方标准化布局是三大主线；infra层面多agent
