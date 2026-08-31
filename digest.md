@@ -3234,3 +3234,56 @@ GitHub 官方出品，与 Codex / AI 辅助编程工作流结合紧密，有助�
 ---
 
 **今日看点**：Agent训练数据质量、安全红队测试、以及Skills生态的多方标准化布局是三大主线；infra层面多agent
+
+
+## 2026-08-31 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent / Infra 播报
+
+## 🔬 核心趋势：Agent 执行架构与可靠性
+
+**1. Logos：跨进程 Agent 运行时框架**
+提出形式化组合演算，动态组装 agent 能力/插件，为 LLM agent 底层架构设计提供新思路。
+🔗 http://arxiv.org/abs/2608.28553v1
+
+**2. Statewright：可视化状态机管理 Agent 执行流**
+用状态机约束 LLM agent 行为，直击"agent 不可靠、难调试"痛点，是提升生产可用性的关键尝试。
+
+## 🛠️ Agent Skills 生态标准化
+
+**3. K-Dense-AI/scientific-agent-skills：科研场景 Agent 技能库**
+165个验证过的科学技能 + 100+科学数据库，兼容 Cursor/Claude Code/Codex，是 skills 生态落地垂直场景的典范。
+
+**4. Warp/common-skills：通用 Agent 技能集合**
+Warp 团队开源，进一步印证 agent skills 标准化正成为行业趋势。
+🔗 https://github.com/warpdotdev/common-skills
+
+**5. last30days-skill：多源实时信息聚合 Agent 技能**
+跨 Reddit/X/YouTube/HN/Polymarket 检索总结，展示 agent+RAG 组合的实用范式。
+
+## 🤝 多 Agent 系统开发工具
+
+**6. Rowboat (YC S24)：多 Agent 系统开发 IDE**
+开源工具链，支持构建/调试/编排多智能体协作流程。
+
+**7. MiroFish：群体智能多 Agent 引擎**
+轻量通用框架，支持多 agent 协作完成预测任务，可作为架构参考。
+🔗 https://github.com/666ghj/MiroFish
+
+## 🏗️ 基础设施与新兴方向
+
+**8. Superlog (YC P26)：自愈型可观测性工具**
+自动安装+自我修复 bug，代表 AI agent 深入运维/调试环节的新方向。
+🔗 https://superlog.
+
+**9. crawl4ai：LLM 友好开源爬虫**
+RAG 系统数据获取环节的常用基础设施。
+
+**10. livekit/agents：实时语音 Agent 框架**
+语音交互类 agent 的基础框架建设。
+
+**11. OzBrain：多 Agent 共享知识库**
+解决 agent 间上下文割裂问题，context engineering 实践案例。
+
+---
+*本期共11条，覆盖 agent 架构、skills生态、多agent协作、基础设施四大方向*
