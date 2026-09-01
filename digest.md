@@ -3287,3 +3287,39 @@ RAG 系统数据获取环节的常用基础设施。
 
 ---
 *本期共11条，覆盖 agent 架构、skills生态、多agent协作、基础设施四大方向*
+
+
+## 2026-09-01 · 📡 今日播报 · Parallight Lab
+
+# 今日AI Agent与Infra播报
+
+**核心主题：Context Engineering + Agent 可靠性成为焦点**
+
+1. **Statewright** — 用可视化状态机管理 AI agent 执行流程，直击当前 agent 落地最大痛点（可靠性/可控性）。
+
+2. **Rowboat (YC S24)** — 开源多 agent 系统 IDE，提供构建、调试、编排多 agent 工作流的可视化环境，值得关注的 agent infra 开发工具。
+
+3. **OzBrain** — 面向多 AI agent/团队的共享知识库与记忆层，解决 agent 间上下文割裂问题，是 context engineering 的典型实践。
+
+4. **Configurable Semantic Chunking for Biomedical IE**（arXiv）— 针对 RAG 固定长度分块导致语义碎片化的问题，提出实体感知的可配置语义分块框架，直接服务于 context engineering 核心设计。
+   http://arxiv.org/abs/2608.31139v1
+
+5. **scientific-agent-skills** — 165 个验证过的科学技能 + 100+ 科学数据库，兼容 Cursor、Claude Code、Codex 等平台，是 LLM agent 垂直领域落地的典型案例。
+
+6. **crawl4ai** — LLM 友好的开源网页爬虫/抓取工具，是构建 RAG 数据管道与 context engineering 的常用基础设施。
+
+7. **ODS** — 把本地 PC/Mac/Linux 一体化改造为 AI 服务器，集成 LLM 推理、聊天 UI、语音、agent 工作流与 RAG，是自建 AI infra 的实用参考。
+
+8. **Auditing Anonymous AI Models**（arXiv）— 提出针对匿名发布前沿 AI 模型（含各类 agent/LLM）的黑盒身份验证四阶段审计协议，对 AI 治理与供应链安全有参考价值。
+   http://arxiv.org/abs/2608.31142v1
+
+9. **Context-Aware Interleaved Batching for WhisperX**（arXiv）— 解决语音批处理中因片段隔离丢失历史上下文的问题，提出交错批处理方法兼顾速度与上下文保留，对语音类 agent 的 context engineering 有借鉴意义。
+   http://arxiv.org/abs/2608.31170v1
+
+10. **video-use** — 让 coding agent 通过代码编辑视频，展示 LLM agent 在多模态创作任务中的落地场景。
+
+11. **minimind** — 2小时从零训练 64M 参数 LLM 的开源教学项目，适合理解 LLM 底层原理。
+    https://github.com/jingyaogong/minimind
+
+---
+*备注：Hacker News 中 "Superlog (YC P26" 信息不完整（无描述与链接），未纳入正文，如有完整信息可补充。*
