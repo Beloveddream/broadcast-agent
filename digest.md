@@ -3323,3 +3323,69 @@ RAG 系统数据获取环节的常用基础设施。
 
 ---
 *备注：Hacker News 中 "Superlog (YC P26" 信息不完整（无描述与链接），未纳入正文，如有完整信息可补充。*
+
+
+## 2026-09-02 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent & 工程化播报
+
+> 聚焦 Agent 架构、RAG 工程、评估体系与 AI Infra，去重排序如下：
+
+---
+
+## 🏆 重点关注
+
+**1. Verbal Reinforcement Learning 综述 — LLM Agent 训练新范式**
+首次系统梳理以自然语言为反馈信号训练 language agent 的范式（VRL），覆盖 agent 对齐与训练机制，理论价值高。
+[→ arxiv](http://arxiv.org/abs/2609.01597v1)
+
+**2. CordisBench — 评估 LLM 在动态 Agent 框架中的推理能力**
+专门针对组件生命周期推理（工具上下线、动态插拔，类 MCP 场景）的基准，填补 agent 评估空白。
+[→ arxiv](http://arxiv.org/abs/2609.01600v1)
+
+**3. Efficient SWE Agent Benchmarking — 轨迹感知评估，降本提效**
+通过分析执行轨迹大幅压缩软件工程 agent 基准测试成本，对 AI infra 团队有直接工程价值。
+[→ arxiv](http://arxiv.org/abs/2609.01603v1)
+
+---
+
+## 🔧 工具与平台
+
+**4. Claude Code — Anthropic 官方 Coding Agent**
+深度理解代码库、自然语言执行复杂任务，当前最具代表性的 coding agent 实现，值得作为参照基准。
+
+**5. Rowboat — 多 Agent 系统开源 IDE**
+专为构建与调试多 agent 系统设计，覆盖 agent 全生命周期开发需求，直接对标 agent infra 痛点。
+
+**6. Statewright — 用状态机让 Agent 行为可控**
+以可视化状态机对 agent 建模，系统性解决 LLM agent 不确定性问题，工程落地思路清晰。
+
+**7. ODS — 本地全栈 AI Infra（LLM + Agent + RAG + 工作流）**
+将普通设备变成完整 AI 服务器，集成推理/Agent/RAG/图像生成，适合私有化部署场景。
+
+---
+
+## 📚 RAG & 数据工程
+
+**8. Adaptive Critical Token-Aware Retrieval — 仓库级代码 RAG**
+解决真实代码仓超出 LLM 上下文限制的核心问题，对 context engineering 和 RAG 流水线设计有直接参考价值。
+[→ arxiv](http://arxiv.org/abs/2609.01601v1)
+
+**9. crawl4ai — 为 LLM 优化的开源爬虫**
+RAG 数据管道与 agent 信息采集的高频基础设施，持续活跃的社区项目。
+
+**10. Onyx — 开源 AI 对话 UI（内置 RAG，YC W24）**
+快速搭建企业知识库问答的前端方案，RAG 能力开箱即用。
+
+---
+
+## 🔬 场景扩展
+
+**11. scientific-agent-skills — 165 个科研 Agent 技能库**
+覆盖 100+ 科学数据库，兼容 Codex / Claude Code 等主流平台，是 vertical agent 的参考实现。
+
+**12. video-use — Coding Agent 驱动的视频编辑**
+browser-use 团队新作，展示 LLM agent 向多媒体内容处理场景延伸的可行路径。
+
+**13. Superlog — AI 应用自动化 Observability**
+自动接入并定位问题，属于 AI infra 监控层新尝试，关注 agent 系统可观测性的团队可评估。
