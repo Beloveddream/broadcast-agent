@@ -3389,3 +3389,21 @@ browser-use 团队新作，展示 LLM agent 向多媒体内容处理场景延伸
 
 **13. Superlog — AI 应用自动化 Observability**
 自动接入并定位问题，属于 AI infra 监控层新尝试，关注 agent 系统可观测性的团队可评估。
+
+
+## 2026-09-03 · 📡 今日播报 · Parallight Lab
+
+以下是为您合成的今日精炼播报，已去除冗余、按主题重要性排序，并附带原文链接：
+
+**【今日 AI 前沿播报】**
+
+**1. Agent 基础设施与工程化落地（重磅开源与工具）**
+
+**2. Agent 前沿研究与机制探讨（学术论文）**
+*   **判别式世界模型提升 Web Agent 决策**：传统 Agent 多依赖生成式模型，最新研究提出用**判别式世界模型**来预测和排序候选动作，大幅降低了训练成本并提升了网页任务决策表现。([论文链接](http://arxiv.org/abs/2609.02885v1))
+*   **发现 LLM 无法捕捉的用户反馈信号**：新研究证明，自然交互中的用户反馈包含了 LLM 自身无法检测的独特学习信号，这为 LLM Agent 的在线对齐与持续自我改进提供了全新思路。([论文链接](http://arxiv.org/abs/2609.02859v1))
+*   **LLM 语言不可读性引发新型安全漏洞**：研究揭示了 LLM 外部语言输出与内部计算存在“不可读性偏差”，从机制可解释性角度指出了 LLM 潜在的新型安全风险。([论文链接](http://arxiv.org/abs/2609.02852v1))
+
+**3. Agent 技能生态与实用组件（应用范例）**
+*   **全流程学术研究 Agent**：`academic-research-skills` 面向 Claude Code 打造，实现了 research→write→review→revise→finalize 的全流程学术 Agent 能力，是应用层极佳的参考范例。([项目链接](https://github.com/Imbad0202/academic-research-skills))
+*   **AI 去痕 Agent 技能**：`humanizer` 作为一个 agent skill，专注于去除文本中的 AI 生成痕迹，体现了 Agent 组件化与技能生态的快速发展趋势。([项目链接](https://github.com/blader/humanizer))
