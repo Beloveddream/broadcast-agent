@@ -3459,3 +3459,53 @@ browser-use 团队新作，展示 LLM agent 向多媒体内容处理场景延伸
 
 ### 13. 桌面端深度自定义 AI 编辑器：AIConsole
 **概要**：开源的桌面端 AI 编辑器，允许开发者深度自定义工作流，适合用于测试和沉淀基于 LLM agent 的上下文工程范式。
+
+
+## 2026-09-05 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 聚焦 Agent 工程化、评测可靠性与基础设施，共 9 条精选
+
+---
+
+## 🔥 重要研究与警示
+
+**1. LLM-as-Judge 可靠性存在系统性失效**
+预注册实验揭示：同一 black-box LLM judge 在不同时间返回结果不一致，直接影响 RAG 评估、agent 评测和训练数据筛选的可信度。对任何依赖 LLM 自动评判的流水线均有重要警示意义。
+
+**2. ESPO：解决 Prompt 自动优化中的"膨胀"问题**
+针对 agent prompt 在迭代优化过程中越来越臃肿的顽疾，提出诊断 → 多样化 → 稳定化三步框架，直接作用于 context engineering 效率与质量。
+
+**3. 将自然语言规范编译为本地神经函数**
+把自然语言描述的文本处理逻辑"编译"成可复用的轻量本地模型，规避频繁调用大模型的延迟与成本——对 agent 工具函数本地化部署有直接参考价值。
+
+---
+
+## ⚙️ 官方与核心框架
+
+**4. Anthropic 官方 Agent Skills 公开仓库**
+Anthropic 直接展示如何为 Claude 构建可复用 agent 技能模块，对能力扩展与 MCP 工具集成具有第一手参考价值。
+
+**5. NousResearch Hermes Agent 正式开源**
+当前热门 LLM agent 框架的官方实现，主打随用户场景成长的 agent 架构，值得关注其设计思路。
+
+---
+
+## 🛠️ 工程工具与基础设施
+
+**6. Statewright：用可视化状态机管控 Agent 行为**
+以状态机约束 LLM agent 控制流，从根源上提升行为稳定性——agent 可靠性方向的直接工程方案。
+
+**7. Rowboat：多 Agent 系统的开源 IDE**
+专为构建与调试多 agent 系统设计的开发环境，覆盖 agent infra 全链路开发需求。
+
+**8. Onyx (YC W24)：企业级开源 Chat UI + RAG**
+内置 RAG 能力的对话界面，可作为 LLM agent 前端与知识检索系统的开箱即用基础组件。
+
+---
+
+## 📚 学习资源
+
+**9. datawhalechina/hello-agents：中文 Agent 系统教程**
+从零原理到工程落地的系统性中文教程，同期可参考 [Hands-On-AI-Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering) 获取 RAG + agent 实战代码。
