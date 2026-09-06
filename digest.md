@@ -3509,3 +3509,56 @@ Anthropic 直接展示如何为 Claude 构建可复用 agent 技能模块，对�
 
 **9. datawhalechina/hello-agents：中文 Agent 系统教程**
 从零原理到工程落地的系统性中文教程，同期可参考 [Hands-On-AI-Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering) 获取 RAG + agent 实战代码。
+
+
+## 2026-09-06 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 聚焦 Agent 工程、LLM 基础设施与评估可靠性
+
+---
+
+## 🔥 重点关注
+
+**1. Anthropic 官方 Agent Skills 仓库公开**
+Anthropic 开源 Claude 生态下 agent 技能的标准化实现，是理解 MCP/agent skill 体系的第一手资料，直接影响 Claude agent 开发范式。
+
+**2. NVIDIA SkillSpector：Agent Skills 安全扫描工具**
+可检测 Claude Code、Codex 及 MCP skills 中的提示注入、数据泄露与供应链风险。随着 agent skills 生态扩张，安全审计工具成为 AI infra 必备环节。
+
+**3. Hermes Agent 框架（NousResearch）**
+Nous Research 发布热门 LLM agent 框架，定位"随你成长的 agent"，架构设计与能力边界值得重点跟踪。
+
+---
+
+## 🛠️ 工具与框架
+
+**4. Statewright：用状态机约束 Agent 行为**
+通过可视化状态机规范 Agent 执行流程，直击 LLM Agent 不可预测、难调试的核心痛点，对构建生产级可靠 Agent 系统有直接参考价值。
+
+**5. Rowboat：多 Agent 系统开源 IDE**
+专为 multi-agent 编排设计的开发环境，支持可视化构建与调试工作流，补全 AI infra 工具链中的开发体验缺口。
+
+**6. SGLang：高性能 LLM 推理框架**
+支持大语言模型与多模态模型的高性能推理服务，是构建 agent 基础设施的重要底层组件，持续保持社区热度。
+
+**7. Onyx：开源 RAG Chat UI（YC W24）**
+内置 RAG 检索增强的开源对话界面，支持接入企业知识库，适合快速搭建上下文感知型 LLM 应用。
+
+---
+
+## 📄 论文洞察
+
+**8. LLM-as-Judge 可靠性警示**
+审计发现同一请求在共享端点不同时间可能得到不同评判结果。对依赖 LLM judge 评估 agent 输出或 RAG 管道质量的系统是重要风险提示。
+
+**9. ESPO：解决 Prompt 膨胀问题**
+针对进化式 prompt 优化器的"膨胀"现象，提出诊断-多样化-稳定化框架，直接关联 context engineering 中 prompt 的高效稳定优化。
+
+**10. Compile by Training：本地化神经函数编译**
+将自然语言描述编译为可复用的本地小型神经函数，绕开远程大模型调用的延迟与成本，为 agent 推理效率与边缘部署提供新思路。
+
+---
+
+*今日主线：agent 生态正从"能跑起来"向"可靠、可审计、可安全部署"演进——Anthropic/NVIDIA/Statewright 的动作都指向同一方向。*
