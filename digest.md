@@ -3562,3 +3562,59 @@ Nous Research 发布热门 LLM agent 框架，定位"随你成长的 agent"，�
 ---
 
 *今日主线：agent 生态正从"能跑起来"向"可靠、可审计、可安全部署"演进——Anthropic/NVIDIA/Statewright 的动作都指向同一方向。*
+
+
+## 2026-09-07 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent & Infra 播报
+
+---
+
+## 🔥 重点关注
+
+**1. NousResearch/hermes-agent — 可成长型 AI Agent 框架**
+NousResearch 推出的新一代 agent 框架，主打"可成长"架构，值得深入研究其 agent 能力边界与模块化设计思路。
+
+**2. Statewright — 用可视化状态机让 AI Agent 更可靠**
+通过状态机建模管理 agent 行为流程，直击 LLM agent 不稳定、难调试的核心工程痛点。
+
+**3. Rowboat — 多 Agent 系统开源 IDE**
+专为多 agent 编排与调试设计的开发环境，agent infra 工具链中的实用补充。
+
+---
+
+## 🛠 工具与生态
+
+**4. OpenAI/skills — Codex Agent 技能目录**
+OpenAI 官方维护的 Codex Skills Catalog，理解 agent 能力体系与 context engineering 实践的一手参考。
+
+**5. Onyx (YC W24) — 开源企业聊天 UI（含 RAG）**
+内置 RAG 能力的企业级对话界面，适合作为自托管 AI 助手或 agent 前端基础设施参考。
+
+**6. blender-mcp — MCP 协议驱动 LLM 控制 Blender**
+MCP 在创意工具领域的典型落地案例，展示协议扩展边界。
+→ [GitHub](https://github.com/ahujasid/blender-mcp)
+
+**7. text-to-cad — 面向 CAD/CAM 的 Agent Skills 库**
+Agent skill 模块化设计的垂直领域实践，与 Codex/Hermes skill 体系高度相关。
+→ [GitHub](https://github.com/earthtojake/text-to-cad)
+
+---
+
+## 📄 研究速递
+
+**8. 多步工具调用基准（韩国公开 API）**
+针对开源 LLM agent 在多步工具链场景的系统评测，对 agent infra 能力评估有参考价值。
+→ [arXiv](http://arxiv.org/abs/2609.05395v1)
+
+**9. LLM 解释忠实性评估**
+评估 agent 工作流中决策解释的可信度，对构建可调试、可靠的 agent 系统有直接意义。
+→ [arXiv](http://arxiv.org/abs/2609.05385v1)
+
+**10. RegionFed — 联邦学习个性化 Query 理解**
+异构环境下 RAG 检索侧个性化与数据隐私问题的联邦学习方案，适用于企业私有化部署场景。
+→ [arXiv](http://arxiv.org/abs/2609.05403v1)
+
+---
+
+> 💡 **今日主线**：Agent 可靠性与工程化是本日核心主题——从状态机（Statewright）、IDE 工具（Rowboat）、框架（Hermes）到学术评测，多个维度同步推进；MCP 协议生态持续扩展至创意与专业工具领域。
