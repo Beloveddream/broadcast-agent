@@ -3618,3 +3618,66 @@ Agent skill 模块化设计的垂直领域实践，与 Codex/Hermes skill 体系
 ---
 
 > 💡 **今日主线**：Agent 可靠性与工程化是本日核心主题——从状态机（Statewright）、IDE 工具（Rowboat）、框架（Hermes）到学术评测，多个维度同步推进；MCP 协议生态持续扩展至创意与专业工具领域。
+
+
+## 2026-09-08 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Infra & Agent 播报
+
+> 按重要性排序，去重合并同类项
+
+---
+
+## 🔥 重点关注
+
+**1. bytedance/deer-flow — 字节开源长任务 SuperAgent 框架**
+集成沙箱、记忆、工具调用、子 agent 编排与消息网关，是目前开源中少见的复杂 agent 全栈实现，对 context engineering 与 agent 架构设计有较高参考价值。
+
+**2. openai/skills — Codex 官方 Skills Catalog**
+OpenAI 公开 Codex agent 的技能集合定义，是理解 agent 能力边界与任务分解范式的第一手资料，值得关注其设计思路。
+
+**3. Statewright — 用有限状态机约束 AI agent 行为**
+以可视化状态机解决 LLM agent 不可预测、难调试的核心痛点，与 deer-flow 的编排思路互补，是 agent 可靠性方向的实用方案。
+
+---
+
+## 🛠️ Agent 工程工具
+
+**4. Rowboat — 多 agent 系统开源 IDE**
+专为多 agent 编排设计，提供可视化构建与调试能力，适合 agent infra 团队降低开发与排查成本。
+
+**5. browser-use — AI agent 操控浏览器框架**
+解决 agent 与动态 Web 环境交互问题，可作为 web-grounded RAG 或 agentic workflow 的浏览层基础设施。
+→ [github.com/browser-use/browser-use](https://github.com/browser-use/browser-use)
+
+**6. mukul975/cve-mcp-server — 安全情报 MCP Server**
+生产级 MCP 实现，接入 21 个安全 API、提供 27 种工具，是 MCP 协议在垂直领域落地的具体参考。
+→ [github.com/mukul975/cve-mcp-server](https://github.com/mukul975/cve-mcp-server)
+
+---
+
+## 📦 RAG & 数据处理
+
+**7. microsoft/markitdown — 文档转 Markdown 工具**
+支持 Office、PDF 等多种格式，是 RAG pipeline 文档预处理环节的轻量实用组件。
+→ [github.com/microsoft/markitdown](https://github.com/microsoft/markitdown)
+
+**8. Onyx — 开源 RAG 聊天 UI（YC W24）**
+支持接入企业知识库，内置 RAG 能力，适合快速搭建文档驱动的 LLM 对话应用。
+
+---
+
+## 📄 研究速览
+
+**9. LLM 决策解释可靠性评估**
+评估 agent 工作流中产生的解释是否真实反映行为依据，对 agent 可监控性与可审计性有直接意义。
+
+**10. 多步工具调用基准测试**
+针对开源 LLM agent 多步工具链能力的基准与数据合成方案，对评估体系建设有参考价值。
+
+**11. 零售场景联邦学习查询理解**
+探索分布式环境下 RAG 检索个性化，与隐私合规场景下的 AI infra 部署相关。
+
+---
+
+*今日焦点：agent 可靠性（状态机约束 + 解释评估）与复杂 agent 编排（deer-flow + Rowboat）是当前工程侧的两条主线。*
