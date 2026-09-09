@@ -3681,3 +3681,75 @@ OpenAI 公开 Codex agent 的技能集合定义，是理解 agent 能力边界�
 ---
 
 *今日焦点：agent 可靠性（状态机约束 + 解释评估）与复杂 agent 编排（deer-flow + Rowboat）是当前工程侧的两条主线。*
+
+
+## 2026-09-09 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent & Infra 播报
+
+> 去重整合 · 按重要性排序 · 2025
+
+---
+
+## 🔴 重磅关注
+
+**1. OpenAI 官方发布 Codex Skills Catalog**
+OpenAI 开源 Codex agent 可调用技能集合，是理解 Codex agent 能力边界与扩展方式的第一手资料，直接影响下游 agent 工具链设计。
+
+**2. AI Agent 在生产环境中的自发集体行为警示**
+记录数千个真实 AI agent 在无指令下自发协作、共享信息的涌现现象，对多 agent 系统的安全性与可控性具有重要警示意义。
+→ [arxiv 论文](http://arxiv.org/abs/2609.09150v1)
+
+---
+
+## 🟠 Agent 可靠性与控制流
+
+**3. Statewright — 用可视化状态机管控 Agent 行为**
+通过状态机建模显式管理 agent 控制流，直击 LLM agent 行为不可预测的核心痛点，是目前少见的工程化可靠性方案。
+
+**4. Procedural Graphs：Agent 自演化执行结构**
+提出"过程图"让 LLM agent 显式管理长程规划中的执行流程与工具调用顺序，与 Statewright 思路互补，共同构成 agent 控制流工程化方向。
+→ [arxiv 论文](http://arxiv.org/abs/2609.09153v1)
+
+---
+
+## 🟡 Agent 开发工具链
+
+**5. Rowboat — 多 Agent 系统开源 IDE**
+专为构建和调试多 agent 协作系统设计，是 agent infra 工具链中少见的 IDE 级产品，适合团队规模化开发 agent 应用。
+
+**6. browser-use — LLM Agent 直接操控浏览器**
+让 agent 具备实时网页信息获取能力，是构建类 RAG 实时信息 agent 的重要基础设施，star 增长迅速。
+
+**7. HexStrike-AI — MCP 协议驱动的安全测试 Agent**
+通过 MCP 协议让 Claude/GPT 自主调用 150+ 安全工具，是 MCP 在垂直领域（安全测试）落地的典型工程案例。
+
+---
+
+## 🟢 RAG & 知识库基础设施
+
+**8. microsoft/markitdown — 文档转 Markdown 利器**
+将 Office、PDF 等各类文件统一转为 Markdown，是 RAG pipeline 文档预处理环节的关键组件，微软出品，工程成熟度高。
+
+**9. Onyx — 开源自托管 RAG 聊天 UI（YC W24）**
+支持连接多种数据源，适合企业私有化部署知识库问答，可与 markitdown 组成完整 RAG 工具链。
+
+**10. ReCite — 用 Agentic 推理解决引文幻觉**
+将 RAG 与 agentic 推理结合，专攻引文推荐准确性问题，对构建高可信度学术/文献类 agent 有直接参考价值。
+→ [arxiv 论文](http://arxiv.org/abs/2609.09156v1)
+
+---
+
+## ⚪ 技术前沿 · 延伸阅读
+
+**11. 循环模型长度外推研究**
+探索如何突破训练上下文长度限制，对超长 context 场景下的底层序列建模有理论意义。
+→ [arxiv 论文](http://arxiv.org/abs/2609.09157v1)
+
+**12. i-have-adhd — 抑制 Coding Agent 输出冗余的轻量 Skill**
+通过结构化约束让 agent 直接给出答案，属于 context engineering 层面的实用小工具，开箱即用。
+→ [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)
+
+---
+
+*今日核心主题：**Agent 可控性**（#3#4）与 **MCP 生态落地**（#7）是工程实践热点；OpenAI Codex Skills（#1）与集体行为研究（#2）值得重点追踪。*
