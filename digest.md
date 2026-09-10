@@ -3753,3 +3753,63 @@ OpenAI 开源 Codex agent 可调用技能集合，是理解 Codex agent 能力�
 ---
 
 *今日核心主题：**Agent 可控性**（#3#4）与 **MCP 生态落地**（#7）是工程实践热点；OpenAI Codex Skills（#1）与集体行为研究（#2）值得重点追踪。*
+
+
+## 2026-09-10 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 聚焦 Agent 工程与 AI Infra，按重要性排序
+
+---
+
+## 🔥 热点速览
+
+### 1. `ayghri/i-have-adhd` — 今日最热 Coding Agent Skill（+4650 ⭐）
+让 coding agent 输出更结构化、不"埋答案"的提示工程 skill，单日暴涨 4650 星。揭示了**输出工程与 context 设计**对 agent 实际可用性的关键影响，值得 agent 开发者直接复用。
+
+---
+
+### 2. `openai/skills` — OpenAI 官方 Codex Skills 技能目录
+OpenAI 官方发布，直接关联 Codex agent 生态，是构建和扩展 **coding agent 能力边界**的一手参考资源。
+
+---
+
+### 3. `browser-use/browser-use` — LLM 操控浏览器框架（+705 ⭐ 今日）
+当前最热门的 **agent 行动能力**实现之一，让 LLM agent 直接操控浏览器执行真实世界任务，持续高增长。
+
+---
+
+### 4. `statewright/statewright` — 用状态机约束 Agent 行为
+通过**可视化状态机**限定 agent 的行为边界，针对性解决 LLM agent 不确定性问题。对构建生产级可靠 agent 系统有直接参考价值。
+
+---
+
+### 5. `rowboatlabs/rowboat` — 多 Agent 编排开源 IDE
+专为 **multi-agent 系统**设计的开发环境，补全了 agent 工程工具链中"编排可视化"的缺口，是 AI infra 层的实用工具。
+
+---
+
+### 6. `TauricResearch/TradingAgents` — 多 Agent 金融交易框架
+Multi-agent 协作在**金融垂直领域**的落地范式，展示了 agent 架构设计如何应对复杂决策场景，具备跨领域借鉴价值。
+
+---
+
+### 7. `Onyx` — 开源 RAG 聊天 UI（YC 孵化）
+内置 RAG 能力、可连接企业知识库，是搭建**企业级 RAG 应用**的成熟参考实现。
+
+---
+
+### 8. `experientiallabs/experiential` — 开源 BYOK 模型网关
+支持 1000+ 模型，并可从流量中**学习推荐更优模型**，属于 AI Infra 层基础设施，适合需要多模型路由的团队。
+👉 [github.com/experientiallabs/experiential](https://github.com/experientiallabs/experiential)
+
+---
+
+### 9. `Show-Harness` — VLM Agent 直接控制机器人（arxiv）
+提出语义接口让 VLM 直接驱动机器人，是 **LLM/VLM agent 具身智能**落地的新路径，关注 embodied AI 的读者值得一读。
+👉 [arxiv.org/abs/2609.10522v1](http://arxiv.org/abs/2609.10522v1)
+
+---
+
+**🧭 今日主题词：** `Agent 可靠性` · `Coding Agent` · `Multi-Agent 编排` · `AI Infra`
