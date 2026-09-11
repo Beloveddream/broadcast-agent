@@ -3813,3 +3813,59 @@ Multi-agent 协作在**金融垂直领域**的落地范式，展示了 agent 架
 ---
 
 **🧭 今日主题词：** `Agent 可靠性` · `Coding Agent` · `Multi-Agent 编排` · `AI Infra`
+
+
+## 2026-09-11 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 聚焦 Agent 架构、工具链与基础设施，共 9 条精选
+
+---
+
+## 🧠 理论与框架
+
+**1. Agent 持续对齐问题的系统化分析**
+从有界任务执行到跨任务持续运行，深入探讨 agentic AI 的目标管理、重试机制、验证与停止规则，是构建 LLM agent 框架的重要理论参考。
+[→ arxiv 论文](http://arxiv.org/abs/2609.11911v1)
+
+---
+
+## 🛠️ Agent 工具链
+
+**2. OpenAI Codex Skills Catalog（官方）**
+OpenAI 首次公开 Codex agent 的技能目录，是理解其能力边界与体系设计的第一手资料。
+
+**3. Statewright — 用状态机让 Agent 更可靠**
+以可视化状态机建模 agent 行为流程，直击 LLM agent 不稳定、难调试的核心痛点，对构建可控 agent 系统有直接参考价值。
+
+**4. Rowboat — 多 Agent 系统开源 IDE**
+专为多 agent 系统构建与调试设计的开发环境，是 agent 编排工具链中值得关注的工程实践。
+
+**5. i-have-adhd — Coding Agent 输出聚焦技巧**
+解决 coding agent 输出冗余、关键答案被淹没的问题，切中 context engineering 的实操痛点。
+
+---
+
+## 🏗️ AI 基础设施
+
+**6. gpustack — GPU 集群管理与高性能推理**
+支持 vLLM、SGLang 的 GPU 集群管理工具，是 LLM agent 大规模部署的关键 infra 组件。
+[→ gpustack/gpustack](https://github.com/gpustack/gpustack)
+
+**7. Onyx — 开源对话 UI（YC W24）**
+支持多后端集成的 LLM 对话前端，适合快速搭建 RAG 或 agent 驱动的对话应用。
+
+---
+
+## 🚀 应用落地
+
+**8. TradingAgents — 多 Agent 金融交易框架**
+多 LLM agent 协作的量化交易框架，展示 multi-agent 架构在真实业务场景中的完整落地路径。
+
+---
+
+## 📚 学习资源
+
+**9. AI Engineering From Scratch — 系统学习路径**
+从零覆盖 LLM agent、AI infra 等核心主题，适合快速建立完整 AI 工程知识体系。
