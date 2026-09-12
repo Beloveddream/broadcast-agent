@@ -3869,3 +3869,59 @@ OpenAI 首次公开 Codex agent 的技能目录，是理解其能力边界与体
 
 **9. AI Engineering From Scratch — 系统学习路径**
 从零覆盖 LLM agent、AI infra 等核心主题，适合快速建立完整 AI 工程知识体系。
+
+
+## 2026-09-12 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 聚焦 Agent 架构、工程实践与基础模型研究
+
+---
+
+## 🔥 重点关注
+
+**1. 《深入理解 AI Agent：设计原理与工程实践》开源书籍**
+系统性的中文 Agent 架构参考资料，涵盖设计原理与工程实践，附完整正文、PDF 及配套代码。当前 Agent 工程资料匮乏，这是难得的系统性中文资源。
+
+**2. Agentic AI 的持续对齐与驱动机制（论文）**
+探讨 Agent 从"单次任务执行"转向"跨任务持续运行"时的控制问题，提出目标内建、重试、验证、停止规则等行为机制设计。直接指导持久化 Agent 系统的架构决策。
+
+---
+
+## 🛠 工程工具
+
+**3. Statewright – 可视化状态机约束 Agent 行为**
+用状态机定义 Agent 的合法行为流程，从根本上解决 Agent 不可预测的问题。思路清晰，对需要生产级可靠性的 Agent 系统有直接参考价值。
+
+**4. Rowboat – 多 Agent 系统开源 IDE**
+专为多 Agent 编排设计的可视化开发与调试环境，填补了 Agent infra 工具链中 IDE 层的空白。
+
+**5. GitHub Spec-Kit – 规格驱动的 AI 编码 Agent 工具包**
+GitHub 官方出品，为 Codex 等 coding agent 提供结构化规格驱动流程，提升 Agent 对任务的理解与执行质量。
+
+**6. HyperResearch – 多 Agent 协作研究知识库**
+多 Agent 协作完成网络信息收集、检索与合成，结果持久化为可搜索 wiki。RAG + Agent 工程实践的典型参考案例。
+[→ github.com/jordan-gibbs/hyperresearch](https://github.com/jordan-gibbs/hyperresearch)
+
+**7. Onyx – 开源企业级 AI 对话 UI（YC W24）**
+内置 RAG 能力的企业级聊天界面，适合快速搭建基于知识库的 LLM 应用。
+
+**8. i-have-adhd – 控制 Coding Agent 输出冗长的提示工具**
+轻量级上下文输出格式控制，解决 coding agent 回复过长的实际痛点。
+
+---
+
+## 📐 基础模型研究
+
+**9. MoE 架构对重复数据更易过拟合（论文）**
+实验表明稀疏 MoE 比 dense Transformer 更容易在重复数据上过拟合，对 LLM 预训练数据配比决策有重要参考意义。
+[→ arxiv.org/abs/2609.11917](http://arxiv.org/abs/2609.11917v1)
+
+**10. Transformer 位置编码与长上下文泛化（论文）**
+研究训练与推理时 token 间距变化对泛化能力的影响，直接关系到长上下文场景下位置编码方案的选择。
+[→ arxiv.org/abs/2609.11913](http://arxiv.org/abs/2609.11913v1)
+
+---
+
+**今日主线**：Agent 可靠性与可控性是核心议题——从论文层的行为机制设计，到工具层的状态机约束、IDE 编排，再到书籍层的系统化沉淀，多个维度同时发力。
