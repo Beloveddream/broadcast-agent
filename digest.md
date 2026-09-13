@@ -3925,3 +3925,54 @@ GitHub 官方出品，为 Codex 等 coding agent 提供结构化规格驱动流�
 ---
 
 **今日主线**：Agent 可靠性与可控性是核心议题——从论文层的行为机制设计，到工具层的状态机约束、IDE 编排，再到书籍层的系统化沉淀，多个维度同时发力。
+
+
+## 2026-09-13 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 今日主线：**Agent 架构与工程化**持续升温，从理论对齐到工具链全面开花。
+
+---
+
+## 🔥 重要度 Top
+
+**1. Agent 对齐与持续运行控制（论文）**
+探讨 agentic AI 从单次任务转向跨任务持续运行时的控制问题，提出如何在系统层面内化目标、验证与停止规则等行为约束——直接触及 agent 架构设计的核心难题。
+
+**2. awesome-llm-apps — 100+ Agent & RAG 应用合集**
+收录 100+ AI Agent、Agent Skills 和 RAG 应用，是当前最高密度的 agent 实践资源库，适合快速摸清落地全景。
+
+**3. Rowboat — 多 Agent 系统开源 IDE**
+专为构建和调试多 agent 系统设计的开发环境，填补了 agent 编排工具链中"可视化调试"的空白。
+
+---
+
+## 🛠️ 工程实践
+
+**4. Statewright — 用状态机约束 Agent 行为流**
+通过可视化状态机规范 agent 控制流，直接应对 LLM agent 不确定性问题，是 agent 可靠性工程的典型思路。
+
+**5. spec-kit — GitHub 官方 Spec 驱动开发工具包**
+与 Codex / coding agent 工作流高度契合，规范驱动开发是提升 agent 代码生成质量的系统性方法。
+
+**6. i-have-adhd — 控制 Coding Agent 输出格式的 Skill**
+解决 agent 回答冗长、关键信息被淹没的问题，直接影响 agent context 输出质量，小工具高实用。
+
+---
+
+## 🧩 垂直应用 & Context Engineering
+
+**7. MathModelAgent — 数学建模全流程 Agent**
+自动完成数学建模并生成可提交论文，是垂直领域 agent 深度落地的典型案例，值得关注专业场景的 agent 拆解方式。
+[→ GitHub](https://github.com/jihe520/MathModelAgent)
+
+**8. book-to-skill — 将技术书 PDF 转化为 Claude Code Skill**
+把非结构化知识注入 agent 上下文的实际工具，context engineering 方向的轻量实践参考。
+
+**9. Onyx (YC W24) — 开源对话 UI**
+支持接入多种后端，适合快速搭建基于 RAG 或 LLM agent 的内部知识库产品。
+
+---
+
+> **一句话总结：** Agent 可靠性（对齐、状态控制、输出格式）+ 工具链成熟化（IDE、Spec驱动、Skill注入）是本日最集中的两条主线。
