@@ -3976,3 +3976,47 @@ GitHub 官方出品，为 Codex 等 coding agent 提供结构化规格驱动流�
 ---
 
 > **一句话总结：** Agent 可靠性（对齐、状态控制、输出格式）+ 工具链成熟化（IDE、Spec驱动、Skill注入）是本日最集中的两条主线。
+
+
+## 2026-09-14 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 今日焦点集中在 **Agent 工程化** 与 **RAG 基础设施**，从开发工具、资源合集到垂直应用全面开花。
+
+---
+
+## 🤖 Agent 工程化
+
+**1. Rowboat — 多 Agent 系统开源 IDE**
+专为多 agent 编排设计的开发环境，支持复杂 agent 工作流的构建与调试，是目前少有的专注 agent infra 层的开发工具。
+
+**2. Statewright — 用可视化状态机约束 Agent 行为**
+将状态机引入 LLM agent 控制流，从结构上解决 agent 不可预测、难以调试的核心问题，对生产级 agent 系统有直接参考价值。
+
+**3. OpenMontage — 首个开源 Agentic 视频生产系统**
+内置 700+ agent skill 文件与 100+ 工具，是目前规模最大的 agent skill 工程实践案例之一，展示了 AI infra 在创意生产领域的落地路径。
+
+**4. MathModelAgent — 数学建模垂直领域 Agent**
+自动完成建模全流程并生成可提交论文，是 LLM agent 在专业垂直场景自动化的典型示范。
+
+---
+
+## 🗄️ RAG & 知识检索
+
+**5. Onyx — 企业级开源 Chat UI（内置 RAG）**
+YC W24 项目，开箱即用的对话界面 + RAG 能力，适合作为企业 AI 知识检索入口，是 RAG 应用的成熟参考实现。
+
+**6. crawl4ai — 面向 LLM 优化的开源网页爬虫**
+专为 RAG 数据采集层设计，输出格式对 LLM 友好，是构建 RAG pipeline 的重要基础设施组件。
+
+---
+
+## 📚 资源合集
+
+**7. awesome-llm-apps — 100+ LLM Agent & RAG 应用合集**
+覆盖 agent skills、RAG 落地实践的高质量开源项目集，适合快速了解当前 LLM 应用全貌与主流实现思路。
+
+---
+
+*共 7 条，去重后按工程价值排序*
