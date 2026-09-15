@@ -4020,3 +4020,52 @@ YC W24 项目，开箱即用的对话界面 + RAG 能力，适合作为企业 AI
 ---
 
 *共 7 条，去重后按工程价值排序*
+
+
+## 2026-09-15 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+> 聚焦 Agent 工具链与多智能体系统，共 7 条精选
+
+---
+
+## 🔧 Agent 开发基础设施
+
+**1. Rowboat – 多 Agent 系统开源 IDE**
+专为多 agent 编排设计的集成开发环境，提供可视化构建与调试能力，是目前 agent infra 工具链中定位最完整的开发工具之一。
+
+**2. Statewright – 用状态机约束 Agent 执行流程**
+以可视化状态机为核心，从架构层面解决 LLM agent 行为不可预测的问题，为 agent 可靠性工程提供了清晰的实践路径。
+
+**3. oh-my-hermes – Hermes Agent 一体化增强插件**
+为 Hermes agent 提供长期记忆系统与模型优化工作流，是垂直 agent 平台能力扩展的典型范式。
+→ [github.com/rlaope/oh-my-hermes](https://github.com/rlaope/oh-my-hermes)
+
+---
+
+## 🌐 Agent 信息获取与扩展
+
+**4. Agent-Reach – 让 Agent 免费读取社交平台内容**
+支持 Twitter、Reddit、YouTube 等主流平台的内容读取与搜索，零 API 费用，有效扩展 agent 的外部信息获取边界。
+
+---
+
+## 🤝 多智能体协作应用
+
+**5. TradingAgents – 多 LLM Agent 金融交易框架**
+展示 multi-agent 协作在金融垂直领域的落地实践，具备较强的行业参考价值。
+
+**6. MiroFish – 群体智能引擎**
+轻量通用的 swarm agent 架构实现，通过多智能体协同完成预测任务，是 swarm 模式的开源参考范本。
+
+---
+
+## 💬 企业知识问答
+
+**7. Onyx (YC W24) – 开源 RAG 对话 UI**
+支持接入多种数据源，内置 RAG 能力，适合企业自建知识问答系统，社区热度高（HN 254pts）。
+
+---
+
+*今日主线：agent 可靠性（状态机约束）× agent 工具链成熟化（IDE + 插件）× 多 agent 垂直落地（金融/群体智能）三条脉络并行推进。*
